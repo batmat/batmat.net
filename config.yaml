@@ -1,0 +1,6 @@
+baseurl: "http://batmat.net"
+title: "Blogounage, reloaded"
+languageCode: "fr-FR, en-US"
+permalinks:
+  post: /:year/:month/:day/:title/
+Author: "Batimsse "

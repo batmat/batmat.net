@@ -1,0 +1,63 @@
+---
+Title: "Toutes mes excuses publiques"
+Date: 2005-03-30
+Author: "Baptiste Mathus"
+---
+
+
+
+En réponse à
+[Olivier](http://www.risacher.com/blog/index.php?2005/03/30/249-comment-avoir-lair-con-en-public-en-une-lecon),
+à mon tour de raconter une mésaventure liée à une mauvaise manipulation
+de commande GNU/Linux... Histoire de ne pas laisser la honte reposer que
+sur [lui](http://www.risacher.com) et pour m'excuser une fois de plus,
+parce qu'en plus, j'ai même pas fait l'erreur sur mon compte mais sur
+celui de quelqu'un d'autre...
+
+Bref, cette histoire a eu lieu il y a un peu plus de deux ans. Alors que
+j'étais en train de programmer en salle info à
+l'[école](http://www.ingenieurs2000.com/) pour rendre un projet de plus,
+j'ai entendu une question provenant de la part d'Anne-Claire et de Brice
+: elle cherchait à supprimer les fichiers .class générés dans
+l'arborescence de son projet pour en faire un package (oui, pas de
+versionning avec CVS ou Subversion, vous allez d'ailleurs voir que ça
+aurait bien été utile :/).
+
+Alors, paf ! Je sors ma cape de super-gecko (c'est le héro geek, bien
+connu des utilisateurs du renard de feu, ou autre panda argenté, mais je
+m'égare. Bon, j'avoue qu'il est agréable de réussir à aider les autres.
+Ça me fait toujours terriblement plaisir de sortir quelqu'un de la
+merde. C'est même un peu certainement égoïste, mais je crois que j'en
+retire souvent une certaine fierté. Là, j'aurais mieux fait de me casser
+la gueule sur le chemin...), et je fonce.
+
+Moi : “Ouiiii, bonnnnjour à votre service” (mettez la bouche en cul de
+poule geek) “si vous voulez supprimer un certain type de fichier dans
+une arborescence, rien de plus simple, je m'en vais vous le montrer”...
+
+Et là, le drame commence.
+
+Je reste debout et je me met à taper frénétiquement la commande magique.
+Après coup, je suis persuadé que ça a beaucoup joué dans le fait que je
+tape [Entrée] si vite sans relire une commande potentiellement aussi
+dangereuse qu'un `rm -rf` ...
+
+`find . -type f ` (je dis la commande en même temps que je la tape)
+`-exec ` (là, on commence la partie qui impressionne toujours les
+novices, mais bon, c'est pas ça qui permet de draguer, rappelons le)
+`rm {} \;` ... et PAF ! [Entrée]
+
+Et là, je réfléchis (oui, je sais, normalement, c'est avant qu'on le
+fait). En une demie-seconde, je viens de comprendre ce que j'ai fait.
+Des sueurs froides me montent de partout. J'en ai encore honte
+aujourd'hui. **“put\*\*\* de crétin, tu as oublié le paramètre
+`-name "*.class"`”** me dis-je en mon for intérieur. “La bonne commande
+c'est ça : `find . -type f -name "*.class" -exec rm {} \;` !!!”. Encore
+à demi courbé, ma tête tombe et je dis : “pardon”.
+
+Brice et Anne-Claire commencent à comprendre ce que je viens de faire,
+Anne-Claire se met à pleurer (elle avait passé la journée à bosser
+dessus), à bout de nerf.
+
+Voila... Chui open lapidation, maintenant.
+
