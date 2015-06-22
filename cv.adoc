@@ -10,20 +10,25 @@ a|
 31400 Toulouse
 
 34 ans, marié, 2 enfants +
-Mobile : 06 83 49 51 09
+image:ressources/phone.png[Téléphone,width=24,link="mailto:baptiste@mathus.fr",title="Mobile"] 
+`06 83 49 51 09`
 
 a|
-[%hardbreaks]
-E-Mail : baptiste@mathus.fr
-Weblog : http://batmat.net
-image:github.png[GitHub,width=24,link="https://github.com/batmat/",title="GitHub"] link:https://github.com/batmat[batmat]
-image:twitter.png[Twitter,width=24,link="http://twitter.com/bmathus",title="Twitter"] link:http://twitter.com/bmathus"[bmathus]
+
+image:ressources/email.png[E-Mail,width=24,link="mailto:baptiste@mathus.fr",title="E-Mail"] 
+baptiste@mathus.fr +
+image:ressources/blog.png[Weblog,width=24,link="mailto:baptiste@mathus.fr",title="Blog"] 
+http://batmat.net +
+image:ressources/github.png[GitHub,width=24,link="https://github.com/batmat/",title="GitHub"] 
+link:https://github.com/batmat[batmat] +
+image:ressources/twitter.png[Twitter,width=24,link="http://twitter.com/bmathus",title="Twitter"] 
+link:http://twitter.com/bmathus"[bmathus] 
 
 |===
 
 .A propos
 ****
-Je suis un développeur passionné depuis plus de 10 ans. Mon intérêt naturel allant davantage vers les couches applicatives plus orientées _backend_, je me suis souvent trouvé en situation de travailler sur des solutions techniques, ou de fournir des services destinés aux autres développeurs, et globalement aux profils plus techniques. 
+Je suis un développeur passionné depuis plus de 10 ans. Mon intérêt naturel allant davantage vers les couches applicatives _backend_, je me suis souvent trouvé en situation de travailler sur des solutions techniques, ou de fournir des services destinés aux autres développeurs, et globalement aux profils plus techniques. 
 
 J'ai travaillé jusqu'en 2010 à la création d'un framework interne de développement _Java EE_ destiné à accélérer les développements (générateur de code MDD + socle technique Java). En parallèle, j'ai initié la mise en place d'une _forge logicielle_ (intégration continue, etc.). Partie de rien, cette infrastructure est aujourd'hui devenue centrale et critique, utilisée quotidiennement par près de 100 personnes, contenant notamment près de 1000 jobs et mettant en oeuvre plus de 20 esclaves (Jenkins). 
 
@@ -108,7 +113,7 @@ Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, devan
 ** Eclipse Con France link:https://www.eclipsecon.org/france2014/session/handle-billion-dollar-mistake-java-help-tools-understand-your-code[2014], 2015 (link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[atelier] et link:https://www.eclipsecon.org/france2015/session/50-slides-ide[session plénière])
 * Président du link:http://www.toulousejug.org/[Toulouse Java User Group]
 * Organisation d'événements (ateliers/présentations internes et externes)
-* Communautés OpenSource : maîtrise des modes de contribution, d'échanges (Apache, link:https://www.parleys.com/tutorial/github-pull-request[GitHub,title="Comment faire une pull-request"]...).
+* Communautés OpenSource : maîtrise des modes de contribution, d'échanges (Apache, link:https://www.parleys.com/tutorial/github-pull-request[GitHub]...).
 
 
 == Langues
