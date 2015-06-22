@@ -53,7 +53,7 @@ Je suis aussi présidentfootnote:[Même si notre organisation est collégiale da
 *MiPih* : Forge Logicielle : notre équipe fournit l'outillage permettant aux autres équipes d'aller plus vite. Dans ce cadre nous développons aussi une application dédiée à faciliter le packaging automatisé de l'ensemble des modules du logiciel (calculs et validation des inter-dépendances, etc...).
 
 2013::
-*MiPih* : Scrum Master pendant près d'un an dans équipe de développement (jusqu'à 9 personnes) de la couche sécurité du projet PGIH (réécriture de l'ensemble de l'offre du MiPih, estimé initialement à 250 années homme).
+*MiPih* : Scrum Master pendant près d'un an dans l'équipe de développement (jusqu'à 9 personnes) de la couche sécurité du projet PGIH (réécriture de l'ensemble de l'offre du MiPih, estimé initialement à 250 années homme).
 
 2012 -> Actuellement::
 *Toulouse Java User Group* : Président (organisations de conférences, ateliers...)
@@ -67,6 +67,8 @@ Je suis aussi présidentfootnote:[Même si notre organisation est collégiale da
 2002 -> 2005:: 
 *MiPih* (apprentissage) 
 Intégration Java -> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
+
+<<<
 
 == Formation
 
@@ -102,6 +104,8 @@ Serveurs:: JBoss, Tomcat, Apache HTTPd, Nginx
 * Maven (Committer sur le projet OpenSource link:http://www.mojohaus.org/[MojoHaus]), SonarQube, Nexus
 * Docker, Ansible, Vagrant, Actoboard...
 
+<<<
+
 ==== Gestion de sources
 * Git : présentations et link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[ateliers publics], plusieurs migrations SVN -> Git (internes ou externes, comme link:https://github.com/mojohaus[MojoHaus]), GitHub, Gerrit
 * Subversion, CVS
@@ -129,6 +133,8 @@ Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, devan
 * Scrum Master (j'accorde une importance infinie à ne pas pas transformer ce *rôle* en version moderne d'un _chef de projet_)
 * Product Owner sur produit technique
 * Membre de l'association link:http://agiletoulouse.fr/[AgileToulouse]
+
+<<<
 
 == Langues
 * Français : langue maternelle
