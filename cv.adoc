@@ -3,6 +3,7 @@
 :stylesheet: asciidoctor-stylesheet-factory/stylesheets/maker.css
 
 [cols="2"]
+[frame="none"]
 |===
 a|
 [%hardbreaks]
@@ -41,6 +42,8 @@ J'ai découvert par ailleurs l'agilité en 2010, et m'y suis fortement intéress
 J'ai pour finir une soif d'apprendre sans cesse, une passion pour le partage des connaissances et les échanges humains. Je contribue régulièrement à plusieurs projets OpenSource, et suis _committer_ sur certains comme link:http://www.mojohaus.org/[MojoHaus], link:https://wiki.jenkins-ci.org/display/JENKINS/Build+Trigger+Badge+Plugin[Jenkins], ou link:https://github.com/SonarCommunity/sonar-l10n-fr[SonarQube].
 Je suis aussi présidentfootnote:[Même si notre organisation est collégiale dans les faits. En Juin 2015, nous avons d'ailleurs voté la transformation de nos statuts en statuts collégiaux] du link:http://www.toulousejug.org/trombinoscope/[Toulouse Java User Group depuis 2012].
 ****
+
+<<<
 
 [[Experiences]]
 == Expériences
