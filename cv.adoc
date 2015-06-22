@@ -42,6 +42,7 @@ J'ai pour finir une soif d'apprendre sans cesse, une passion pour le partage des
 Je suis aussi présidentfootnote:[Même si notre organisation est collégiale dans les faits. En Juin 2015, nous avons d'ailleurs voté la transformation de nos statuts en statuts collégiaux] du link:http://www.toulousejug.org/trombinoscope/[Toulouse Java User Group depuis 2012].
 ****
 
+[[Experiences]]
 == Expériences
 
 2014 -> Actuellement:: 
@@ -82,6 +83,7 @@ Intégration Java -> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
     Baccalauréat Scientifique spécialité Mathématiques (Lycée François Couperin à Fontainebleau)
 
 
+[[Competences]]
 == Compétences
 
 === Programmation
