@@ -1,5 +1,6 @@
 = Baptiste Mathus -- Ingénieur DevOps 
 :toc: right
+:toclevels: 4
 :stylesheet: asciidoctor-stylesheet-factory/stylesheets/maker.css
 
 [cols="2"]
@@ -110,9 +111,11 @@ Serveurs:: JBoss, Tomcat, Apache HTTPd, Nginx
 * Linux (Debian, RHEL) : depuis 2000
 * Windows
 
-=== Communication
+[[comm]]
+=== Communication & Méthodes
 Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, devant un grand nombre de personnes si nécessaire.
 
+==== Expression
 * Orateur lors de plusieurs conférences publiques
 ** link:https://www.parleys.com/author/baptiste-mathus[Sessions au _Toulouse Java User Group_]
 ** Eclipse Con France link:https://www.eclipsecon.org/france2014/session/handle-billion-dollar-mistake-java-help-tools-understand-your-code[2014], 2015 (link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[atelier] et link:https://www.eclipsecon.org/france2015/session/50-slides-ide[session plénière])
@@ -120,6 +123,12 @@ Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, devan
 * Organisation d'événements (ateliers/présentations internes et externes)
 * Communautés OpenSource : maîtrise des modes de contribution, d'échanges (Apache, link:https://www.parleys.com/tutorial/github-pull-request[GitHub]...).
 
+[[Agilite]]
+==== Agilité
+* Animation d'ateliers, souvent via _Serious Games_ (rétrospectives, ateliers de priorisation, définition produit)
+* Scrum Master (j'accorde une importance infinie à ne pas pas transformer ce *rôle* en version moderne d'un _chef de projet_)
+* Product Owner sur produit technique
+* Membre de l'association link:http://agiletoulouse.fr/[AgileToulouse]
 
 == Langues
 * Français : langue maternelle
