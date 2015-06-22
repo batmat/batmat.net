@@ -1,0 +1,125 @@
+= Baptiste Mathus -- Ingénieur DevOps 
+:toc: right
+:stylesheet: asciidoctor-stylesheet-factory/stylesheets/maker.css
+
+[cols="2"]
+|===
+a|
+[%hardbreaks]
+125 Rue Bonnat
+31400 Toulouse
+
+34 ans, marié, 2 enfants +
+Mobile : 06 83 49 51 09
+
+a|
+[%hardbreaks]
+E-Mail : baptiste@mathus.fr
+Weblog : http://batmat.net
+image:github.png[GitHub,width=24,link="https://github.com/batmat/",title="GitHub"] link:https://github.com/batmat[batmat]
+image:twitter.png[Twitter,width=24,link="http://twitter.com/bmathus",title="Twitter"] link:http://twitter.com/bmathus"[bmathus]
+
+|===
+
+.A propos
+****
+Je suis un développeur passionné depuis plus de 10 ans. Mon intérêt naturel allant davantage vers les couches applicatives plus orientées _backend_, je me suis souvent trouvé en situation de travailler sur des solutions techniques, ou de fournir des services destinés aux autres développeurs, et globalement aux profils plus techniques. 
+
+J'ai travaillé jusqu'en 2010 à la création d'un framework interne de développement _Java EE_ destiné à accélérer les développements (générateur de code MDD + socle technique Java). En parallèle, j'ai initié la mise en place d'une _forge logicielle_ (intégration continue, etc.). Partie de rien, cette infrastructure est aujourd'hui devenue centrale et critique, utilisée quotidiennement par près de 100 personnes, contenant notamment près de 1000 jobs et mettant en oeuvre plus de 20 esclaves (Jenkins). 
+
+J'ai ensuite été Architecte Technique pendant 3 ans. Je m'occupais de concevoir ou valider des solutions techniques pour les projets en avance de phase. Fin 2012, j'ai eu l'occasion de travailler en équipe à la mise en oeuvre de bout en bout (interception, API développeurs, IHM) de la couche sécurité du nouvel applicatif de l'entreprise.
+
+Depuis fin 2014, je travaille à nouveau sur la forge logicielle de l'entreprise. Nous accordons logiquement une importance particulière à automatiser un maximum de choses, et à réduire la friction dans les livraisons à fournir les méthodes et les outils visant à s'approcher du _Continuous Delivery_.
+
+J'ai découvert par ailleurs l'agilité en 2010, et m'y suis fortement intéressé depuis. Ayant toujours été intéressé à la fois par le développement et les aspects plus infrastructurels, je m'intéresse aussi naturellement au mouvement _DevOps_ depuis quelques années. 
+
+J'ai pour finir une soif d'apprendre sans cesse, une passion pour le partage des connaissances et les échanges humains. Je contribue régulièrement à plusieurs projets OpenSource, et suis _committer_ sur certains comme link:http://www.mojohaus.org/[MojoHaus], link:https://wiki.jenkins-ci.org/display/JENKINS/Build+Trigger+Badge+Plugin[Jenkins], ou link:https://github.com/SonarCommunity/sonar-l10n-fr[SonarQube].
+Je suis aussi présidentfootnote:[Même si notre organisation est collégiale dans les faits. En Juin 2015, nous avons d'ailleurs voté la transformation de nos statuts en statuts collégiaux] du link:http://www.toulousejug.org/trombinoscope/[Toulouse Java User Group depuis 2012].
+****
+
+== Expériences
+
+2014 -> Actuellement:: 
+*MiPih* : Forge Logicielle : notre équipe fournit l'outillage permettant aux autres équipes d'aller plus vite. Dans ce cadre nous développons aussi une application dédiée à faciliter le packaging automatisé de l'ensemble des modules du logiciel (calculs et validation des inter-dépendances, etc...).
+
+2013::
+*MiPih* : Scrum Master pendant près d'un an dans équipe de développement (jusqu'à 9 personnes) de la couche sécurité du projet PGIH (réécriture de l'ensemble de l'offre du MiPih, estimé initialement à 250 années homme).
+
+2012 -> Actuellement::
+*Toulouse Java User Group* : Président (organisations de conférences, ateliers...)
+
+2009 -> 2013:: 
+*MiPih* : Architecte Technique. Conception et validation de solutions techniques, essentiellement en Java EE, mais aussi des intégrations avec du Cobol (ReST notamment), du NSDK...	
+
+2005 -> 2009:: 
+*MiPih* : Développeur du socle de développement Java EE de l'entreprise
+
+2002 -> 2005:: 
+*MiPih* (apprentissage) 
+Intégration Java -> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
+
+== Formation
+
+2012::
+  Functional Programming Principles In Scala -- Coursera (MOOC)
+
+2002 -> 2005:: 
+    Diplôme d'ingénieur en alternance en Informatique Réseaux (IR) 
+    (Ingénieurs 2000 - Université de Marne La Vallée)
+
+2000 -> 2002::
+    DUT Informatique option Informatique (Université PARIS XII de Sénart Fontainebleau)
+
+1999 -> 2000::
+    1^re^ année de DUT de Maintenance Industrielle (Université Paris XII de Sénart Fontainebleau)
+
+1999::
+    Baccalauréat Scientifique spécialité Mathématiques (Lycée François Couperin à Fontainebleau)
+
+
+== Compétences
+
+=== Programmation
+* Clean Code, Design, Algorithmique, Complexité, Refactoring...
+
+Langages:: Java (développement, tuning JVM), Groovy, Bash, Scala, HTML/CSS/JavaScript, C/C++
+Bibliothèques & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JNI...
+Serveurs:: JBoss, Tomcat, Apache HTTPd, Nginx
+
+=== Build & Automatisation
+* Jenkins (maintenance de 2 plugins publics, Déploiement et exploitation d'une forge de rien à aujourd'hui 20 esclaves, près de 1000 jobs...)
+* Maven (Committer sur le projet OpenSource link:http://www.mojohaus.org/[MojoHaus]), SonarQube, Nexus
+* Docker, Ansible, Vagrant, Actoboard...
+
+==== Gestion de sources
+* Git : présentations et link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[ateliers publics], plusieurs migrations SVN -> Git (internes ou externes, comme link:https://github.com/mojohaus[MojoHaus]), GitHub, Gerrit
+* Subversion, CVS
+
+[[Systeme]]
+=== Système
+* Linux (Debian, RHEL) : depuis 2000
+* Windows
+
+=== Communication
+Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, devant un grand nombre de personnes si nécessaire.
+
+* Orateur lors de plusieurs conférences publiques
+** link:https://www.parleys.com/author/baptiste-mathus[Sessions au _Toulouse Java User Group_]
+** Eclipse Con France link:https://www.eclipsecon.org/france2014/session/handle-billion-dollar-mistake-java-help-tools-understand-your-code[2014], 2015 (link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[atelier] et link:https://www.eclipsecon.org/france2015/session/50-slides-ide[session plénière])
+* Président du link:http://www.toulousejug.org/[Toulouse Java User Group]
+* Organisation d'événements (ateliers/présentations internes et externes)
+* Communautés OpenSource : maîtrise des modes de contribution, d'échanges (Apache, link:https://www.parleys.com/tutorial/github-pull-request[GitHub,title="Comment faire une pull-request"]...).
+
+
+== Langues
+* Français : langue maternelle
+* Anglais : Courant
+** Diplômes de l'Université de Cambridge :
+*** _C_ au link:http://www.cambridgeesol.org/exams/cae.htm[Certificate of Advanced English] (2004)
+*** _A_ au link:http://www.cambridgeesol.org/exams/fce.htm[First Certificate Of English]
+* Allemand : Bases
+
+== Loisirs
+
+* OpenSource, Informatique
+* Course à pieds, sport en général
