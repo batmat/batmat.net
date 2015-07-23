@@ -2,6 +2,7 @@
 Title: "Mediawiki, utilisation d'un wiki en entreprise, coloration syntaxique avec GeSHI et pages secrètes"
 Date: 2006-01-21
 Author: "Baptiste Mathus"
+url: "2006/01/21/212-mediawiki-utilisation-d-un-wiki-en-entreprise-coloration-syntaxique-avec-geshi-et-pages-secretes"
 ---
 
 

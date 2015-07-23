@@ -2,6 +2,7 @@
 Title: "Office 12 : Microsoft standardisera ses formats en XML ?"
 Date: 2005-06-02
 Author: "Baptiste Mathus"
+url: "2005/06/02/158-office-12-microsoft-standardisera-ses-formats-en-xml"
 ---
 
 

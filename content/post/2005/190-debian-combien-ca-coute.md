@@ -2,6 +2,7 @@
 Title: "Debian, combien ça coûte ?"
 Date: 2005-09-18
 Author: "Baptiste Mathus"
+url: "2005/09/18/190-debian-combien-ca-coute"
 ---
 
 

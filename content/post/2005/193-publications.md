@@ -2,6 +2,7 @@
 Title: "Publications"
 Date: 2005-09-24
 Author: "Baptiste Mathus"
+url: "2005/09/24/193-publications"
 ---
 
 

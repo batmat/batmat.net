@@ -2,6 +2,7 @@
 Title: "Deuil"
 Date: 2004-05-21
 Author: "Baptiste Mathus"
+url: "2004/05/21/50-deuil"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Best Practices in Java"
 Date: 2004-12-09
 Author: "Baptiste Mathus"
+url: "2004/12/09/105-best-practices-in-java"
 ---
 
 

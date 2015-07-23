@@ -2,6 +2,7 @@
 Title: "Trop de blog tue le blog"
 Date: 2005-05-23
 Author: "Baptiste Mathus"
+url: "2005/05/23/149-trop-de-blog-tue-le-blog"
 ---
 
 

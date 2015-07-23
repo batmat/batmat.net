@@ -2,6 +2,7 @@
 Title: "Rajouter une interface à une classe pendant l'exécution"
 Date: 2005-01-22
 Author: "Baptiste Mathus"
+url: "2005/01/22/119-rajouter-une-interface-a-une-classe-pendant-l-execution"
 ---
 
 

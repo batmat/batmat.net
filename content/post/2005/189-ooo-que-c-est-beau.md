@@ -2,6 +2,7 @@
 Title: "OOo que c'est beau"
 Date: 2005-09-11
 Author: "Baptiste Mathus"
+url: "2005/09/11/189-ooo-que-c-est-beau"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Comme une boule de flipper"
 Date: 2006-01-02
 Author: "Baptiste Mathus"
+url: "2006/01/02/210-comme-une-boule-de-flippeeeer"
 ---
 
 

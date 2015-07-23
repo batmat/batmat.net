@@ -2,6 +2,7 @@
 Title: "Message de l'administrateur"
 Date: 2005-06-07
 Author: "Baptiste Mathus"
+url: "2005/06/07/162-message-d-administrateur"
 ---
 
 

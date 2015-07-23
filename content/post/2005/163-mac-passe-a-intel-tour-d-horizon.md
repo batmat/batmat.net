@@ -2,6 +2,7 @@
 Title: "Mac passe à Intel : tour d'horizon"
 Date: 2005-06-08
 Author: "Baptiste Mathus"
+url: "2005/06/08/163-mac-passe-a-intel-tour-d-horizon"
 ---
 
 

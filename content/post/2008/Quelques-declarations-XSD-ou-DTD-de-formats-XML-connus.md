@@ -2,6 +2,7 @@
 Title: "Quelques déclarations XSD ou DTD de formats XML connus"
 Date: 2008-06-24
 Author: "Baptiste Mathus"
+url: "2008/06/24/Quelques-declarations-XSD-ou-DTD-de-formats-XML-connus"
 ---
 
 

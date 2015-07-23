@@ -2,6 +2,7 @@
 Title: "Will all software go open source?"
 Date: 2006-08-29
 Author: "Baptiste Mathus"
+url: "2006/08/29/225-will-all-software-go-open-source"
 ---
 
 

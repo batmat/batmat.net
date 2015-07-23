@@ -2,6 +2,7 @@
 Title: "Un peu d'orthographe"
 Date: 2005-03-10
 Author: "Baptiste Mathus"
+url: "2005/03/10/125-un-peu-d-orthographe"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Remise de diplôme, septembre 2005. Que de souvenirs..."
 Date: 2007-01-29
 Author: "Baptiste Mathus"
+url: "2007/01/30/Remise-de-diplome-septembre-2005-Que-de-souvenirs"
 ---
 
 

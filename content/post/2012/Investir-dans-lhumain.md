@@ -1,10 +1,8 @@
 ---
 Title: "Investir dans l'humain ?"
 Date: 2012-07-09
-author: BBB
-Id: "1234"
-Tags:   [ "d", bim","boum" ]
-pouet: "gg "
+Author: "Baptiste Mathus"
+url: "2012/07/09/Investir-dans-lhumain"
 ---
 
 

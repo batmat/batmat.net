@@ -2,6 +2,7 @@
 Title: "Empêcher le redimensionnement de la fenêtre du navigateur"
 Date: 2004-11-19
 Author: "Baptiste Mathus"
+url: "2004/11/19/102-empecher-le-redimensionnement-de-la-fenetre-du-navigateur"
 ---
 
 

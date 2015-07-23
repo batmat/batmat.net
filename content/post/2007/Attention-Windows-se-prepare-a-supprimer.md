@@ -2,6 +2,7 @@
 Title: "Attention, Windows se prépare à supprimer..."
 Date: 2007-02-22
 Author: "Baptiste Mathus"
+url: "2007/02/22/Attention-Windows-se-prepare-a-supprimer"
 ---
 
 

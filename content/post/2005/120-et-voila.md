@@ -2,6 +2,7 @@
 Title: "Et voilà"
 Date: 2005-02-07
 Author: "Baptiste Mathus"
+url: "2005/02/07/120-et-voila"
 ---
 
 

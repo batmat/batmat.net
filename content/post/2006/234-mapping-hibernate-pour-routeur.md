@@ -2,6 +2,7 @@
 Title: "Mapping Hibernate pour routeur..."
 Date: 2006-12-24
 Author: "Baptiste Mathus"
+url: "2006/12/24/234-mapping-hibernate-pour-routeur"
 ---
 
 

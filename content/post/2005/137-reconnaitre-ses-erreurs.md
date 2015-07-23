@@ -2,6 +2,7 @@
 Title: "Reconnaître ses erreurs, petits conseils au professeur"
 Date: 2005-04-20
 Author: "Baptiste Mathus"
+url: "2005/04/20/137-reconnaitre-ses-erreurs"
 ---
 
 

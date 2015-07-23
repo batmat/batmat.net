@@ -2,6 +2,7 @@
 Title: "Miss France"
 Date: 2004-04-23
 Author: "Baptiste Mathus"
+url: "2004/04/23/31-miss-france"
 ---
 
 

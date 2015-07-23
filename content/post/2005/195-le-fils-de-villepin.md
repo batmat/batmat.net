@@ -2,6 +2,7 @@
 Title: "Le fils de Villepin"
 Date: 2005-09-28
 Author: "Baptiste Mathus"
+url: "2005/09/28/195-le-fils-de-villepin"
 ---
 
 

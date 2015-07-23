@@ -2,6 +2,7 @@
 Title: "Lecteur mon amour"
 Date: 2004-11-17
 Author: "Baptiste Mathus"
+url: "2004/11/17/101-lecteur-mon-amour"
 ---
 
 

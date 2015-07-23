@@ -2,6 +2,7 @@
 Title: "Le serveur de logs d'OVH a sauté"
 Date: 2004-04-24
 Author: "Baptiste Mathus"
+url: "2004/04/24/32-le-serveur-de-logs-d-ovh-a-saute"
 ---
 
 Je ne comprenais pourquoi, d'un seul coup, mes statistiques n'indiquaient plus aucune visite sur Batmat.net :-). Vous nous auriez ainsi si lâchement abandonné ? Avec une peur un peu dissimulée :-), j'ai donc joint le support d'OVH : leur serveur de logs avait rendu l'âme, ce n'est pas donc pas Batmat.net qui a été renié par son (faible) lectorat, bonne nouvelle ! Voici l'échange avec l'équipe d'OVH :

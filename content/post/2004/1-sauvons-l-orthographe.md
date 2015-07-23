@@ -2,6 +2,7 @@
 Title: "Sauvons l'orthographe"
 Date: 2004-03-13
 Author: "Baptiste Mathus"
+url: "2004/03/13/1-sauvons-l-orthographe"
 ---
 
 

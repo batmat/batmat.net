@@ -2,6 +2,7 @@
 Title: "Sun Tech Days de l'intérieur, mardi 20"
 Date: 2007-03-21
 Author: "Baptiste Mathus"
+url: "2007/03/21/Sun-Tech-Days-de-linterieur-mardi-20"
 ---
 
 

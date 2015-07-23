@@ -2,6 +2,7 @@
 Title: "FreeAdsl"
 Date: 2004-03-30
 Author: "Baptiste Mathus"
+url: "2004/03/30/16-freeadsl"
 ---
 
 

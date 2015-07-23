@@ -2,6 +2,7 @@
 Title: "Linus a-t-il écrit Linux, traduction d'un des contacts de Ken Brown"
 Date: 2004-06-02
 Author: "Baptiste Mathus"
+url: "2004/06/02/58-linus-a-t-il-ecrit-linux-traduction-d-un-des-contacts-de-ken-brown"
 ---
 
 

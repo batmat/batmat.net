@@ -2,6 +2,7 @@
 Title: "Un peu plus d'espace disque pour mon compte IMAP siouplé"
 Date: 2005-04-28
 Author: "Baptiste Mathus"
+url: "2005/04/28/139-un-peu-plus-d-espace-disque-pour-mon-compte-imap-siouple"
 ---
 
 

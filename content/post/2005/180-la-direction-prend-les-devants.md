@@ -2,6 +2,7 @@
 Title: "La direction prend les devants"
 Date: 2005-08-24
 Author: "Baptiste Mathus"
+url: "2005/08/24/180-la-direction-prend-les-devants"
 ---
 
 

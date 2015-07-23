@@ -2,6 +2,7 @@
 Title: "Ehehe"
 Date: 2005-04-18
 Author: "Baptiste Mathus"
+url: "2005/04/18/135-ehehe"
 ---
 
 

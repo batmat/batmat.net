@@ -2,6 +2,7 @@
 Title: "Gestionnaire des tâches Windows - une gestion exemplaire de la mémoire ?"
 Date: 2007-02-21
 Author: "Baptiste Mathus"
+url: "2007/02/21/Gestionnaire-des-taches-Windows-une-gestion-exemplaire-de-la-memoire"
 ---
 
 

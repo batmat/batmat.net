@@ -2,6 +2,7 @@
 Title: "Le navigateur obsolète"
 Date: 2005-01-06
 Author: "Baptiste Mathus"
+url: "2005/01/06/112-le-navigateur-obsolete"
 ---
 
 

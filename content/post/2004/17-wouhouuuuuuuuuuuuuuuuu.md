@@ -2,6 +2,7 @@
 Title: "Wouhouuuuuuuuuuuuuuuuu"
 Date: 2004-04-01
 Author: "Baptiste Mathus"
+url: "2004/04/01/17-wouhouuuuuuuuuuuuuuuuu"
 ---
 
 Bon, je vais en dégoûter certains, mais bon...

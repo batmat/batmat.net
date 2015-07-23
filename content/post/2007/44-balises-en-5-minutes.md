@@ -2,6 +2,7 @@
 Title: "44 balises en 5 minutes..."
 Date: 2007-11-22
 Author: "Baptiste Mathus"
+url: "2007/11/22/44-balises-en-5-minutes"
 ---
 
 

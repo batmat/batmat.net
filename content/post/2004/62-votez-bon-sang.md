@@ -2,6 +2,7 @@
 Title: "Votez Bon sang !"
 Date: 2004-06-12
 Author: "Baptiste Mathus"
+url: "2004/06/12/62-votez-bon-sang"
 ---
 
 

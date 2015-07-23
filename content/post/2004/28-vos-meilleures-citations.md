@@ -2,6 +2,7 @@
 Title: "Vos meilleures citations..."
 Date: 2004-04-14
 Author: "Baptiste Mathus"
+url: "2004/04/14/28-vos-meilleures-citations"
 ---
 
 Je propose que vous postiez vos citations préférées.

@@ -2,6 +2,7 @@
 Title: "Et paf, du jaune partout"
 Date: 2004-03-22
 Author: "Baptiste Mathus"
+url: "2004/03/22/10-et-paf-du-jaune-partout"
 ---
 
 

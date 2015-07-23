@@ -2,6 +2,7 @@
 Title: "Neuf Box et Volley"
 Date: 2004-09-23
 Author: "Baptiste Mathus"
+url: "2004/09/23/84-neuf-box-et-volley"
 ---
 
 

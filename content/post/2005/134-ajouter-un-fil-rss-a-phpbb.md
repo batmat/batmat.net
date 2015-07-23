@@ -2,6 +2,7 @@
 Title: "AJouter un fil RSS à phpbb"
 Date: 2005-04-14
 Author: "Baptiste Mathus"
+url: "2005/04/14/134-ajouter-un-fil-rss-a-phpbb"
 ---
 
 

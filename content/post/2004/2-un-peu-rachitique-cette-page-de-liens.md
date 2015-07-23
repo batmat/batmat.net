@@ -2,6 +2,7 @@
 Title: "Un peu rachitique, cette page de liens..."
 Date: 2004-03-14
 Author: "Baptiste Mathus"
+url: "2004/03/14/2-un-peu-rachitique-cette-page-de-liens"
 ---
 
 

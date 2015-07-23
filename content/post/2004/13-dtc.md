@@ -2,6 +2,7 @@
 Title: "DTC"
 Date: 2004-03-26
 Author: "Baptiste Mathus"
+url: "2004/03/26/13-dtc"
 ---
 
 

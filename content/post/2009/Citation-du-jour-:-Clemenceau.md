@@ -2,6 +2,7 @@
 Title: "Citation du jour : Clémenceau"
 Date: 2009-05-28
 Author: "Baptiste Mathus"
+url: "2009/05/28/Citation-du-jour-:-Clemenceau"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Affligeant"
 Date: 2005-04-04
 Author: "Baptiste Mathus"
+url: "2005/04/04/131-affligeant"
 ---
 
 

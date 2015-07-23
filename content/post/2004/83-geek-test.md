@@ -2,6 +2,7 @@
 Title: "Geek Test"
 Date: 2004-09-05
 Author: "Baptiste Mathus"
+url: "2004/09/05/83-geek-test"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "ServerTokens, kééé ?"
 Date: 2004-03-16
 Author: "Baptiste Mathus"
+url: "2004/03/16/6-servertokens-keee"
 ---
 
 

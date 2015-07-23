@@ -2,6 +2,7 @@
 Title: "Pourquoi l'open source va continuer à prendre de l'ampleur"
 Date: 2004-04-05
 Author: "Baptiste Mathus"
+url: "2004/04/05/20-pourquoi-l-open-source-va-continuer-a-prendre-de-l-ampleur"
 ---
 
 

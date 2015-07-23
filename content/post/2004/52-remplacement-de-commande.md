@@ -2,6 +2,7 @@
 Title: "Remplacement de commande"
 Date: 2004-05-22
 Author: "Baptiste Mathus"
+url: "2004/05/22/52-remplacement-de-commande"
 ---
 
 

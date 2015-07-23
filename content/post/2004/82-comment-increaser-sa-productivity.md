@@ -2,6 +2,7 @@
 Title: "Comment increaser sa productivity"
 Date: 2004-09-03
 Author: "Baptiste Mathus"
+url: "2004/09/03/82-comment-increaser-sa-productivity"
 ---
 
 

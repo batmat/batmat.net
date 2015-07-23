@@ -2,6 +2,7 @@
 Title: "Utilisation de StringBuffer et autres ruses"
 Date: 2004-06-09
 Author: "Baptiste Mathus"
+url: "2004/06/09/61-utilisation-de-stringbuffer-et-autres-ruses"
 ---
 
 

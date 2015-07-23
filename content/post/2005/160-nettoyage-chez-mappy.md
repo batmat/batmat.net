@@ -2,6 +2,7 @@
 Title: "Nettoyage chez Mappy"
 Date: 2005-06-04
 Author: "Baptiste Mathus"
+url: "2005/06/04/160-nettoyage-chez-mappy"
 ---
 
 

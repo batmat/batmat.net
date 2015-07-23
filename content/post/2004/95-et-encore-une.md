@@ -2,6 +2,7 @@
 Title: "Et encore une !"
 Date: 2004-11-03
 Author: "Baptiste Mathus"
+url: "2004/11/03/95-et-encore-une"
 ---
 
 

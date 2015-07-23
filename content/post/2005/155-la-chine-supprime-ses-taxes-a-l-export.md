@@ -2,6 +2,7 @@
 Title: "La Chine supprime ses taxes à l'export"
 Date: 2005-05-30
 Author: "Baptiste Mathus"
+url: "2005/05/30/155-la-chine-supprime-ses-taxes-a-l-export"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Emploi dans l'informatique"
 Date: 2004-05-10
 Author: "Baptiste Mathus"
+url: "2004/05/10/40-emploi-dans-l-informatique"
 ---
 
 

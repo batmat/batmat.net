@@ -2,6 +2,7 @@
 Title: "Mise à jour en cours ou à mort les spammeurs..."
 Date: 2006-05-02
 Author: "Baptiste Mathus"
+url: "2006/05/02/219-mise-a-jour-en-cours-ou-a-mort-les-spammeurs"
 ---
 
 

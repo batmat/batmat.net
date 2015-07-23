@@ -2,6 +2,7 @@
 Title: "Hibernate"
 Date: 2004-10-14
 Author: "Baptiste Mathus"
+url: "2004/10/14/90-hibernate"
 ---
 
 

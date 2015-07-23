@@ -2,6 +2,7 @@
 Title: "Le couloir du noniste"
 Date: 2005-05-30
 Author: "Baptiste Mathus"
+url: "2005/05/30/156-le-couloir-du-noniste"
 ---
 
 

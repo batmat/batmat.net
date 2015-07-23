@@ -2,6 +2,7 @@
 Title: "Subversion"
 Date: 2004-10-11
 Author: "Baptiste Mathus"
+url: "2004/10/13/88-subversion"
 ---
 
 

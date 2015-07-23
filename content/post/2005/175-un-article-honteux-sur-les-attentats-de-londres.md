@@ -2,6 +2,7 @@
 Title: "Un article honteux sur les attentats de Londres"
 Date: 2005-07-08
 Author: "Baptiste Mathus"
+url: "2005/07/08/175-un-article-honteux-sur-les-attentats-de-londres"
 ---
 
 

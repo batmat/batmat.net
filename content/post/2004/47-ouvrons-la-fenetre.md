@@ -2,6 +2,7 @@
 Title: "Ouvrons la fenêtre"
 Date: 2004-05-19
 Author: "Baptiste Mathus"
+url: "2004/05/19/47-ouvrons-la-fenetre"
 ---
 
 

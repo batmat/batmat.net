@@ -2,6 +2,7 @@
 Title: "Java User Group Toulouse"
 Date: 2009-01-30
 Author: "Baptiste Mathus"
+url: "2009/01/30/Java-User-Group-Toulouse"
 ---
 
 

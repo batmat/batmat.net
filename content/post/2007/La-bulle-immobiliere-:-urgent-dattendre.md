@@ -2,6 +2,7 @@
 Title: "La bulle immobilière : urgent d'attendre ?"
 Date: 2007-06-09
 Author: "Baptiste Mathus"
+url: "2007/06/09/La-bulle-immobiliere-:-urgent-dattendre"
 ---
 
 

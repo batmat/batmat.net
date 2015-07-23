@@ -2,6 +2,7 @@
 Title: "La petite souris... Ken Brown vs le reste du monde"
 Date: 2004-06-16
 Author: "Baptiste Mathus"
+url: "2004/06/16/64-la-petite-souris-ken-brown-vs-le-reste-du-monde"
 ---
 
 

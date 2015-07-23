@@ -2,6 +2,7 @@
 Title: "Volley-Ball aux JO"
 Date: 2004-08-19
 Author: "Baptiste Mathus"
+url: "2004/08/19/75-volley-ball-aux-jo"
 ---
 
 

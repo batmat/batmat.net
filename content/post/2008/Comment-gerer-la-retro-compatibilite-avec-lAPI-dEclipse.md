@@ -2,6 +2,7 @@
 Title: "Comment gérer la rétro-compatibilité avec l'API d'Eclipse"
 Date: 2008-07-13
 Author: "Baptiste Mathus"
+url: "2008/07/13/Comment-gerer-la-retro-compatibilite-avec-lAPI-dEclipse"
 ---
 
 

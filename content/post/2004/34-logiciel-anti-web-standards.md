@@ -2,6 +2,7 @@
 Title: "Logiciel anti-web-standards"
 Date: 2004-04-30
 Author: "Baptiste Mathus"
+url: "2004/04/30/34-logiciel-anti-web-standards"
 ---
 
 

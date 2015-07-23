@@ -2,6 +2,7 @@
 Title: "Amélioration de myPIXmania : utiliser les informations exif"
 Date: 2007-01-14
 Author: "Baptiste Mathus"
+url: "2007/01/14/Amelioration-de-myPIXmania-:-utiliser-les-informations-exif"
 ---
 
 

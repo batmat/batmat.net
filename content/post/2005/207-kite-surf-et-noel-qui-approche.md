@@ -2,6 +2,7 @@
 Title: "Kite surf ... Et Noël qui approche ..."
 Date: 2005-12-06
 Author: "Baptiste Mathus"
+url: "2005/12/06/207-kite-surf-et-noel-qui-approche"
 ---
 
 

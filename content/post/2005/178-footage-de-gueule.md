@@ -2,6 +2,7 @@
 Title: "Footage de gueule ?"
 Date: 2005-08-22
 Author: "Baptiste Mathus"
+url: "2005/08/22/178-footage-de-gueule"
 ---
 
 

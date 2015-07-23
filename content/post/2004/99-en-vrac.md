@@ -2,6 +2,7 @@
 Title: "En vrac"
 Date: 2004-11-15
 Author: "Baptiste Mathus"
+url: "2004/11/15/99-en-vrac"
 ---
 
 

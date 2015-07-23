@@ -2,6 +2,7 @@
 Title: "Désinformation journalistique ou comment mal faire son travail"
 Date: 2004-07-06
 Author: "Baptiste Mathus"
+url: "2004/07/06/69-desinformation-journalistique-ou-comment-mal-faire-son-travail"
 ---
 
 

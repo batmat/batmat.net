@@ -2,6 +2,7 @@
 Title: "Loi de Murphy"
 Date: 2004-05-13
 Author: "Baptiste Mathus"
+url: "2004/05/13/43-loi-de-murphy"
 ---
 
 Vous l'appliquez tous les jour... mais la connaissez vous ?

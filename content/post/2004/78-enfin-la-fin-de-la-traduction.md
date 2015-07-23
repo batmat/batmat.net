@@ -2,6 +2,7 @@
 Title: "Enfin la fin de la traduction"
 Date: 2004-08-26
 Author: "Baptiste Mathus"
+url: "2004/08/27/78-enfin-la-fin-de-la-traduction"
 ---
 
 

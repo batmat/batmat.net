@@ -2,6 +2,7 @@
 Title: "Opticiens, lequel se moque le plus du monde ?"
 Date: 2006-09-24
 Author: "Baptiste Mathus"
+url: "2006/09/24/226-opticiens-lequel-se-moque-le-plus-du-monde"
 ---
 
 

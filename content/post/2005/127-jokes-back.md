@@ -2,6 +2,7 @@
 Title: "Jokes back"
 Date: 2005-03-29
 Author: "Baptiste Mathus"
+url: "2005/03/29/127-jokes-back"
 ---
 
 

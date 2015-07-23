@@ -2,6 +2,7 @@
 Title: "Mails libérés place Beauvau"
 Date: 2004-05-31
 Author: "Baptiste Mathus"
+url: "2004/05/31/57-mails-liberes-place-beauvau"
 ---
 
 

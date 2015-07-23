@@ -2,6 +2,7 @@
 Title: "La photo du jour"
 Date: 2007-04-20
 Author: "Baptiste Mathus"
+url: "2007/04/20/La-photo-du-jour"
 ---
 
 

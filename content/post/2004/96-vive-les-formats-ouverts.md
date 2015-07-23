@@ -2,6 +2,7 @@
 Title: "Vive les formats ouverts"
 Date: 2004-11-04
 Author: "Baptiste Mathus"
+url: "2004/11/04/96-vive-les-formats-ouverts"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Attaqué moi aussi ?"
 Date: 2006-06-13
 Author: "Baptiste Mathus"
+url: "2006/06/13/222-attaque-moi-aussi"
 ---
 
 

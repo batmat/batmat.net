@@ -2,6 +2,7 @@
 Title: "En vrac"
 Date: 2007-12-05
 Author: "Baptiste Mathus"
+url: "2007/12/05/En-vrac"
 ---
 
 

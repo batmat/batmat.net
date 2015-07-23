@@ -2,6 +2,7 @@
 Title: "Encore une page où Flash était indispensable"
 Date: 2005-03-29
 Author: "Baptiste Mathus"
+url: "2005/03/29/129-encore-une-page-ou-flash-etait-indispensable"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Un logiciel anti-standards"
 Date: 2004-04-30
 Author: "Baptiste Mathus"
+url: "2004/04/01/33-un-logiciel-anti-standards"
 ---
 
 

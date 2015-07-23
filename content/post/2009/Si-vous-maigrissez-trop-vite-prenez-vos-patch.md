@@ -2,6 +2,7 @@
 Title: "Si vous maigrissez trop vite, prenez vos patch un jour sur deux"
 Date: 2009-12-21
 Author: "Baptiste Mathus"
+url: "2009/12/21/Si-vous-maigrissez-trop-vite-prenez-vos-patch"
 ---
 
 

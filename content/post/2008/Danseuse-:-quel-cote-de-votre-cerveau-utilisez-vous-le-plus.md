@@ -2,6 +2,7 @@
 Title: "Danseuse : quel côté de votre cerveau utilisez-vous le plus ?"
 Date: 2008-02-05
 Author: "Baptiste Mathus"
+url: "2008/02/05/Danseuse-:-quel-cote-de-votre-cerveau-utilisez-vous-le-plus"
 ---
 
 

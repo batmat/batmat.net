@@ -2,6 +2,7 @@
 Title: "Adorables enfants"
 Date: 2004-12-05
 Author: "Baptiste Mathus"
+url: "2004/12/05/104-adorables-enfants"
 ---
 
 

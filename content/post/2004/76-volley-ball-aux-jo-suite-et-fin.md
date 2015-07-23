@@ -2,6 +2,7 @@
 Title: "Volley-Ball aux JO - Suite et fin"
 Date: 2004-08-24
 Author: "Baptiste Mathus"
+url: "2004/08/24/76-volley-ball-aux-jo-suite-et-fin"
 ---
 
 

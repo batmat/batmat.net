@@ -2,6 +2,7 @@
 Title: "Abattre des cloisons non porteuses en briques"
 Date: 2009-03-15
 Author: "Baptiste Mathus"
+url: "2009/03/15/Abattre-mur-et-plafond"
 ---
 
 

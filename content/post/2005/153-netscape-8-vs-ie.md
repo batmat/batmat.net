@@ -2,6 +2,7 @@
 Title: "Netscape 8 vs IE"
 Date: 2005-05-26
 Author: "Baptiste Mathus"
+url: "2005/05/26/153-netscape-8-vs-ie"
 ---
 
 

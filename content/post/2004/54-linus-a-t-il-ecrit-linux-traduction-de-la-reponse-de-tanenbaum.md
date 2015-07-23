@@ -2,6 +2,7 @@
 Title: "Linus a-t-il écrit Linux, traduction de la réponse de Tanenbaum"
 Date: 2004-05-24
 Author: "Baptiste Mathus"
+url: "2004/05/24/54-linus-a-t-il-ecrit-linux-traduction-de-la-reponse-de-tanenbaum"
 ---
 
 

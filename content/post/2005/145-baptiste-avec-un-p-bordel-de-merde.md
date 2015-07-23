@@ -2,6 +2,7 @@
 Title: "Baptiste, avec un p, bordel de merde !"
 Date: 2005-05-11
 Author: "Baptiste Mathus"
+url: "2005/05/11/145-baptiste-avec-un-p-bordel-de-merde"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Géoportail, l'histoire d'une défaite ?"
 Date: 2006-06-25
 Author: "Baptiste Mathus"
+url: "2006/06/25/223-geoportail-l-histoire-d-une-defaite"
 ---
 
 

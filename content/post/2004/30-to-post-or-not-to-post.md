@@ -2,6 +2,7 @@
 Title: "to post or not to post"
 Date: 2004-04-19
 Author: "Baptiste Mathus"
+url: "2004/04/19/30-to-post-or-not-to-post"
 ---
 
 alors là j'avais mis un truc qui claquait et puis en fait ce dotclear d'amour a chié une pendule et mon post (billet billet billet !!!) d'élite en même temps. “Flush it baby...”

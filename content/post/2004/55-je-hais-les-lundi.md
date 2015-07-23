@@ -2,6 +2,7 @@
 Title: "Je hais les lundi"
 Date: 2004-05-25
 Author: "Baptiste Mathus"
+url: "2004/05/31/55-je-hais-les-lundi"
 ---
 
 

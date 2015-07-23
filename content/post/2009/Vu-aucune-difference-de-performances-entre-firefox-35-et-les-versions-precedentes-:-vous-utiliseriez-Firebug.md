@@ -2,6 +2,7 @@
 Title: "Vu aucune différence de performances entre firefox 3.5 et les versions précédentes : vous utiliseriez pas Firebug ?"
 Date: 2009-12-23
 Author: "Baptiste Mathus"
+url: "2009/12/23/Vu-aucune-difference-de-performances-entre-firefox-35-et-les-versions-precedentes-:-vous-utiliseriez-Firebug"
 ---
 
 

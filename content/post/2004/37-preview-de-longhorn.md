@@ -2,6 +2,7 @@
 Title: "Preview de Longhorn"
 Date: 2004-05-05
 Author: "Baptiste Mathus"
+url: "2004/05/05/37-preview-de-longhorn"
 ---
 
 

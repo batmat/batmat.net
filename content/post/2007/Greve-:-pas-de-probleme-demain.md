@@ -2,6 +2,7 @@
 Title: "Grève : pas de problème demain ?"
 Date: 2007-10-17
 Author: "Baptiste Mathus"
+url: "2007/10/17/Greve-:-pas-de-probleme-demain"
 ---
 
 

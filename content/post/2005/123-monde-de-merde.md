@@ -2,6 +2,7 @@
 Title: "Monde de merde"
 Date: 2005-03-08
 Author: "Baptiste Mathus"
+url: "2005/03/08/123-monde-de-merde"
 ---
 
 

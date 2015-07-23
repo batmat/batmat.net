@@ -2,6 +2,7 @@
 Title: "Lavez moi ça"
 Date: 2004-05-04
 Author: "Baptiste Mathus"
+url: "2004/05/04/36-lavez-moi-ca"
 ---
 
 

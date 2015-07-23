@@ -2,6 +2,7 @@
 Title: "Unable to compile kernel"
 Date: 2004-12-17
 Author: "Baptiste Mathus"
+url: "2004/12/17/106-unable-to-compile-kernel"
 ---
 
 

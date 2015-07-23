@@ -2,6 +2,7 @@
 Title: "Samsung YP-Z5"
 Date: 2007-02-19
 Author: "Baptiste Mathus"
+url: "2007/02/19/Samsung-YP-Z5"
 ---
 
 

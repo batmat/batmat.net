@@ -2,6 +2,7 @@
 Title: "Foutage de gueule"
 Date: 2004-12-21
 Author: "Baptiste Mathus"
+url: "2004/12/21/107-foutage-de-gueule"
 ---
 
 

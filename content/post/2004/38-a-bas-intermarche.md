@@ -2,6 +2,7 @@
 Title: "À bas Intermarché"
 Date: 2004-05-06
 Author: "Baptiste Mathus"
+url: "2004/05/06/38-a-bas-intermarche"
 ---
 
 

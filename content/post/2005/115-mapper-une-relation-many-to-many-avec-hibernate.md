@@ -2,6 +2,7 @@
 Title: "Mapper une relation many-to-many avec Hibernate"
 Date: 2005-01-12
 Author: "Baptiste Mathus"
+url: "2005/01/20/115-mapper-une-relation-many-to-many-avec-hibernate"
 ---
 
 

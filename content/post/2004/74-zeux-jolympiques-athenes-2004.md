@@ -2,6 +2,7 @@
 Title: "Zeux Jolympiques - Athènes 2004"
 Date: 2004-08-18
 Author: "Baptiste Mathus"
+url: "2004/08/18/74-zeux-jolympiques-athenes-2004"
 ---
 
 

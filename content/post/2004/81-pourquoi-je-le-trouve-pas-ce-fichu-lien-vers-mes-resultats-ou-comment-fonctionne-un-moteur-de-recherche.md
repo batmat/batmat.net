@@ -2,6 +2,7 @@
 Title: "Pourquoi je le trouve pas, ce fichu lien vers mes résultats ? Ou comment fonctionne un moteur de recherche."
 Date: 2004-09-01
 Author: "Baptiste Mathus"
+url: "2004/09/01/81-pourquoi-je-le-trouve-pas-ce-fichu-lien-vers-mes-resultats-ou-comment-fonctionne-un-moteur-de-recherche"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Comment je juge de la sécurité d'un site"
 Date: 2005-03-24
 Author: "Baptiste Mathus"
+url: "2005/03/24/126-comment-je-juge-de-la-securite-d-un-site"
 ---
 
 

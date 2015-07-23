@@ -2,6 +2,7 @@
 Title: "Blog collaboratif"
 Date: 2004-04-02
 Author: "Baptiste Mathus"
+url: "2004/04/02/19-blog-collaboratif"
 ---
 
 

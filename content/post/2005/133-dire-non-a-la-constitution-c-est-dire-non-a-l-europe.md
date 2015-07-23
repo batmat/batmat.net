@@ -2,6 +2,7 @@
 Title: "Dire non à la constitution, c'est dire non à l'Europe ?"
 Date: 2005-04-07
 Author: "Baptiste Mathus"
+url: "2005/04/07/133-dire-non-a-la-constitution-c-est-dire-non-a-l-europe"
 ---
 
 

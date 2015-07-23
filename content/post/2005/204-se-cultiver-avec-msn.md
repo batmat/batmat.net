@@ -2,6 +2,7 @@
 Title: "Se cultiver avec MSN"
 Date: 2005-11-26
 Author: "Baptiste Mathus"
+url: "2005/11/26/204-se-cultiver-avec-msn"
 ---
 
 

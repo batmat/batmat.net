@@ -2,6 +2,7 @@
 Title: "Article sur AJAX dans 01 Informatique"
 Date: 2005-09-28
 Author: "Baptiste Mathus"
+url: "2005/09/28/194-article-sur-ajax-dans-01-informatique"
 ---
 
 

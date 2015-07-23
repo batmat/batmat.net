@@ -2,6 +2,7 @@
 Title: "Bonnes pratiques de programmation en Java"
 Date: 2004-06-28
 Author: "Baptiste Mathus"
+url: "2004/06/28/66-best-practices-en-java"
 ---
 
 

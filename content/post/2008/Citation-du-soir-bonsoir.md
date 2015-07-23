@@ -2,6 +2,7 @@
 Title: "Citation du soir, bonsoir !"
 Date: 2008-09-10
 Author: "Baptiste Mathus"
+url: "2008/09/10/Citation-du-soir-bonsoir"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Toutes mes excuses publiques"
 Date: 2005-03-30
 Author: "Baptiste Mathus"
+url: "2005/03/30/130-toutes-mes-excuses-publiques"
 ---
 
 

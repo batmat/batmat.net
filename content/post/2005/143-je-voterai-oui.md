@@ -2,6 +2,7 @@
 Title: "Je voterai oui"
 Date: 2005-05-09
 Author: "Baptiste Mathus"
+url: "2005/05/20/143-je-voterai-oui"
 ---
 
 

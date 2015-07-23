@@ -2,6 +2,7 @@
 Title: "Microsoft sponsorise la présidence de l'UE ?"
 Date: 2004-05-17
 Author: "Baptiste Mathus"
+url: "2004/05/17/46-microsoft-sponsorise-la-presidence-de-l-ue"
 ---
 
 

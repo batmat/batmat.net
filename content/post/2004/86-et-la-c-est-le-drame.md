@@ -2,6 +2,7 @@
 Title: "Et là... c'est le drame..."
 Date: 2004-10-03
 Author: "Baptiste Mathus"
+url: "2004/10/03/86-et-la-c-est-le-drame"
 ---
 
 

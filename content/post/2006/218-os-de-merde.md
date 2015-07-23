@@ -2,6 +2,7 @@
 Title: "OS de merde..."
 Date: 2006-04-06
 Author: "Baptiste Mathus"
+url: "2006/04/06/218-os-de-merde"
 ---
 
 

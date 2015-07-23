@@ -2,6 +2,7 @@
 Title: "Vive la France"
 Date: 2005-04-05
 Author: "Baptiste Mathus"
+url: "2005/04/05/132-vive-la-france"
 ---
 
 

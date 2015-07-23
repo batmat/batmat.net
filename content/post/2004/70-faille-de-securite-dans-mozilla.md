@@ -2,6 +2,7 @@
 Title: "Faille de sécurité dans mozilla"
 Date: 2004-07-09
 Author: "Baptiste Mathus"
+url: "2004/07/09/70-faille-de-securite-dans-mozilla"
 ---
 
 

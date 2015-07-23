@@ -2,6 +2,7 @@
 Title: "Train pour Lille ou comment bien contrôler"
 Date: 2005-01-09
 Author: "Baptiste Mathus"
+url: "2005/01/07/113-train-pour-lille-ou-comment-bien-controler"
 ---
 
 

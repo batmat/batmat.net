@@ -2,6 +2,7 @@
 Title: "Citation"
 Date: 2005-11-25
 Author: "Baptiste Mathus"
+url: "2005/11/25/203-citation"
 ---
 
 

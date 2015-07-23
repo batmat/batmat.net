@@ -2,6 +2,7 @@
 Title: "Martin Fowler à propos de Microsoft"
 Date: 2007-05-30
 Author: "Baptiste Mathus"
+url: "2007/05/30/Martin-Fowler-a-propos-de-Microsoft"
 ---
 
 

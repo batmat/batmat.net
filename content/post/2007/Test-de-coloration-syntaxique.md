@@ -2,6 +2,7 @@
 Title: "Comment fusionner plusieurs listes en une seule avec Spring [Test de coloration syntaxique :-)]"
 Date: 2007-01-30
 Author: "Baptiste Mathus"
+url: "2007/01/30/Test-de-coloration-syntaxique"
 ---
 
 

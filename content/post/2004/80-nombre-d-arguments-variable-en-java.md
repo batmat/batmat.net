@@ -2,6 +2,7 @@
 Title: "Nombre d'arguments variable en Java"
 Date: 2004-08-30
 Author: "Baptiste Mathus"
+url: "2004/08/30/80-nombre-d-arguments-variable-en-java"
 ---
 
 

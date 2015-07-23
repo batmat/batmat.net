@@ -2,6 +2,7 @@
 Title: "Licences Creative Commons"
 Date: 2004-03-14
 Author: "Baptiste Mathus"
+url: "2004/03/14/3-licences-creative-commons"
 ---
 
 

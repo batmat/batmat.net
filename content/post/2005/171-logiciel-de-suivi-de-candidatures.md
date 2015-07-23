@@ -2,6 +2,7 @@
 Title: "Logiciel de suivi de candidatures"
 Date: 2005-06-26
 Author: "Baptiste Mathus"
+url: "2005/06/26/171-logiciel-de-suivi-de-candidatures"
 ---
 
 

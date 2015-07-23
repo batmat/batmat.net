@@ -2,6 +2,7 @@
 Title: "Introduction à l'objet"
 Date: 2006-02-06
 Author: "Baptiste Mathus"
+url: "2006/02/06/213-introduction-a-l-objet"
 ---
 
 

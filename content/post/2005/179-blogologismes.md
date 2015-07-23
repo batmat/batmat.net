@@ -2,6 +2,7 @@
 Title: "Blogologismes"
 Date: 2005-08-23
 Author: "Baptiste Mathus"
+url: "2005/08/23/179-blogologismes"
 ---
 
 

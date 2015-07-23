@@ -2,6 +2,7 @@
 Title: "Méfions-nous de l’angélisme linuxien"
 Date: 2004-05-14
 Author: "Baptiste Mathus"
+url: "2004/05/14/44-mefions-nous-de-langelisme-linuxien"
 ---
 
 

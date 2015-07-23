@@ -2,6 +2,7 @@
 Title: "Très bonne nouvelle : les brevets logiciels sont enterrés en Europe !"
 Date: 2005-07-06
 Author: "Baptiste Mathus"
+url: "2005/07/06/174-tres-bonne-nouvelle-les-brevets-logiciels-ne-sont-pas-passes"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Pas honte..."
 Date: 2004-04-14
 Author: "Baptiste Mathus"
+url: "2004/04/14/27-pas-honte"
 ---
 
 La page de [traduction française de csszengarden](http://www.csszengarden.com/tr/francais/index.php) est de mauvaise qualité.

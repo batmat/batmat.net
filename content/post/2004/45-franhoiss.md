@@ -2,6 +2,7 @@
 Title: "Franhoiss"
 Date: 2004-05-16
 Author: "Baptiste Mathus"
+url: "2004/05/16/45-franhoiss"
 ---
 
 

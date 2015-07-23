@@ -2,6 +2,7 @@
 Title: "Canon Powershot S3 IS"
 Date: 2006-10-01
 Author: "Baptiste Mathus"
+url: "2006/10/01/227-canon-powershot-s3-is"
 ---
 
 

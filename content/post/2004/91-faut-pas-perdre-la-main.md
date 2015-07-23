@@ -2,6 +2,7 @@
 Title: "Faut pas perdre la main"
 Date: 2004-10-19
 Author: "Baptiste Mathus"
+url: "2004/10/19/91-faut-pas-perdre-la-main"
 ---
 
 

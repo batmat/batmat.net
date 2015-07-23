@@ -2,6 +2,7 @@
 Title: "OVH migre ses serveurs Linux sous Windows !"
 Date: 2004-04-05
 Author: "Baptiste Mathus"
+url: "2004/04/05/21-ovh-migre-ses-serveurs-linux-sous-windows"
 ---
 
 Ce titre est choquant, je sais...

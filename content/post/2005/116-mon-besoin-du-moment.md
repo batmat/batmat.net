@@ -2,6 +2,7 @@
 Title: "Mon besoin du moment"
 Date: 2005-01-19
 Author: "Baptiste Mathus"
+url: "2005/01/19/116-mon-besoin-du-moment"
 ---
 
 

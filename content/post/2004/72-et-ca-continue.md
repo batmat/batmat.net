@@ -2,6 +2,7 @@
 Title: "Et ça continue..."
 Date: 2004-07-13
 Author: "Baptiste Mathus"
+url: "2004/07/13/72-et-ca-continue"
 ---
 
 

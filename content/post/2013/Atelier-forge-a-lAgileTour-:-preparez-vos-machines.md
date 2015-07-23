@@ -1,8 +1,8 @@
 ---
-Title:  "Atelier forge à l'AgileTour : préparez vos machines !"
-Date:    2013-10-07
+Title: "Atelier forge à l'AgileTour : préparez vos machines !"
+Date: 2013-10-07
 Author: "Baptiste Mathus"
-Tags:   [ "hop", "pouet"]
+url: "2013/10/07/Atelier-forge-a-lAgileTour-:-preparez-vos-machines"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Différence entre Session.save() et Session.persist()"
 Date: 2007-01-02
 Author: "Baptiste Mathus"
+url: "2007/01/02/238-difference-entre-sessionsave-et-sessionpersist"
 ---
 
 

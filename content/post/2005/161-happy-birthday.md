@@ -2,6 +2,7 @@
 Title: "Happy Birthday"
 Date: 2005-06-05
 Author: "Baptiste Mathus"
+url: "2005/06/05/161-happy-birthday"
 ---
 
 

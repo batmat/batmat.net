@@ -2,6 +2,7 @@
 Title: "Rouler moins vite consomme vraiment moins ?"
 Date: 2005-08-25
 Author: "Baptiste Mathus"
+url: "2005/08/25/181-rouler-moins-vite-consomme-vraiment-moins"
 ---
 
 

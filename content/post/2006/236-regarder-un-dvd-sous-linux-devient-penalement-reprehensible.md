@@ -2,6 +2,7 @@
 Title: "Regarder un DVD sous Linux devient pénalement répréhensible"
 Date: 2006-12-31
 Author: "Baptiste Mathus"
+url: "2006/12/31/236-regarder-un-dvd-sous-linux-devient-penalement-reprehensible"
 ---
 
 

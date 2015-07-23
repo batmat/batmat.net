@@ -2,6 +2,7 @@
 Title: "Un peu d'humour"
 Date: 2006-11-04
 Author: "Baptiste Mathus"
+url: "2006/11/04/230-un-peu-d-humour"
 ---
 
 

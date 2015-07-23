@@ -2,6 +2,7 @@
 Title: "Bonne année 2010 à tous"
 Date: 2010-01-02
 Author: "Baptiste Mathus"
+url: "2010/01/02/Bonne-annee-2010-a-tous"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Comment savoir qui utilise un périphérique ?"
 Date: 2004-11-03
 Author: "Baptiste Mathus"
+url: "2004/11/03/94-comment-savoir-qui-utilise-un-peripherique"
 ---
 
 

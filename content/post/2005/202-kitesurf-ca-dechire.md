@@ -2,6 +2,7 @@
 Title: "Le Kitesurf... Ça déchire..."
 Date: 2005-11-09
 Author: "Baptiste Mathus"
+url: "2005/11/09/202-kitesurf-ca-dechire"
 ---
 
 

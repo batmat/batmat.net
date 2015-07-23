@@ -2,6 +2,7 @@
 Title: "T'en veuuuuux ?"
 Date: 2005-03-10
 Author: "Baptiste Mathus"
+url: "2005/03/10/124-t-en-veuuuuux"
 ---
 
 

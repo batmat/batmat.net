@@ -2,6 +2,7 @@
 Title: "Houaaa! T'as vu le canon là bas!"
 Date: 2004-06-08
 Author: "Baptiste Mathus"
+url: "2004/06/08/60-houaaa-t-as-vu-le-canon-la-bas"
 ---
 
 

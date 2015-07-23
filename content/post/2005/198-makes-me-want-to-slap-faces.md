@@ -2,6 +2,7 @@
 Title: "Makes me want to slap faces !"
 Date: 2005-10-11
 Author: "Baptiste Mathus"
+url: "2005/10/11/198-makes-me-want-to-slap-faces"
 ---
 
 

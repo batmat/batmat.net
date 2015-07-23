@@ -1,6 +1,10 @@
 baseurl: "http://batmat.net"
-title: "Blogounage, reloaded"
+title: "batmat.net"
+params:
+  Description: "reloaded"
+  Id: "Bimbimbim"
 languageCode: "fr-FR, en-US"
 permalinks:
-  post: /:year/:month/:day/:title/
-Author: "Batimsse "
+  post: /:year/:month/:day/:slug/
+Author: "Baptiste Mathus"
+Id: "hop"

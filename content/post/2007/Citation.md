@@ -2,6 +2,7 @@
 Title: "Citation"
 Date: 2007-04-25
 Author: "Baptiste Mathus"
+url: "2007/04/25/Citation"
 ---
 
 

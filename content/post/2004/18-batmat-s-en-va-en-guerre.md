@@ -2,6 +2,7 @@
 Title: "Batmat s'en va en guerre..."
 Date: 2004-04-01
 Author: "Baptiste Mathus"
+url: "2004/04/01/18-batmat-s-en-va-en-guerre"
 ---
 
 OUARGGHHH!!! Guerre à l'orthographe!!! OUAI!!!

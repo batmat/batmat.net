@@ -2,6 +2,7 @@
 Title: "JSR 330 : Dependency Injection for Java"
 Date: 2009-05-29
 Author: "Baptiste Mathus"
+url: "2009/05/29/JSR-330-:-Dependency-Injection-for-Java"
 ---
 
 

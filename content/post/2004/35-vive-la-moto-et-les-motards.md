@@ -2,6 +2,7 @@
 Title: "Vive la moto ! (et les motards)"
 Date: 2004-05-04
 Author: "Baptiste Mathus"
+url: "2004/05/04/35-vive-la-moto-et-les-motards"
 ---
 
 La semaine dernière, j'ai voulu aller me détendre un peu dans la région toulousaine. Pour ceux qui connaissent, je voulais aller à la Ramée pour jouer au Basket (un endroit gigantesque avec des lacs et installations sportives. Idéal pour pratiquer roller, football, basket, vélo, etc.). Bref, je prends la route en moto et je me dirige vers ma destination. À mi-chemin environ, la moto commencait à montrer quelques signes de panne sèche...

@@ -2,6 +2,7 @@
 Title: "Désespoir"
 Date: 2005-06-10
 Author: "Baptiste Mathus"
+url: "2005/06/10/165-desespoir"
 ---
 
 

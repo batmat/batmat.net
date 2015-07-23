@@ -2,6 +2,7 @@
 Title: "Ah ben ça va mieux maintenant"
 Date: 2005-01-06
 Author: "Baptiste Mathus"
+url: "2005/01/06/111-ah-ben-ca-va-mieux-maintenant"
 ---
 
 

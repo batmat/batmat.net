@@ -2,6 +2,7 @@
 Title: "Les licences de logiciels libres ne sont pas des demi-licences !"
 Date: 2004-05-13
 Author: "Baptiste Mathus"
+url: "2004/05/13/41-les-licences-de-logiciels-libres-ne-sont-pas-des-demi-licences"
 ---
 
 

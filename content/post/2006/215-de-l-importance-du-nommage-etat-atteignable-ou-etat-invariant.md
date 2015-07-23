@@ -2,6 +2,7 @@
 Title: "De l'importance du nommage, état atteignable ou état invariant ?"
 Date: 2006-03-01
 Author: "Baptiste Mathus"
+url: "2006/03/11/215-de-l-importance-du-nommage-etat-atteignable-ou-etat-invariant"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Geek cap"
 Date: 2004-07-09
 Author: "Baptiste Mathus"
+url: "2004/07/09/71-geek-cap"
 ---
 
 

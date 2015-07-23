@@ -1,0 +1,29 @@
+Options -Indexes
+
+SetEnv PHP_VER 5
+
+ErrorDocument 404 /notfound.html
+
+# Cf. http://dissitou.klafoutis.org/index.php/post/2006/12/29/Redirection-des-urls
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^blog/post/(.*)$ /$1 [R=301]
+RewriteRule ^dotclear/rss.php$ /index.xml [R=301]
+RewriteRule ^blog/feed/rss2$ /index.xml [R=301]
+
+#IMAGES
+#Images dans le repertoire dc
+RewriteRule ^dotclear/images/(.*)$ /dotclear/public/images/$1  [R=301]
+#Je deplace le repertoire images de la racine vers celui de dotclear pour n'en avoir qu'un seul
+RewriteRule ^images/(.*)$ /dotclear/public/images/$1  [R=301]
+
+#Flux rss et atom des billets et des commentaires
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^dotclear/rss.php /blog/feed/rss2 [R=301]
+RewriteCond %{QUERY_STRING} ^type=co$
+RewriteRule ^dotclear/rss.php /blog/feed/rss2/comments? [R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^dotclear/atom.php /blog/feed/atom [R=301]
+RewriteCond %{QUERY_STRING} ^type=co$
+RewriteRule ^dotclear/atom.php /blog/feed/atom/comments? [R=301]

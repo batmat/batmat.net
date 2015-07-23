@@ -2,6 +2,7 @@
 Title: "Propulsé par DotClear"
 Date: 2004-03-26
 Author: "Baptiste Mathus"
+url: "2004/03/26/12-propulse-par-dotclear"
 ---
 
 Alors, là je n'ai que deux mots à vous dire Braaaa vo ! Passage à dotclear effectif.

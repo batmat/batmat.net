@@ -2,6 +2,7 @@
 Title: "Do Interfaces have semantics ?"
 Date: 2007-12-16
 Author: "Baptiste Mathus"
+url: "2007/12/16/Do-Interfaces-have-semantics"
 ---
 
 

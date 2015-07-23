@@ -2,6 +2,7 @@
 Title: "Roulette bashienne"
 Date: 2005-08-28
 Author: "Baptiste Mathus"
+url: "2005/08/28/183-roulette-bashienne"
 ---
 
 

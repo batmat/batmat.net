@@ -2,6 +2,7 @@
 Title: "C'est un perfect !"
 Date: 2004-03-29
 Author: "Baptiste Mathus"
+url: "2004/03/29/15-c-est-un-perfect"
 ---
 
 

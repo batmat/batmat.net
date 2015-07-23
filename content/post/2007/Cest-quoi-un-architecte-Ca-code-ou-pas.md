@@ -2,6 +2,7 @@
 Title: "C'est quoi un architecte ? Ça code ou pas ?"
 Date: 2007-02-20
 Author: "Baptiste Mathus"
+url: "2007/02/20/Cest-quoi-un-architecte-Ca-code-ou-pas"
 ---
 
 

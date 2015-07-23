@@ -2,6 +2,7 @@
 Title: "Java User Group Toulouse : première conférence"
 Date: 2009-05-11
 Author: "Baptiste Mathus"
+url: "2009/05/11/Java-User-Group-Toulouse-:-premiere-conference"
 ---
 
 

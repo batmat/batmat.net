@@ -2,6 +2,7 @@
 Title: "Brevets logiciels - Raaaaaa"
 Date: 2004-05-19
 Author: "Baptiste Mathus"
+url: "2004/05/19/49-brevets-logiciels-raaaaaa"
 ---
 
 

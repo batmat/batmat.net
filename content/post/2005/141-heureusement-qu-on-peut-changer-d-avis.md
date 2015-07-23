@@ -2,6 +2,7 @@
 Title: "Heureusement qu'on peut changer d'avis !"
 Date: 2005-05-02
 Author: "Baptiste Mathus"
+url: "2005/05/02/141-heureusement-qu-on-peut-changer-d-avis"
 ---
 
 

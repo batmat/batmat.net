@@ -2,6 +2,7 @@
 Title: "40 000 ans de prison"
 Date: 2008-05-28
 Author: "Baptiste Mathus"
+url: "2008/05/28/40000-de-prison"
 ---
 
 

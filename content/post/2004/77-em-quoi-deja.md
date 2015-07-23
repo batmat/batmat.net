@@ -2,6 +2,7 @@
 Title: "E=m quoi déjà ?"
 Date: 2004-08-24
 Author: "Baptiste Mathus"
+url: "2004/08/24/77-em-quoi-deja"
 ---
 
 

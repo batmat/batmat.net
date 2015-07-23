@@ -2,6 +2,7 @@
 Title: "Les navigateurs mode texte ne sont pas qu'une légende !"
 Date: 2004-03-24
 Author: "Baptiste Mathus"
+url: "2004/03/24/11-les-navigateurs-mode-texte-ne-sont-pas-qu-une-legende"
 ---
 
 

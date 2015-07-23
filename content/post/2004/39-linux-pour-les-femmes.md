@@ -2,6 +2,7 @@
 Title: "Linux pour les femmes !"
 Date: 2004-05-09
 Author: "Baptiste Mathus"
+url: "2004/05/09/39-linux-pour-les-femmes"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Dévolution"
 Date: 2004-05-24
 Author: "Baptiste Mathus"
+url: "2004/05/24/53-devolution"
 ---
 
 

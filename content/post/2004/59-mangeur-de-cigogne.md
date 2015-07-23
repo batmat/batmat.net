@@ -2,6 +2,7 @@
 Title: "Mangeur de cigogne"
 Date: 2004-06-04
 Author: "Baptiste Mathus"
+url: "2004/06/04/59-mangeur-de-cigogne"
 ---
 
 

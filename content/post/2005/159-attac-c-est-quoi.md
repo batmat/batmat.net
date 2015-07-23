@@ -2,6 +2,7 @@
 Title: "Attac, c'est quoi déjà ?"
 Date: 2005-06-04
 Author: "Baptiste Mathus"
+url: "2005/06/04/159-attac-c-est-quoi"
 ---
 
 

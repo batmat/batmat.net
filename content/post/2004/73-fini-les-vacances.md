@@ -2,6 +2,7 @@
 Title: "Fini les vacances"
 Date: 2004-08-17
 Author: "Baptiste Mathus"
+url: "2004/08/17/73-fini-les-vacances"
 ---
 
 

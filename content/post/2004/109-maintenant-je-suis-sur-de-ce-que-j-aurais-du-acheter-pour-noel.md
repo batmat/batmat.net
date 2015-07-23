@@ -2,6 +2,7 @@
 Title: "Maintenant, je suis sûr de ce que j'aurais dû acheter pour Noël"
 Date: 2004-12-27
 Author: "Baptiste Mathus"
+url: "2004/12/27/109-maintenant-je-suis-sur-de-ce-que-j-aurais-du-acheter-pour-noel"
 ---
 
 

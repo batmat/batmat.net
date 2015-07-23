@@ -2,6 +2,7 @@
 Title: "Harry Potter 6"
 Date: 2005-10-11
 Author: "Baptiste Mathus"
+url: "2005/10/11/199-harry-potter-6"
 ---
 
 

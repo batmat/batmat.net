@@ -2,6 +2,7 @@
 Title: "Le programme des candidats aux présidentielles concernant les logiciels libres"
 Date: 2007-02-22
 Author: "Baptiste Mathus"
+url: "2007/02/22/Le-programme-des-candidats-aux-presidentielles-concernant-les-logiciels-libres"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Please adopt Firefox"
 Date: 2004-11-16
 Author: "Baptiste Mathus"
+url: "2004/11/16/100-please-adopt-firefox"
 ---
 
 

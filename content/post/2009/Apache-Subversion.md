@@ -2,6 +2,7 @@
 Title: "Apache Subversion"
 Date: 2009-11-18
 Author: "Baptiste Mathus"
+url: "2009/11/18/Apache-Subversion"
 ---
 
 

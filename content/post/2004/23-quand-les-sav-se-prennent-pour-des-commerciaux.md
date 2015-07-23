@@ -2,6 +2,7 @@
 Title: "Quand les SAV se prennent pour des commerciaux !"
 Date: 2004-04-05
 Author: "Baptiste Mathus"
+url: "2004/04/05/23-quand-les-sav-se-prennent-pour-des-commerciaux"
 ---
 
 

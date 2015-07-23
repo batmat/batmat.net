@@ -2,6 +2,7 @@
 Title: "FIA : les œillères de la connerie"
 Date: 2008-06-04
 Author: "Baptiste Mathus"
+url: "2008/06/04/FIA-:-les-oeilleres-de-la-connerie"
 ---
 
 

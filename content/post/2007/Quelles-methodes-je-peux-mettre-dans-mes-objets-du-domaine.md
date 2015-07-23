@@ -2,6 +2,7 @@
 Title: "Quelles méthodes je peux mettre dans mes « objets du domaine » ?"
 Date: 2007-11-29
 Author: "Baptiste Mathus"
+url: "2007/11/29/Quelles-methodes-je-peux-mettre-dans-mes-objets-du-domaine"
 ---
 
 

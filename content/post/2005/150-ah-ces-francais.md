@@ -2,6 +2,7 @@
 Title: "Ah ces français..."
 Date: 2005-05-23
 Author: "Baptiste Mathus"
+url: "2005/05/23/150-ah-ces-francais"
 ---
 
 

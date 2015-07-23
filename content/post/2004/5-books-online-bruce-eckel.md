@@ -2,6 +2,7 @@
 Title: "Books online - Bruce Eckel"
 Date: 2004-03-16
 Author: "Baptiste Mathus"
+url: "2004/03/16/5-books-online-bruce-eckel"
 ---
 
 

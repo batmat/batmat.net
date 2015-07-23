@@ -2,6 +2,7 @@
 Title: "Gérer les services lancés au démarrage de la machine"
 Date: 2004-11-30
 Author: "Baptiste Mathus"
+url: "2004/11/30/103-gerer-les-services-lances-au-demarrage-de-la-machine"
 ---
 
 

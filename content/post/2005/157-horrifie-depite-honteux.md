@@ -2,6 +2,7 @@
 Title: "Horrifié... dépité... honteux..."
 Date: 2005-05-31
 Author: "Baptiste Mathus"
+url: "2005/05/31/157-horrifie-depite-honteux"
 ---
 
 

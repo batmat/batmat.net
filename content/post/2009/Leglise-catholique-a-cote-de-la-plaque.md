@@ -2,6 +2,7 @@
 Title: "L'église catholique à côté de la plaque"
 Date: 2009-03-27
 Author: "Baptiste Mathus"
+url: "2009/03/27/Leglise-catholique-a-cote-de-la-plaque"
 ---
 
 

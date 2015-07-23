@@ -2,6 +2,7 @@
 Title: "Java Persistence with Hibernate"
 Date: 2006-12-15
 Author: "Baptiste Mathus"
+url: "2006/12/15/233-java-persistence-with-hibernate"
 ---
 
 

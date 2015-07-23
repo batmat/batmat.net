@@ -2,6 +2,7 @@
 Title: "Svn 1.2 : arrivée du reserved checkout (file locking)"
 Date: 2005-05-25
 Author: "Baptiste Mathus"
+url: "2005/05/25/151-svn-12-arrivee-du-reserved-checkout-file-locking"
 ---
 
 

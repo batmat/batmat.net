@@ -2,6 +2,7 @@
 Title: "Comment réinitialiser manuellement les pages chargées par firefox au démarrage"
 Date: 2008-06-30
 Author: "Baptiste Mathus"
+url: "2008/06/30/Comment-reinitialiser-manuellement-les-pages-chargees-par-firefox-au-demarrage"
 ---
 
 

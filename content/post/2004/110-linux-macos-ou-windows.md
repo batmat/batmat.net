@@ -2,6 +2,7 @@
 Title: "Linux, MacOS ou Windows"
 Date: 2004-12-29
 Author: "Baptiste Mathus"
+url: "2004/12/29/110-linux-macos-ou-windows"
 ---
 
 

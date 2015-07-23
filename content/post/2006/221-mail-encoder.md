@@ -2,6 +2,7 @@
 Title: "Mail encoder"
 Date: 2006-05-13
 Author: "Baptiste Mathus"
+url: "2006/05/13/221-mail-encoder"
 ---
 
 

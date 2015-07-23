@@ -2,6 +2,7 @@
 Title: "Mon marque-ta-page"
 Date: 2005-05-06
 Author: "Baptiste Mathus"
+url: "2005/05/06/142-mon-marque-ta-page"
 ---
 
 

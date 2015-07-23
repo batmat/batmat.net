@@ -2,6 +2,7 @@
 Title: "Voter contre les brevets logiciels"
 Date: 2005-10-17
 Author: "Baptiste Mathus"
+url: "2005/10/17/200-voter-contre-les-brevets-logiciels"
 ---
 
 

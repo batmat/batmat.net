@@ -2,6 +2,7 @@
 Title: "CSS Naked Day"
 Date: 2006-04-05
 Author: "Baptiste Mathus"
+url: "2006/04/05/217-css-naked-day"
 ---
 
 

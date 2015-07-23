@@ -2,6 +2,7 @@
 Title: "Brevets logiciels : Un bon résumé du feuilleton"
 Date: 2005-03-29
 Author: "Baptiste Mathus"
+url: "2005/03/29/128-brevets-logiciels-un-bon-resume-du-feuilleton"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Comment connaître la provenance d'une classe programmatiquement en Java"
 Date: 2010-01-13
 Author: "Baptiste Mathus"
+url: "2010/01/13/Comment-connaitre-la-provenance-dune-classe-programmatiquement-en-java"
 ---
 
 

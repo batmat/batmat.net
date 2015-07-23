@@ -2,6 +2,7 @@
 Title: "Joyeux noël"
 Date: 2004-12-25
 Author: "Baptiste Mathus"
+url: "2004/12/25/108-joyeux-noel"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Le C++ c'est facile, mais..."
 Date: 2004-07-02
 Author: "Baptiste Mathus"
+url: "2004/07/02/68-le-c-c-est-facile-mais"
 ---
 
 

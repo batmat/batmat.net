@@ -2,6 +2,7 @@
 Title: "Bashfr"
 Date: 2006-05-06
 Author: "Baptiste Mathus"
+url: "2006/05/06/220-bashfr"
 ---
 
 

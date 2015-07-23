@@ -2,6 +2,7 @@
 Title: "Continuum : envoyer le mail après le build dans tous les cas"
 Date: 2007-11-30
 Author: "Baptiste Mathus"
+url: "2007/11/30/Continuum-:-envoyer-le-mail-apres-le-build-dans-tous-les-cas"
 ---
 
 

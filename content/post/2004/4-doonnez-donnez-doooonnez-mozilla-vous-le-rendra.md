@@ -2,6 +2,7 @@
 Title: "Doonnez, donnez, doooonnez, mozilla vous le rendra"
 Date: 2004-03-15
 Author: "Baptiste Mathus"
+url: "2004/03/15/4-doonnez-donnez-doooonnez-mozilla-vous-le-rendra"
 ---
 
 

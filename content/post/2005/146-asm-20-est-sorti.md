@@ -2,6 +2,7 @@
 Title: "ASM 2.0 est sorti"
 Date: 2005-05-17
 Author: "Baptiste Mathus"
+url: "2005/05/17/146-asm-20-est-sorti"
 ---
 
 

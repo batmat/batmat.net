@@ -2,6 +2,7 @@
 Title: "No comment"
 Date: 2006-11-03
 Author: "Baptiste Mathus"
+url: "2006/11/03/229-no-comment"
 ---
 
 

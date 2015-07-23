@@ -2,6 +2,7 @@
 Title: "RMS à Toulouse"
 Date: 2004-07-01
 Author: "Baptiste Mathus"
+url: "2004/07/01/67-rms-a-toulouse"
 ---
 
 

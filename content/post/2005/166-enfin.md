@@ -2,6 +2,7 @@
 Title: "Enfin"
 Date: 2005-06-12
 Author: "Baptiste Mathus"
+url: "2005/06/12/166-enfin"
 ---
 
 

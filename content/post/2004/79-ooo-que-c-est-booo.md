@@ -2,6 +2,7 @@
 Title: "OOo que c'est bOOo !"
 Date: 2004-08-30
 Author: "Baptiste Mathus"
+url: "2004/08/30/79-ooo-que-c-est-booo"
 ---
 
 

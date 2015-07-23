@@ -2,6 +2,7 @@
 Title: "Sun Tech Days, mercredi 21"
 Date: 2007-03-25
 Author: "Baptiste Mathus"
+url: "2007/03/25/Sun-Tech-Days-mercredi-21"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Tsunami : Pas de trace d'animaux morts au Sri Lanka"
 Date: 2005-09-05
 Author: "Baptiste Mathus"
+url: "2005/09/05/185-tsunami-pas-de-trace-d-animaux-morts-au-sri-lanka"
 ---
 
 

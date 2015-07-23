@@ -2,6 +2,7 @@
 Title: "Vive Benoit 16"
 Date: 2005-05-19
 Author: "Baptiste Mathus"
+url: "2005/05/19/147-vive-benoit-16"
 ---
 
 

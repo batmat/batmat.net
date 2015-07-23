@@ -2,6 +2,7 @@
 Title: "Blogentaire"
 Date: 2004-05-30
 Author: "Baptiste Mathus"
+url: "2004/05/30/56-blogentaire"
 ---
 
 

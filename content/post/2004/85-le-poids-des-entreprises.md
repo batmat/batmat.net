@@ -2,6 +2,7 @@
 Title: "Le poids des entreprises"
 Date: 2004-09-27
 Author: "Baptiste Mathus"
+url: "2004/09/27/85-le-poids-des-entreprises"
 ---
 
 

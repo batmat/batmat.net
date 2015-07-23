@@ -2,6 +2,7 @@
 Title: "All we are is kite in the wind..."
 Date: 2005-09-09
 Author: "Baptiste Mathus"
+url: "2005/09/09/188-all-we-are-is-kite-in-the-wind"
 ---
 
 

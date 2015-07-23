@@ -2,6 +2,7 @@
 Title: "Mon poing sur la gueule"
 Date: 2005-01-21
 Author: "Baptiste Mathus"
+url: "2005/01/21/118-mon-poing-sur-la-gueule"
 ---
 
 

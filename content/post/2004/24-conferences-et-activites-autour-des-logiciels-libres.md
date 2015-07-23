@@ -2,6 +2,7 @@
 Title: "Conférences et activités autour des Logiciels Libres"
 Date: 2004-04-07
 Author: "Baptiste Mathus"
+url: "2004/04/07/24-conferences-et-activites-autour-des-logiciels-libres"
 ---
 
 3 jours de conférences et activités autour des Logiciels Libres sont organisés le 23-24-25 avril 2004 à l'ESIEE (Noisy-Le-Grand, campus de Marne La Vallée).

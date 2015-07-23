@@ -2,6 +2,7 @@
 Title: "Citation du jour"
 Date: 2005-12-14
 Author: "Baptiste Mathus"
+url: "2005/12/14/209-citation-du-jour"
 ---
 
 

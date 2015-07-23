@@ -2,6 +2,7 @@
 Title: "Les extensions de Firefox"
 Date: 2005-09-21
 Author: "Baptiste Mathus"
+url: "2005/09/21/192-les-extensions-de-firefox"
 ---
 
 

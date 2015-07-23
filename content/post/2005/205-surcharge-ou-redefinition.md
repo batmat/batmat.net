@@ -2,6 +2,7 @@
 Title: "Surcharge ou redéfinition ?"
 Date: 2005-11-26
 Author: "Baptiste Mathus"
+url: "2005/11/26/205-surcharge-ou-redefinition"
 ---
 
 

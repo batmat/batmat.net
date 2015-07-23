@@ -2,6 +2,7 @@
 Title: "Comment savoir quel processus utilise telle socket ou tel périphérique"
 Date: 2005-10-05
 Author: "Baptiste Mathus"
+url: "2005/10/05/196-comment-savoir-quel-processus-utilise-telle-socket-ou-tel-peripherique"
 ---
 
 

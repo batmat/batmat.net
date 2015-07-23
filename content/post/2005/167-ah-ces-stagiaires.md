@@ -2,6 +2,7 @@
 Title: "Ah ces stagiaires..."
 Date: 2005-06-12
 Author: "Baptiste Mathus"
+url: "2005/06/12/167-ah-ces-stagiaires"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "La fin du Logiciel Libre ?"
 Date: 2005-12-07
 Author: "Baptiste Mathus"
+url: "2005/12/28/208-la-fin-du-logiciel-libre"
 ---
 
 

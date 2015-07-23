@@ -2,6 +2,7 @@
 Title: "Limitation Oracle antédiluvienne"
 Date: 2007-10-26
 Author: "Baptiste Mathus"
+url: "2007/10/26/Limitation-Oracle-antediluvienne"
 ---
 
 

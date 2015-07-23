@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />
+	<link rel="icon" type="image/png" href="/images/batmatSmall.png" />
+	<meta http-equiv="expires" content="never" />
+	<meta name="robots" content="index, follow" />
+	<meta name="author" content="Baptiste Mathus" />
+	<meta name="DC.title" content="Blogounage" />
+	<title>Blogounage</title>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55224025-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(e) {
+	var requestedUrl = document.location.href;
+	console.log('Requested url: '+requestedUrl);
+
+	if( requestedUrl && (/[A-Z]/.test(requestedUrl)) ) {
+		var lowerCaseUrl = requestedUrl.toLowerCase();
+		console.log("Contains caps, trying redirection to "+lowerCaseUrl);
+		window.location.replace(lowerCaseUrl);
+	} else {
+		console.log('No caps, no redirect')
+	}
+});
+</script>
+<style type="text/css" title="Argh" media="screen">
+html
+{
+	background:black;
+	color:white;
+	max-width:75ex;
+	margin:10em;
+}
+
+.Big
+{
+	font-size:2em;
+}
+
+li
+{
+	list-style-type:none;
+	margin:2em 0;
+}
+
+a
+{
+	color:grey;
+	font-weight:900;
+}
+
+a:hover
+{
+	text-decoration:none;
+}
+
+li>a
+{
+	border-bottom:2px dashed;
+	text-decoration:none;
+}
+
+li>a:hover
+{
+	position:relative;
+	top:3px;
+	left:3px;
+	border-bottom-style:dotted;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Page non trouvée</h1>
+
+<p>Quelque chose a merdoyé...</p>
+
+<p>Si vous êtes arrivé sur cette page à partir d'un des liens de <a href="http://www.batmat.net" hreflang="fr">Batmat.net</a>,
+<a href="mailto:batmat&#64;batmat.net">contactez moi</a> pour que je
+corrige le problème. Merci d'avance.</p>
+
+<p>Sinon, vous avez deux possibilités&nbsp;:</p>
+
+<ul>
+<li class="Big"><a href="http://www.batmat.net" hreflang="fr">Aller lire Blogounage, mon weblog</a></li>
+<li><a href="javascript:history.go(-1)" title="Javascript doit être activé pour que ce lien fonctionne">Retourner où vous étiez...</a></li>
+</ul>
+
+</body>
+</html>

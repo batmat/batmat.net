@@ -2,6 +2,7 @@
 Title: "Supprimer le suffixe de votre adresse de weblog"
 Date: 2005-07-12
 Author: "Baptiste Mathus"
+url: "2005/07/12/176-supprimer-le-suffixe-de-votre-adresse-de-weblog"
 ---
 
 

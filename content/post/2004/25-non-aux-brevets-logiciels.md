@@ -2,6 +2,7 @@
 Title: "Non aux brevets logiciels !"
 Date: 2004-04-08
 Author: "Baptiste Mathus"
+url: "2004/04/08/25-non-aux-brevets-logiciels"
 ---
 
 

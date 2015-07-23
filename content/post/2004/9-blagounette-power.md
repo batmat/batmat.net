@@ -2,6 +2,7 @@
 Title: "Blagounette power"
 Date: 2004-03-22
 Author: "Baptiste Mathus"
+url: "2004/03/22/9-blagounette-power"
 ---
 
 

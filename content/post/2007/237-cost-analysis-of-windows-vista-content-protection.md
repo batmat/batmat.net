@@ -2,6 +2,7 @@
 Title: "Cost Analysis of Windows Vista Content Protection"
 Date: 2007-01-01
 Author: "Baptiste Mathus"
+url: "2007/01/01/237-cost-analysis-of-windows-vista-content-protection"
 ---
 
 

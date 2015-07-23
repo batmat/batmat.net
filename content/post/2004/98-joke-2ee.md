@@ -2,6 +2,7 @@
 Title: "Joke 2EE"
 Date: 2004-11-09
 Author: "Baptiste Mathus"
+url: "2004/11/09/98-joke-2ee"
 ---
 
 

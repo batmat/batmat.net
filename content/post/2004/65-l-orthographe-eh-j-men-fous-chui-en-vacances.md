@@ -2,6 +2,7 @@
 Title: "L'orthographe, eh j'men fous chui en vacances"
 Date: 2004-06-21
 Author: "Baptiste Mathus"
+url: "2004/06/21/65-l-orthographe-eh-j-men-fous-chui-en-vacances"
 ---
 
 

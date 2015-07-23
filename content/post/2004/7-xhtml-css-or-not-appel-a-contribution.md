@@ -2,6 +2,7 @@
 Title: "Xhtml/Css (Or not ?) : appel à contribution"
 Date: 2004-03-20
 Author: "Baptiste Mathus"
+url: "2004/03/20/7-xhtml-css-or-not-appel-a-contribution"
 ---
 
 

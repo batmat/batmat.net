@@ -2,6 +2,7 @@
 Title: "Il suffisait d'y penser... - Journal d'un avocat"
 Date: 2006-10-21
 Author: "Baptiste Mathus"
+url: "2006/10/21/228-il-suffisait-d-y-penser-journal-d-un-avocat"
 ---
 
 

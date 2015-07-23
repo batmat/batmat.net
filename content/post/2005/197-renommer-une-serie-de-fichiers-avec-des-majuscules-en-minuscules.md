@@ -2,6 +2,7 @@
 Title: "Renommer une série de fichiers avec des majuscules en minuscules"
 Date: 2005-10-07
 Author: "Baptiste Mathus"
+url: "2005/10/07/197-renommer-une-serie-de-fichiers-avec-des-majuscules-en-minuscules"
 ---
 
 

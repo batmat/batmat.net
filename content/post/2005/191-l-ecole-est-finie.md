@@ -2,6 +2,7 @@
 Title: "L'école est finie"
 Date: 2005-09-19
 Author: "Baptiste Mathus"
+url: "2005/09/19/191-l-ecole-est-finie"
 ---
 
 

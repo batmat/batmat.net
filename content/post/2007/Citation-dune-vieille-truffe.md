@@ -2,6 +2,7 @@
 Title: "Citation d'une vieille truffe"
 Date: 2007-01-27
 Author: "Baptiste Mathus"
+url: "2007/01/27/Citation-dune-vieille-truffe"
 ---
 
 

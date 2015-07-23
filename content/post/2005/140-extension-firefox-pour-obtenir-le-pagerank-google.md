@@ -2,6 +2,7 @@
 Title: "Extension Firefox pour obtenir le PageRank google"
 Date: 2005-05-02
 Author: "Baptiste Mathus"
+url: "2005/05/01/140-extension-firefox-pour-obtenir-le-pagerank-google"
 ---
 
 

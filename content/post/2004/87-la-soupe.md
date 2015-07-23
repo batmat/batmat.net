@@ -2,6 +2,7 @@
 Title: "La soupe"
 Date: 2004-10-07
 Author: "Baptiste Mathus"
+url: "2004/10/07/87-la-soupe"
 ---
 
 

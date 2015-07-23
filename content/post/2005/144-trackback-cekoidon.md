@@ -2,6 +2,7 @@
 Title: "Trackback, cékoidon ?"
 Date: 2005-05-10
 Author: "Baptiste Mathus"
+url: "2005/05/10/144-trackback-cekoidon"
 ---
 
 

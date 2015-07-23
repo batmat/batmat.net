@@ -2,6 +2,7 @@
 Title: "Nouvelle sortie au Cap d'Agde"
 Date: 2006-01-15
 Author: "Baptiste Mathus"
+url: "2006/01/15/211-nouvelle-sortie-au-cap-d-agde"
 ---
 
 

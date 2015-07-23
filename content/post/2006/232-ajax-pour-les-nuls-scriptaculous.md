@@ -2,6 +2,7 @@
 Title: "Ajax pour les nuls, Scriptaculous"
 Date: 2006-12-05
 Author: "Baptiste Mathus"
+url: "2006/12/05/232-ajax-pour-les-nuls-scriptaculous"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Drop sequences for Oracle"
 Date: 2008-12-22
 Author: "Baptiste Mathus"
+url: "2008/12/22/Drop-sequences-for-Oracle"
 ---
 
 

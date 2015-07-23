@@ -2,6 +2,7 @@
 Title: "Brevets pour l'utilisation d'éditeurs de texte pour l'édition de documents XML"
 Date: 2004-04-05
 Author: "Baptiste Mathus"
+url: "2004/04/05/22-brevets-pour-l-utilisation-d-editeurs-de-texte-pour-l-edition-de-documents-xml"
 ---
 
 

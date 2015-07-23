@@ -2,6 +2,7 @@
 Title: "Tout est relatif..."
 Date: 2004-06-15
 Author: "Baptiste Mathus"
+url: "2004/06/15/63-tout-est-relatif"
 ---
 
 

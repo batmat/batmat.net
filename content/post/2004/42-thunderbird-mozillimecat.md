@@ -2,6 +2,7 @@
 Title: "Thunderbird (mozillimecat)"
 Date: 2004-05-13
 Author: "Baptiste Mathus"
+url: "2004/05/13/42-thunderbird-mozillimecat"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Encoding par défaut avec XML : UTF-8"
 Date: 2009-11-19
 Author: "Baptiste Mathus"
+url: "2009/11/19/Encoding-par-defaut-avec-XML-:-UTF-8"
 ---
 
 

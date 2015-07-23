@@ -2,6 +2,7 @@
 Title: "Software Development"
 Date: 2004-10-20
 Author: "Baptiste Mathus"
+url: "2004/10/20/92-software-development"
 ---
 
 

@@ -2,6 +2,7 @@
 Title: "Robots pas copains..."
 Date: 2004-11-07
 Author: "Baptiste Mathus"
+url: "2004/11/07/97-robots-pas-copains"
 ---
 
 

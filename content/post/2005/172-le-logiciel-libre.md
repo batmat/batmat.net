@@ -2,6 +2,7 @@
 Title: "Ma vision du Libre"
 Date: 2005-07-01
 Author: "Baptiste Mathus"
+url: "2005/07/01/172-le-logiciel-libre"
 ---
 
 

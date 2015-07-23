@@ -2,6 +2,7 @@
 Title: "UTMB, Allez Cyril !"
 Date: 2005-08-26
 Author: "Baptiste Mathus"
+url: "2005/08/26/182-utmb-allez-cyril"
 ---
 
 
