@@ -1,0 +1,88 @@
+---
+Title: "Why I think I failed as an architect"
+Date: 2015-07-24
+Author: "Baptiste Mathus"
+---
+
+I was not actually planning to write that, more something about Docker.*
+these days. But that's how it is.
+
+I was listening to the
+http://www.arresteddevops.com/career-devops/[Arrested Devops podcast --
+Episode 38] about Career Development, with
+https://twitter.com/jchackert[Jeff Hackert].
+
+For many reasons lately, I've been thinking about my carrier and what I
+wanted to do. By the way, I absolutely, positively recommend you listen
+to that episode (35 minutes, seriously it's worth it).
+
+The part that made me think about that article is when Jeff talked about
+making things you do visible. Providing context. Understanding people's
+needs.
+
+[[architect-failure]]
+Architect Failure
+~~~~~~~~~~~~~~~~~
+
+Though I retrospectively think I should maybe have pushed sometimes some
+more evolved/involved solutions, I'm not actually talking about a
+technical failure.
+
+No, I'm talking about human/social one.
+
+To simplify a bit, the management decided to reorganize the development
+with dev teams on one side, and a separate architecture team.
+
+Because I had earned technical respect from (at least some of) my
+coworkers, it went not so badly initially. Some teams were asking for
+reviews, or even for solutions for issues/requirements they had.
+
+But for some people, developers and maybe even more managers, we were
+intruders. Not welcome.
+
+[[what-i-did]]
+What I did
+~~~~~~~~~~
+
+Mainly, I think I stayed in my office way too much, and took that
+position for granted. Kind of the Ivory Tower issue (well, without the
+tone I hope. I've tried hard to not be condescending especially because
+of how much I despised self-said Architects who didn't code).
+
+I thought the requests were going to flow naturally. How wrong, and
+dumb, I was.
+
+Don't get me wrong. I was not hiding and playing video-games on my
+computer :-). I was actually working for _some_ teams. But even those
+teams eventually didn't even ask us for help, and worked us around.
+
+[[what-i-should-have-done]]
+What I should have done
+~~~~~~~~~~~~~~~~~~~~~~~
+
+I should have hanged out more with the teams (which is somehow
+ridiculous I didn't when you know me). Go see them, ask them if they
+were needing help. Get involved with them. Simply be more empathetic.
+Let them know what we did, why, for whom, constantly. Make that publicly
+available.
+
+I should also have refused to work on some subjects supposed to be
+useful in 1 or 2 years, without any actual need. How many hours I lost
+on useless PoCs, studies, that will never get used.
+
+[[wrap-up]]
+Wrap up
+~~~~~~~
+
+That made me realize something. Something that may be obvious to more
+experienced people: the fact that the current management structure, the
+current organization will NOT stay as-is forever. And that you should
+always strive to break barriers, reach out the people who do the actual
+work and help them, work with them.
+
+This way, people will know you're basically useful wherever you are, and
+whatever position you hold. And that might also transitively prove your
+team is useful.
+
+If you don't, then you're dead. At the next shakeup, you'll be wiped
+out. And you will have deserved it.

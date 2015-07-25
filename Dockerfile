@@ -6,6 +6,9 @@ RUN apt-get update -y && \
     curl -L https://github.com/spf13/hugo/releases/download/v$version/hugo_${version}_amd64.deb > hugo.deb && \
     dpkg -i hugo.deb
 
+# TODO merge with above when more bandwidth
+
+RUN apt-get install asciidoctor -y
 
 ADD . /blog
 
