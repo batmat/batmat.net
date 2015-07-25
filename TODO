@@ -1,0 +1,12 @@
+Ansibliser :
+* création clé sur VPS + push en tant que deployment key sur BB
+* install git
+* config typique :
+** zsh
+** alias...
+
+* Créer un user dans image blog
+
+* sur vps, instancier Jenkins
+** créer job (dsl) qui surveille repos
+** rebuilde et relance le conteneur si bougé
