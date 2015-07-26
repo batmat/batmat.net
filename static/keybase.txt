@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/bmathus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://batmat.net
+  * I am bmathus (https://keybase.io/bmathus) on keybase.
+  * I have a public key with fingerprint 7207 4617 7725 A892 07A7  075B FD5D EA07 FCB6 90A8
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "720746177725a89207a7075bfd5dea07fcb690a8",
+            "host": "keybase.io",
+            "key_id": "fd5dea07fcb690a8",
+            "kid": "0101920507f2333f17f37f768f20db81f9664d2603090df96b1d6d84b2bd6be283fe0a",
+            "uid": "0828dd7f7101f13d19ab3c485418b800",
+            "username": "bmathus"
+        },
+        "revoke": {
+            "sig_ids": [
+                "27e75a3e3f8c3d0ab412474524a1f27ed097b00c938e1a3c8f871968c569cb0c0f"
+            ]
+        },
+        "service": {
+            "hostname": "batmat.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1437944967,
+    "expire_in": 157680000,
+    "prev": "e97e01b093076f4858b611238e47bd0c29e202be4a10778649b54dff9ce1214e",
+    "seqno": 31,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkl1oFUcUx29iUjXSWix9UEIxg6CmtzozO7szcxUMWhsDlVK/UlC5ndmZSZar
+d293N0mNNSq22A9Kgw0kD5FSRRKoYKit+qCoNaSp9qGCaTUPUTQgftL2RfEjdjat
+b92X4Zzzn98557/T+eKUTHnZ0823pz451tlfduGWzKz/cXXDdiBDtQ3ktoOCnjxM
+UGzSUSkKignIAYohJR6ilGJXMG4jQSF1pVGu0gJS40uPQ8FAFjSHcXrDYqSI9aIg
+tDkb5ANls/+jL0wWIILIYl1bwo7jGESNQw31mMFQSYYM9zyisAcdyKGykUTKU4xI
+LJUnNWaO0VBYXMu/OIaZUhZgsQY5CnEhHZ8wlyAmGYSpMNZRUWzVVi23iqS5JQY7
+siDSrWFBpwbEQZOdOQa5jQBTTV3haMcw31FQSIIwocTFRCBjiwpyKiH0ucM0Eo7P
+DKOIe8x3Pe5L6EMDNlu2bdga+JPw1KTnzUVi2y8q6sQOVYrCJPTDLTbfnCSlXDpS
+sq2U6tq0zP9HyMugqOz/sRdadRQHYRHkkFX6SZAiEXEoJ4R7NAv0h6Ug0vkgVbjW
+Tmi/tI1utUjNqYYbkYTcgdQz1h4mPYSwXYNQqaCPucYQS233hJQyj3DpEmUM9zXC
+iGiQLvVBMQQ5B9lBRZOFWt+KImmJNNhR9VlZdUWmrDzzQmV5+sgyVdNffv7yxl+Z
+ljm3ZHf33lPVE2/Udq345eu+7kKhI5h77YdVCxo7jg90z3yVfVfeZ75Y8s6Ni3+u
+HmKvr/ltePDqeGP9wo7K4bUDKwdGB8907jnd8OWskaV118fqjtQdulLVNn/PbeL+
+8d6jTZ/e9eqzJ9vvN/0aP+05X3PuyedjK7/auabt8ILXap/NufPNTw9n/j732+jj
+TfUnagen7f/5cuez46MbTp+oWf7oYOOblw6c/eviMZhvu9k1O/v90vPvD++/MBYv
+H/+kYh7uOTjxUn/9u2NHLz/+qAONXB/aWbPsrehS5u2Kyl0Pef+MoQd9N0sj69pX
+8WX7Tu0anTKDid6JeYOLe/bOry7c6F3okXv7uv5uaO/9Bw==
+=dtEl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bmathus
+
+==================================================================
