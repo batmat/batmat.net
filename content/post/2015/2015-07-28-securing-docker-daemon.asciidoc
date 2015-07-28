@@ -1,0 +1,78 @@
+---
+Title: "Securing an existing Docker Daemon"
+Date: 2015-07-27
+Author: "Baptiste Mathus"
+Draft: true
+---
+
+:last-update-label!:
+
+== Context
+I'm playing a lot with Docker these days. One of my short-term ideas is to refactor our existing Jenkins infrastructure from real VMs to containers.
+I hope to be able to post an article here about coupling Jenkins and link:https://docs.docker.com/swarm/[Docker Swarm] in the upcoming weeks.
+
+As I cannot use Docker Machine to directly create a secured swarm (because VMs are provided old-school style by our infra), and _Docker Swarm_ requires to expose the Docker HTTP[S]
+port .footnote:[By the way, you should be aware that since a few weeks now Docker got official ports:
+2375 for REST API,
+and 2376 for the same ssl-secured,
+see www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=docker for details]
+
+DISCLAIMER: I'm *not* a security expert. Please don't hesitate to tell me if you think I've said wrong or weird things.
+
+=== Why don't you just leave those daemons in insecure mode? you're on an internal network after all?
+
+Well. It's *so* easy to connect to that daemon and do whatever you want on the machine that I thought that would be a bit more serious to secure it.
+
+And I also wanted to take the opportunity to teach myself about configuring certificates and the likes.
+
+[WARNING]
+====
+If you don't believe it's *that* simple to connect to a machine with an insecure daemon:
+
+    $ docker -H tcp://someip:2375 run --rm -v /:/thewholefs debian bash
+
+That's right, now you have a shell access on the whole FS of the host under _/thewholefs_ of the container.
+====
+
+== Let's dive in
+
+As the link:https://docs.docker.com/articles/https/[documentation on the Docker Website] is pretty clear and worked for me out of the box, I'm gonna try and explain what we're doing instead of just copy pasting things.
+
+=== Provision a VM with nothing specific about Docker
+
+For that part I'm gonna use Digital Ocean, because I currently have a sluggish network. I chose a standard Debian 8.1 x64 where I installed Docker footnote:[using the curl script provided by Docker Inc, because the version provided by jessie-backports is an older 1.6.x and my client is a 1.7.x. And server and client must have matching API version.].
+
+[source,shell]
+$ ps aux | grep docker
+root      3005  0.0  4.2 455652 21640 ?        Ssl  16:28   0:00 /usr/bin/docker -d -H fd://
+
+NOTE: you could do the same with _VirtualBox_ locally for example. I'm just not using boot2docker.iso on purpose since it's designed to configure itself securely (see /etc/init.d/docker) and I want to do that myself.
+
+=== Explaining things
+
+So, if you read the link:https://docs.docker.com/articles/https/[official documentation], and you're a total newbie in security, you may have a hard time understanding the suite of terms & commands.
+
+So, for the purpose of understanding what we're doing.
+What is:
+
+* a 'CA'?
+* a public/private key?
+* a _certificate_?
+
+==== CA : Certificate Authority
+
+In our case here, see it as a stamp. This is something we're gonna use to _sign_ keys to certify we know about them and the fact you can use them confidently.
+
+==== Public/private key
+
+Again, to simplify, let's say the public key is a lock. Every body has access to it.
+
+The private key is like a real key, the only one that can pair with the lock above.
+
+==== A certificate
+
+(In the doc, the .pem files).
+
+This is something that has been _certified_ as valid/trustable by the CA.
+
+In our case, that's why we sign the public
