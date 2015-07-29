@@ -1,14 +1,17 @@
 from debian
 
 RUN apt-get update -y && \
-    apt-get install curl -y && \
-    version=$( curl -s https://github.com/spf13/hugo/releases/latest | sed 's#.*https://github.com/spf13/hugo/releases/tag/v\(.*\)".*#\1#' ) && \
-    curl -L https://github.com/spf13/hugo/releases/download/v$version/hugo_${version}_amd64.deb > hugo.deb && \
-    dpkg -i hugo.deb
+    apt-get install -y \
+                       curl \
+                       golang-go \
+                       git \
+                       mercurial \
+                       asciidoctor
 
-# TODO merge with above when more bandwidth
+ENV GOPATH /gopath
+RUN go get -v github.com/spf13/hugo
 
-RUN apt-get install asciidoctor -y
+ENV PATH $GOPATH/bin:$PATH
 
 ADD . /blog
 
