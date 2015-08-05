@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eou pipefail
+
 containerName=blog
 containerPort=80
 imageName=blog
