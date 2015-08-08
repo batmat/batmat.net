@@ -13,8 +13,8 @@ a|
 125 Rue Bonnat
 31400 Toulouse
 
-34 ans, marié, 2 enfants + <=====fr
-34 yo, married, 2 children + <=====en
+34 ans, français, marié, 2 enfants + <=====fr
+34 yo, Froggy, married, 2 children + <=====en
 image:ressources/phone.png[Tel,width=24,link="mailto:baptiste@mathus.fr",title="Mobile"] 
 `06 83 49 51 09`
 
@@ -32,11 +32,8 @@ link:http://twitter.com/bmathus"[bmathus]
 |===
 
 .A propos <=====fr
-.About <=====en
-****
+**** <=====fr
 Je suis un développeur passionné depuis plus de 10 ans. Mon intérêt naturel allant davantage vers les couches applicatives _backend_, je me suis souvent trouvé en situation de travailler sur des solutions techniques, ou de fournir des services destinés aux autres développeurs, et globalement aux profils plus techniques. <=====fr
-
-I am devloper<=====en
 
 J'ai travaillé jusqu'en 2010 à la création d'un framework interne de développement _Java EE_ destiné à accélérer les développements (générateur de code MDD + socle technique Java). En parallèle, j'ai initié la mise en place d'une _forge logicielle_ (intégration continue, etc.). Partie de rien, cette infrastructure est aujourd'hui devenue centrale et critique, utilisée quotidiennement par près de 100 personnes, contenant notamment près de 1000 jobs et mettant en oeuvre plus de 20 esclaves (Jenkins). <=====fr
 
@@ -49,7 +46,7 @@ J'ai découvert par ailleurs l'agilité en 2010, et m'y suis fortement intéress
 J'ai pour finir une soif d'apprendre sans cesse, une passion pour le partage des connaissances et les échanges humains. Je contribue régulièrement à plusieurs projets OpenSource, et suis _committer_ sur certains comme link:http://www.mojohaus.org/[MojoHaus], link:https://wiki.jenkins-ci.org/display/JENKINS/Build+Trigger+Badge+Plugin[Jenkins], ou link:https://github.com/SonarCommunity/sonar-l10n-fr[SonarQube].<=====fr
 Je suis aussi présidentfootnote:[Même si notre organisation est collégiale dans les faits. En Juin 2015, nous avons d'ailleurs voté la transformation de nos statuts en statuts collégiaux] du link:http://www.toulousejug.org/trombinoscope/[Toulouse Java User Group depuis 2012].<=====fr
 
-****
+**** <=====fr
 
 <<<
 
@@ -59,13 +56,13 @@ Je suis aussi présidentfootnote:[Même si notre organisation est collégiale da
 
 2014 -> Actuellement::<=====fr
 2014 -> Currently::<=====en
-*MiPih* : Forge Logicielle : notre équipe fournit l'outillage permettant aux autres équipes d'aller plus vite. Dans ce cadre nous développons aussi une application dédiée à faciliter le packaging automatisé de l'ensemble des modules du logiciel (calculs et validation des inter-dépendances, etc...).<=====fr
-*MiPih* : Software Factory : our team provides the tooling to help other teams go faster. We also develop an internal application designed to help facilitate packaging of all the modules (validating & updating dependencies, automating the release process...).<=====en
+*MiPih* : Développeur de Forge Logicielle : notre équipe fournit l'outillage permettant aux autres équipes d'aller plus vite (j'ai en fait initié cette forge, puis y ai travaillé de façon indirecte depuis 2009). Dans ce cadre nous développons aussi une application dédiée à faciliter le packaging automatisé de l'ensemble des modules du logiciel (calculs et validation des inter-dépendances, etc...).<=====fr
+*MiPih* : Software Factory Developer: our team provides the tooling to help other teams go faster (I've actually bootstrapped this around 2009, and indirectly worked on it since). We also develop an internal application designed to help facilitate packaging of all the modules (validating & updating dependencies, automating the release process...).<=====en
 
 
 2013::
-*MiPih* : Scrum Master pendant près d'un an dans l'équipe de développement (jusqu'à 9 personnes) de la couche sécurité du projet PGIH (réécriture de l'ensemble de l'offre MiPih sous forme d'intégré Java).<=====fr
-*MiPih* : Scrum Master pendant près d'un an dans l'équipe de développement (jusqu'à 9 personnes) de la couche sécurité du projet PGIH (full & Integrated Java rewrite of the existing company softwares).<=====en
+*MiPih* : Scrum Master : développement couche sécurité du projet PGIH (réécriture Java de l'offre MiPih). Jusqu'à 9 personnes dans l'équipe. <=====fr
+*MiPih* : Scrum Master. Development of the security subsystem (interception, API) of the PGIH project (Full rewrite of the MiPih softwares). Up to 9 developers in the team. <=====en
 
 2012 -> Actuellement::<=====fr
 2012 -> Currently::<=====en
@@ -81,8 +78,13 @@ Je suis aussi présidentfootnote:[Même si notre organisation est collégiale da
 *MiPih* : Developer on the Java EE internal framework <=====en
 
 2002 -> 2005::
-*MiPih* (apprentissage)
-Intégration Java -> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
+*MiPih*
+(en apprentissage) <=====fr
+(apprenticeship) <=====en
+Intégration <=====fr
+Java
+Integration <=====en
+-> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
 
 <<<
 
@@ -94,15 +96,12 @@ Intégration Java -> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
 2002 -> 2005::
     Diplôme d'ingénieur en alternance en Informatique Réseaux (IR)<=====fr
     Master of Science footnote:[french "engineering diploma"] <=====en
-    (Ingénieurs 2000 - Université de Marne La Vallée)
+    (Ingénieurs 2000 - Université de Marne La Vallée) <=====fr
+    (Ingénieurs 2000 - _Marne La Vallée_ University) <=====en
 
 2000 -> 2002::
     DUT Informatique option Informatique (Université PARIS XII de Sénart Fontainebleau) <=====fr
-    Two-year university degree in technology (French /DUT/, attended in Fontainebleau, France) <=====fr
-
-
-1999 -> 2000::<=====fr
-    1^re^ année de DUT de Maintenance Industrielle (Université Paris XII de Sénart Fontainebleau)<=====fr
+    Two-year university degree in technology (French _DUT_, attended in Fontainebleau, France) <=====en
 
 1999::
     Baccalauréat Scientifique spécialité Mathématiques (Lycée François Couperin à Fontainebleau)<=====fr
@@ -115,58 +114,96 @@ Intégration Java -> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
 
 === Programmation <=====fr
 === Programming <=====en
-* Clean Code, Design, Algorithmique, Complexité, Refactoring...
+* Clean Code, Design, Algorithmique, Complexité, Refactoring... <=====fr
+* Clean Code, Design, Algorithmics, Complexity, Refactoring... <=====en
 
-Langages:: Java (développement, tuning JVM), Groovy, Bash, Scala, HTML/CSS/JavaScript, C/C++
-Bibliothèques & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JNI...
-Serveurs:: JBoss, Tomcat, Apache HTTPd, Nginx
+Langages:: Java (développement, tuning JVM), Groovy, Bash, Scala, HTML/CSS/JavaScript, C/C++ <=====fr
+Bibliothèques & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JNI... <=====fr
+Serveurs:: JBoss, Tomcat, Apache HTTPd, Nginx <=====fr
 
-=== Build & Automatisation
-* Jenkins (maintenance de 2 plugins publics, Déploiement et exploitation d'une forge de rien à aujourd'hui 20 esclaves, près de 1000 jobs...)
-* Maven (Committer sur le projet OpenSource link:http://www.mojohaus.org/[MojoHaus]), SonarQube, Nexus
-* Docker, Ansible, Vagrant, Actoboard...
+Languages:: Java (development, JVM tuning), Groovy, Bash, Scala, HTML/CSS/JavaScript, C/C++ <=====en
+Libraries & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JNI... <=====en
+Servers:: JBoss, Tomcat, Apache HTTPd, Nginx <=====en
+
+=== Build & Automatisation <=====fr
+=== Build & Automation <=====en
+* Jenkins (maintenance de 2 plugins publics, Déploiement et exploitation d'une forge de rien à aujourd'hui 20 esclaves, près de 1000 jobs...) <=====fr
+* Jenkins (deployed and operated a software from 0 to to 20 slaves/1000 jobs today, Maintenance of two Opensource public plugins...) <=====en
+* Maven (Committer sur le projet OpenSource link:http://www.mojohaus.org/[MojoHaus]), SonarQube, Nexus <=====fr
+* Maven (Committer on the link:http://www.mojohaus.org/[MojoHaus] OpenSource project), SonarQube (french localization maintainer), Nexus <=====en
+* Docker, Ansible, Vagrant...
 
 <<<
 
-==== Gestion de sources
-* Git : présentations et link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[ateliers publics], plusieurs migrations SVN -> Git (internes ou externes, comme link:https://github.com/mojohaus[MojoHaus]), GitHub, Gerrit
+==== Gestion de sources <=====fr
+==== Source Control Management <=====en
+* Git : présentations et link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[ateliers publics], plusieurs migrations SVN -> Git (internes ou externes, comme link:https://github.com/mojohaus[MojoHaus]), GitHub, Gerrit <=====fr
+* Git: Presentations et link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[public workshops], many SVN -> Git migrations (internal or public, like for link:https://github.com/mojohaus[MojoHaus]), GitHub, Gerrit <=====en
 * Subversion, CVS
 
 [[Systeme]]
-=== Système
-* Linux (Debian, RHEL) : depuis 2000
+=== Système <=====fr
+=== System <=====en
+* Linux (Debian, Fedora/RHEL) :
+  depuis 2000 <=====fr
+  since 2000 <=====en
 * Windows
 
 [[comm]]
-=== Communication & Méthodes
-Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, devant un grand nombre de personnes si nécessaire.
+=== Communication & Méthodes <=====fr
+=== Communication & Methodologies <=====en
+Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, en français ou en anglais, devant un grand nombre de personnes si nécessaire. <=====fr
+Both my work and my character got me used to speak in public, in french or in english, before a large number of people if need be. <=====en
 
 ==== Expression
-* Orateur lors de plusieurs conférences publiques
-** link:https://www.parleys.com/author/baptiste-mathus[Sessions au _Toulouse Java User Group_]
-** Eclipse Con France link:https://www.eclipsecon.org/france2014/session/handle-billion-dollar-mistake-java-help-tools-understand-your-code[2014], 2015 (link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[atelier] et link:https://www.eclipsecon.org/france2015/session/50-slides-ide[session plénière])
-* Président du link:http://www.toulousejug.org/[Toulouse Java User Group]
-* Organisation d'événements (ateliers/présentations internes et externes)
-* Communautés OpenSource : maîtrise des modes de contribution, d'échanges (Apache, link:https://www.parleys.com/tutorial/github-pull-request[GitHub]...).
+* Orateur lors de plusieurs conférences publiques <=====fr
+* Speaker at public conferences <=====en
+** link:https://www.parleys.com/author/baptiste-mathus[Sessions au _Toulouse Java User Group_] <=====fr
+** link:https://www.parleys.com/author/baptiste-mathus[Sessions at the _Toulouse Java User Group_ (french)] <=====en
+** Eclipse Con France
+   link:https://www.eclipsecon.org/france2014/session/handle-billion-dollar-mistake-java-help-tools-understand-your-code[2014],
+   2015 (link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[atelier] et <=====fr
+   2015 (link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[workshop] and <=====en
+   link:https://www.eclipsecon.org/france2015/session/50-slides-ide[session plénière]) <=====fr
+   link:https://www.eclipsecon.org/france2015/session/50-slides-ide[Presentation]) <=====en
+* Président du link:http://www.toulousejug.org/[Toulouse Java User Group] <=====fr
+* link:http://www.toulousejug.org/[Toulouse Java User Group] Leader <=====en
+* Ateliers/présentations internes et externes <=====fr
+* Workshops/Presentations (internal & public) <=====en
+* Communautés OpenSource : maîtrise des modes de contribution, d'échanges (Apache, link:https://www.parleys.com/tutorial/github-pull-request[GitHub]...). <=====fr
+* OpenSource Communities : proficiency in how to contribute to projects (Apache, link:https://www.parleys.com/tutorial/github-pull-request[GitHub]...). <=====en
 
-[[Agilite]]
-==== Agilité
-* Animation d'ateliers, souvent via _Serious Games_ (rétrospectives, ateliers de priorisation, définition produit)
-* Scrum Master (j'accorde une importance infinie à ne pas pas transformer ce *rôle* en version moderne d'un _chef de projet_)
-* Product Owner sur produit technique
-* Membre de l'association link:http://agiletoulouse.fr/[AgileToulouse]
+[[Agile]]
+==== Agilité <=====fr
+==== Agile  <=====en
+* Animation d'ateliers, souvent via _Serious Games_ (rétrospectives, ateliers de priorisation, définition produit) <=====fr
+* Workshops animations, often via _Serious Games_ (retrospectives, prioritization, product definition...) <=====en
+* Scrum Master (j'accorde une importance infinie à ne pas pas transformer ce *rôle* en version moderne d'un _chef de projet_) <=====fr
+* Scrum Master (giving a great importance to *not* change this _role_ into a modern version of a /project manager/) <=====en
+* Product Owner sur produit technique <=====fr
+* Product Ownership (on technical product) <=====en
+* Membre de l'association link:http://agiletoulouse.fr/[AgileToulouse] <=====fr
+* Member of link:http://agiletoulouse.fr/[AgileToulouse], the Toulouse Agile association <=====en
 
 <<<
 
-== Langues
-* Français : langue maternelle
-* Anglais : Courant
-** Diplômes de l'Université de Cambridge :
-*** _C_ au link:http://www.cambridgeesol.org/exams/cae.htm[Certificate of Advanced English] (2004)
-*** _A_ au link:http://www.cambridgeesol.org/exams/fce.htm[First Certificate Of English]
-* Allemand : Bases
+== Langues <=====fr
+== Languages <=====en
+* Français : langue maternelle <=====fr
+* Français : Native Speaker <=====en
+* Anglais : Courant <=====fr
+* English : Fluent <=====en
+** Diplômes de l'Université de Cambridge : <=====fr
+** Cambridge English Language Assessment : <=====en
+*** _C_ : link:http://www.cambridgeesol.org/exams/cae.htm[Certificate of Advanced English] (2004)
+*** _A_ : link:http://www.cambridgeesol.org/exams/fce.htm[First Certificate Of English]
+* Allemand : Bases  <=====fr
+* German: basics  <=====en
 
-== Loisirs
+== Loisirs <=====fr
+== Interests and activities <=====en
 
-* OpenSource, Informatique
-* Course à pieds, sport en général
+* Course à pieds, sport en général <=====fr
+* Running/trail those days, sports in general <=====en
+* OpenSource, Informatique <=====fr
+* OpenSource, Programming <=====en

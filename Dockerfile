@@ -18,6 +18,7 @@ ADD . /blog
 WORKDIR /blog
 
 RUN rm -rf public && \
+    rm -rf .git && rm -f .gitignore && \
     hugo --theme=batmat
 
 RUN mkdir public/cv && \
