@@ -17,9 +17,13 @@ ADD . /blog
 
 WORKDIR /blog
 
-RUN rm -rf build && \
+RUN rm -rf public && \
     hugo --theme=batmat
 
+RUN mkdir public/cv && \
+    cd _cv && \
+    ./build.sh && \
+    mv _dist/* ../public/cv/
 
 EXPOSE 80
 
