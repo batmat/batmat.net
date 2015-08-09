@@ -5,6 +5,9 @@
 :stylesheet: asciidoctor-stylesheet-factory/stylesheets/maker.css
 :last-update-label!:
 
+link:en.html[See English Version] <=====fr
+link:fr.html[Voir version française] <=====en
+
 [cols="2"]
 [frame="none"]
 |===
