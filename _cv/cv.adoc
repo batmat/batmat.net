@@ -12,8 +12,7 @@ link:fr.html[Voir version française] <=====en
 [frame="none"]
 |===
 a|
-[%hardbreaks]
-125 Rue Bonnat
+125 Rue Bonnat +
 31400 Toulouse
 
 34 ans, français, marié, 2 enfants + <=====fr
