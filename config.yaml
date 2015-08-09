@@ -1,7 +1,7 @@
 baseurl: "http://batmat.net"
 title: "batmat.net"
 params:
-  Description: "reloaded"
+  Description: "Blogounage"
   Id: "Bimbimbim"
 languageCode: "fr-FR, en-US"
 permalinks:
