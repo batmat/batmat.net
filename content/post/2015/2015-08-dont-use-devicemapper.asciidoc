@@ -1,0 +1,70 @@
+---
+Title: "Docker Storage Driver: Don't Use Devicemapper"
+Date: 2015-08-26
+Author: "Baptiste Mathus"
+---
+
+:last-update-label!:
+
+_DISCLAIMER: I'm not a system expert. What follows is more an aggregation of things I've tried and informations gathered on the Internet. I also wrote it to serve as a placeholder for myself. I make sure to provide many links so that you can make your own opinion. Please don't hesitate to give feedback if you disagree with some statements below._
+
+For some months now, we've started deploying more and more Docker services internally to progressively gather experiences.
+
+After encountering a few issues, mainly related to storage, I've started to read a lot about the Docker Storage drivers.
+
+== Docker default behaviour (with DeviceMapper): Wrong
+
+As much as I love Docker, some may find a pity that the default behaviour is *NOT* to be used in production (on a _non-ubuntu_ host)!
+
+Indeed, by default, here's what Docker will choose as a storage driver:
+
+* AUFS
+* Devicemapper, in **loopback** mode
+
+BUT, the thing is: though __AUFS__ is apparently great for Docker (was used by DotCloud for their PaaS, before it became public), it's *not* in the standard kernel. And is unlikely to be in the future.
+
+// TODO : find ref
+
+For this reason, distributions like RedHat (which is link:http://developerblog.redhat.com/2014/09/30/overview-storage-scalability-docker/[__upstream-first__]) chose to support devicemapper instead, in the so-called _thin provisioning_ mode, aka _thinp_.
+
+But by default, if AUFS is not found in the current kernel, Docker will fallback to the ubiquitous devicemapper driver. And for the default again, it will create loopback files. This is great for newcomers bootstrapping, but horrible from a least surprise principle perspective: since this mode MUST NOT be used in production.
+
+
+
+== So, I can use still Devicemapper, if I make sure to use _thinp_?
+
+Short answer: no.
+
+Longer one: many Docker knowledgeable people have publicly stated that you should prefer other ones. Many have even recommended that you default to using Overlay footnote:[Previously named Overlayfs, it has been link:http://jpetazzo.github.io/assets/2015-07-01-deep-dive-into-docker-storage-drivers.html#61[renamed simply Overlay when it got merged in the Kernel]]:
+
+[quote, Solomon Hykes, 'https://twitter.com/solomonstre/status/604055267303636992']
+@codinghorror more specifically we've *never seen devmapper work reliably*... Overlayfs support is pretty good now. Also zfs & btrfs.
+
+Even _Daniel J Walsh_ aka _rhdan_, working for _RedHat_ has stated footnote:[in a pull-request by RedHat's Vincent Batts, one of the most active Docker committers not working for Docker Inc, about link:https://github.com/docker/docker/pull/12354[putting overlay as the default driver] in place of Devicemapper. That may ring yet another bell to you. At least it did for me.]:
+
+[quote, rhdan, 'https://github.com/docker/docker/pull/12354#issuecomment-121958324']
+Red Hat kernel engineers have been working hard on Overlayfs, (Perhaps others on the outside, but I am not familiar). We hope to turn it on for docker in rhel7.2 BUT [...]
+
+
+Or:
+[quote, Jérôme Petazzoni, 'https://jpetazzo.github.io/assets/2015-07-01-deep-dive-into-docker-storage-drivers.html#46']
+Device Mapper is a complex subsystem
+
+I can't help thinking that this sentence may tell us more about the subject than his author was thinking. Complexity often being the reason software can not survive years? Might be.
+
+
+== Conclusion: if in doubt, use overlay
+I've started converting the Docker hosts I work with from devicemapper to overlay. My first impressions are good and everything seems to be working as expected footnote:[I've actually had link:https://bugzilla.redhat.com/show_bug.cgi?id=1216096[issues with RedHat's Docker 1.6.x] but this disappeared when I upgraded the Fedora Atomic Host I was playing with to Docker 1.7.1].
+
+From all I've read, my current wager is that overlay will soon become the default driver. It has the pros of devmapper (no need to create a FS for one) apparently without much of its cons.
+
+Only some specific use cases will still make people choose other drivers like btrfs or zfs. But as these require to create and size real FS to be used, they are unlikely to be used as widely.
+
+== Some references
+* link:http://jpetazzo.github.io/assets/2015-07-01-deep-dive-into-docker-storage-drivers.html[Deep dive into Docker storage drivers]
+* link:https://github.com/docker/docker/pull/12354[Pull Request to promote Overlay to first]. Closed since there're still issues
+* Since link:https://github.com/docker/docker/pull/11999[1.7.0], Docker will guess the previously used driver and still use it even if the default changes. This is indeed a cool enhancement to be able to change the Docker default driver to something else than devmapper/aufs/whatever in a future version without breaking existing installations while upgrading.
+* link:http://blog.cloud66.com/docker-with-overlayfs-first-impression/[Interesting feedback: _Docker with Overlayfs first impression_]
+* link:http://developerblog.redhat.com/2014/09/30/overview-storage-scalability-docker/[Comprehensive Overview of Storage Scalability in Docker]. By the way you can see overlay is indeed very quick, and comparable to btrfs without the FS creation burden.
+* link:http://www.projectatomic.io/blog/2015/06/notes-on-fedora-centos-and-docker-storage-drivers/[Friends Don't Let Friends Run Docker on Loopback in Production]
+* Pull Request still currently open to make Docker  link:https://github.com/docker/docker/pull/13266[emit Warnings when using devmapper in loopback mode]
