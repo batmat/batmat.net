@@ -43,8 +43,7 @@ cascading. Celui-ci n'est propagé dans le cas de save() que si la
 relation est mappée *cascade="save-update"*, alors que c'est
 *cascade="persist"* pour persist().
 
-Notez que si vous mappez *cascade="all"*, cela inclue à la fois
+Notez que si vous mappez *cascade="all"*, cela inclut à la fois
 save-update et persist. Donc pour les relations mappées "all", la
 sémantique de *persist()* et de *save()* sont à mon avis **extrêmement
 proches**.
-
