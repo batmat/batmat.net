@@ -22,7 +22,7 @@ a|
 
 image:ressources/email.png[E-Mail,width=24,link="mailto:baptiste@mathus.fr",title="E-Mail"] 
 baptiste@mathus.fr +
-image:ressources/blog.png[Weblog,width=24,link="mailto:baptiste@mathus.fr",title="Blog"] 
+image:ressources/blog.png[Weblog,width=24,link="http://batmat.net",title="Blog"] 
 http://batmat.net +
 image:ressources/github.png[GitHub,width=24,link="https://github.com/batmat/",title="GitHub"] 
 link:https://github.com/batmat[batmat] +
