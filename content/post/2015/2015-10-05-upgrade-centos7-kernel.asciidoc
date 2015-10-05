@@ -1,0 +1,52 @@
+---
+Title: "Upgrading Centos 7 Kernel to enable using Overlay with Docker"
+Date: 2015-10-05
+Author: "Baptiste Mathus"
+---
+
+== Context
+
+I wanted to use Overlay storage driver for our Docker hosts
+(see why link:/2015/08/26/docker-storage-driver-dont-use-devicemapper[devicemapper should be avoided in my opinion]. ).
+
+The issue is: Overlay__fs__ support has been
+link:http://jpetazzo.github.io/assets/2015-03-03-not-so-deep-dive-into-docker-storage-drivers.html#53[merged in the Linux Kernel in 3.18] and Centos 7 is currently using a 3.10 one
+.footnote:[Actually, that 3.10 kernel is not a vanilla one, it contains a lot of backported features. But the fact is that I had a lot of issues with RHEL 7.1.
+link:https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7-Beta/html-single/7.2_Release_Notes/index.html[RHEL 7.2 is said to contain yet another bunch of backports for better Overlay support]. But RHEL7.2 is still Beta currently and GA date is not yet announced.].
+
+== Upgrade your kernel
+
+Hence, since this is not for a customer-facing production machine, I decided to upgrade the kernel.
+
+The simplest way to do it is to use link:http://linoxide.com/linux-how-to/upgrade-linux-kernel-stable-3-18-4-centos/[_ELRepo_ and install the package called 'kernel-ml'] (like in kernel _**m**ain**l**ine_).
+
+TL;DR:
+
+[source,shell]
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
+yum --enablerepo=elrepo-kernel install kernel-ml
+
+== Bonus: switch grub by command line before rebooting
+
+If you use a remote VM like me, you may not have access to the grub UI when the machine reboots. And the thing is: Centos will by default use the previous kernel.
+
+So, by default again, if you reboot without modifying it, you will stay on the same old kernel.
+
+If you want your machine to use the newly installed one: execute the following command (it will select the first available kernel, which is the newly installed on centos by default)
+
+[source,shell]
+grub2-set-default 0
+
+To show link:https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html[the list of available kernels], you can verify that the new one is indeed the first:
+
+[source, shell]
+$ awk -F\' '$1=="menuentry " {print $2}' /etc/grub2.cfg
+CentOS Linux (4.1.6-1.el7.elrepo.x86_64) 7 (Core)
+CentOS Linux (4.1.6-1.el7.elrepo.x86_64) 7 (Core) with debugging
+CentOS Linux (3.10.0-229.7.2.el7.x86_64) 7 (Core)
+CentOS Linux (3.10.0-229.7.2.el7.x86_64) 7 (Core) with debugging
+CentOS Linux 7 (Core), with Linux 3.10.0-229.el7.x86_64
+CentOS Linux 7 (Core), with Linux 0-rescue-53ed95ad53094b469043c84aa868b827
+
+Hope this helps!
