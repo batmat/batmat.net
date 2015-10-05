@@ -17,8 +17,6 @@ a|
 
 34 ans, français, marié, 2 enfants + <=====fr
 34 yo, Froggy, married, 2 children + <=====en
-image:ressources/phone.png[Tel,width=24,link="mailto:baptiste@mathus.fr",title="Mobile"] 
-`06 83 49 51 09`
 
 a|
 
