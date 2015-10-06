@@ -126,9 +126,16 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
+/** batmat: Fixing asciidoctor generated content using .content classes
+  for code blocks for example **/
+.content .content {
+  margin: 0em !important;
+  padding: 0em !important;
+}
+
 @media (min-width: 48rem) {
   .content {
-    max-width: 38rem;
+    max-width: 46rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
