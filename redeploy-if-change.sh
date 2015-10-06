@@ -15,6 +15,9 @@ if docker images | grep $currentSha >/dev/null ; then
   echo "Image found, nothing to do"
 else
   echo "No image found with that name, rebuild and redeploy"
+  echo "Removing exited containers"
+  docker ps -aq --filter=status=exited | xargs --no-run-if-empty docker rm
+  
   echo "building"
   docker build -t $imageFullName .
   docker kill $containerName || echo "No container to kill named $containerName"
