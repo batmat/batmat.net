@@ -1,0 +1,52 @@
+---
+Title: "How to use Jenkins & Docker Swarm to easily build a forge"
+Date: 2015-10-15
+Author: "Baptiste Mathus"
+Draft: true
+Tags: ["docker","jenkins","swarm","forge"]
+---
+
+== Context
+
+I've been using some CI tools for almost 10 years now. First Continuum, then Hudson,
+then Jenkins and still using it today.
+I started installing those things in the typical old-school (i.e. bad today) way: by hands.
+
+In my mind, doing things by hands is dirty. It leads to the now widely adopted term _configuration drift_.
+
+Coming from a dev-ish background, btw, I'm used to version my things. I would never consider patching
+my code directly in prod without committing it to my SCM, why would it acceptable for servers?
+
+And to get back to the current specific case: not versioning things you did on your Jenkins instance is gonna
+make your updates more painful. You may not notice it (I didn't) at first, but as your software factory
+grows (as your users base), you may realize things goes less and less smoothly for your upgrades.
+
+Knowing what the heck you did on your instance is gonna both help you upgrading
+(easy to provision a preproduction instance for example), and provide _executable documentation_ to
+your colleagues and help reduce the link:https://en.wikipedia.org/wiki/Bus_factor[Bus Factor].
+
+== Config manage them all
+
+Our Forge is a mid-size one (~700 jobs & 20+ nodes, ~50 developers using it daily, ~100/150 people ).
+
+It's big enough so that upgrading it can become problematic.
+
+== The Goal
+
+My current ideal Jenkins setup is something like that: a totally config-managed Jenkins master,
+that would send its workload (i.e builds in that case) to
+
+== The Idea
+
+TODO: diagram with Jenkins on one side, SCM close to it, that would /talk/ to some Cloud-like thing.
+
+Then why not use Swarm! (why not Kubernetes explain shortly).
+
+Seems pretty slick blablabla.
+
+
+==
+
+TODO :
+* Jenkins starting
+* Swarm cluster
