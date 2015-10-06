@@ -7,7 +7,7 @@ Author: "Baptiste Mathus"
 == Context
 
 I wanted to use Overlay storage driver for our Docker hosts
-(see why link:/2015/08/26/docker-storage-driver-dont-use-devicemapper[devicemapper should be avoided in my opinion]. ).
+(see why link:{{< relref "2015-08-dont-use-devicemapper.asciidoc" >}}[devicemapper should be avoided in my opinion]. ).
 
 The issue is: Overlay__fs__ support has been
 link:http://jpetazzo.github.io/assets/2015-03-03-not-so-deep-dive-into-docker-storage-drivers.html#53[merged in the Linux Kernel in 3.18] and Centos 7 is currently using a 3.10 one
