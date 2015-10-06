@@ -3,6 +3,7 @@ Title: "Securing an existing Docker Daemon"
 Date: 2015-07-27
 Author: "Baptiste Mathus"
 Draft: true
+Tags: ["docker"]
 ---
 
 :last-update-label!:

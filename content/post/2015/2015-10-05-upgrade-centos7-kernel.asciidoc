@@ -2,6 +2,7 @@
 Title: "Upgrading Centos 7 Kernel to enable using Overlay with Docker"
 Date: 2015-10-05
 Author: "Baptiste Mathus"
+Tags: ["docker","centos","rhel","kernel"]
 ---
 
 == Context

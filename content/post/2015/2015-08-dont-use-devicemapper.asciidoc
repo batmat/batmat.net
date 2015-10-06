@@ -2,6 +2,7 @@
 Title: "Docker Storage Driver: Don't Use Devicemapper"
 Date: 2015-08-26
 Author: "Baptiste Mathus"
+Tags: ["docker","devicemapper","overlay","storage","driver"]
 ---
 
 :last-update-label!:

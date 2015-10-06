@@ -3,6 +3,7 @@ Title: "De l'intérêt de Docker pour tout développeur !"
 Date: 2014-10-02
 Author: "Baptiste Mathus"
 url: "2014/10/02/de-linteret-de-docker-pour-tout-developpeur"
+Tags: ["docker"]
 ---
 
 Dans l'article qui suit, je vais vous montrer comment j'ai récemment eu l'occasion
