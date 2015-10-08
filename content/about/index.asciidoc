@@ -1,0 +1,9 @@
+---
+Title: "About me"
+Author: "Baptiste Mathus"
+---
+
+CV :
+
+image:/images/en-flag.png[title="English - Resume", link="/cv/en.html"]
+image:/images/fr-flag.png[title="Français - Curriculum vitæ", link="/cv/fr.html"]
