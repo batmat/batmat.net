@@ -3,7 +3,18 @@ Title: "About me"
 Author: "Baptiste Mathus"
 ---
 
+== Baptiste Mathus
+
+Passionate hacker with special interest in tooling.
+
+image:/images/github.png[GitHub,width=24,link="https://github.com/batmat/",title="GitHub"]
+image:/images/twitter.png[Twitter,width=24,link="http://twitter.com/bmathus",title="Twitter"]
+image:/images/email.png[E-Mail,width=24,link="mailto:baptiste at mathus dot fr",title="E-Mail"] 
+image:/images/blog.png[Weblog,width=24,link="http://batmat.net",title="Blog"]
+
 CV :
 
 image:/images/en-flag.png[title="English - Resume", link="/cv/en.html"]
 image:/images/fr-flag.png[title="Français - Curriculum vitæ", link="/cv/fr.html"]
+
+NOTE: this page is a work in progress.
