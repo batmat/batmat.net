@@ -8,10 +8,9 @@ RUN apt-get update -y && \
                        mercurial \
                        asciidoctor
 
-ENV GOPATH /gopath
-RUN go get -v github.com/spf13/hugo
-
-ENV PATH $GOPATH/bin:$PATH
+RUN curl -L https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_linux_amd64.tar.gz | \
+    tar xvzf - && \
+    mv hugo_0.15_linux_amd64/hugo* /usr/local/bin/hugo
 
 ADD . /blog
 
