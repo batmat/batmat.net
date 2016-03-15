@@ -3,7 +3,7 @@
 set -eou pipefail
 
 containerName=blog
-containerPort=80
+containerPort=8081
 imageName=blog
 currentSha=$( git rev-parse HEAD )
 
