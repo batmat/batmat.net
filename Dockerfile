@@ -1,4 +1,4 @@
-from debian
+from nginx:1.9
 
 RUN apt-get update -y && \
     apt-get install -y \
@@ -27,6 +27,4 @@ RUN mkdir public/cv && \
 
 EXPOSE 80
 
-ENTRYPOINT ["hugo","--theme=batmat", "server", "--port=80"," --appendPort=false","--disableLiveReload=true", "--bind=0.0.0.0"]
-
-CMD ["--baseUrl=http://batmat.net"]
+RUN mv public/* /usr/share/nginx/html/
