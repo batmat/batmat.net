@@ -128,8 +128,12 @@ Servers:: JBoss, Tomcat, Apache HTTPd, Nginx <=====en
 
 === Build & Automatisation <=====fr
 === Build & Automation <=====en
-* Jenkins (maintenance de 2 plugins publics, Déploiement et exploitation d'une forge de rien à aujourd'hui 20 esclaves, près de 1000 jobs...) <=====fr
-* Jenkins (deployed and operated a software from 0 to to 20 slaves/1000 jobs today, Maintenance of two Opensource public plugins...) <=====en
+* Jenkins (**Membre Actif de la Communauté**) <=====fr
+* Jenkins (**Active Community Member**) <=====en
+** Maintainer of 4 OpenSource plugins <=====en
+** Operating a software factory (Docker Swarm provisioned agents, 1500 jobs, 50+ hours of builds per day) <=====en
+** Mainteneur de 4 plugins OpenSource <=====fr
+** Exploitation d'une forge logicielle (provisionning agents via Docker Swarm, 1500 jobs, +50 heures de builds par jour) <=====fr
 * Maven (Committer sur le projet OpenSource link:http://www.mojohaus.org/[MojoHaus]), SonarQube, Nexus <=====fr
 * Maven (Committer on the link:http://www.mojohaus.org/[MojoHaus] OpenSource project), SonarQube (french localization maintainer), Nexus <=====en
 * Docker, Ansible, Vagrant...
