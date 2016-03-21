@@ -88,10 +88,11 @@ Integration <=====en
 
 <<<
 
-== Formation
+== Formation <=====fr
+== Education <=====en
 
 2012::
-  Functional Programming Principles In Scala -- Coursera (MOOC)
+  Functional Programming Principles In Scala -- Coursera (_MOOC_)
 
 2002 -> 2005::
     Diplôme d'ingénieur en alternance en Informatique Réseaux (IR)<=====fr
