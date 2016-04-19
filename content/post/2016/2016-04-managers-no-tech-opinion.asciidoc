@@ -1,0 +1,71 @@
+---
+Title: "Why Managers Should Not Give Their Technical Opinion"
+Date: 2016-04-19
+Author: "Baptiste Mathus"
+Tags: ["management","technical","decision","agile"]
+---
+
+[quote]
+A Good Manager Should Never Voice A Technical Opinion.
+
+== Wait, what? Why exclude them if they could be useful?
+
+Management is too often badly considered. In my opinion, it's because we actually rarely encounter
+good managers.
+You know, useful, inclusive, psychologist, able to catalyze work, and never get in
+the way, you have known plenty of them right?
+
+Being a good manager is _hard_.
+
+Like being a good developer.
+
+It takes passion, time, experience, reading, and so many other things.
+And by trying to chase too many rabbits, you're taking the risk to never even catch one.
+
+=== But that manager is technically very good! She/he a lot of experience!
+
+==== Fading thing
+In IT, 2 years is a long time. 5 years is a life time. 10 years is eternity.
+
+So, basically, that statement will become very rapidly obsolete.
+And if you're being unlucky and that manager tries staying up-to-date, then he won't spend that time on what he should (you know: caring about human, making the company a great place to work, tackling impediments, logistics).
+
+As said above, being a good manager takes time.
+Reading a book on the latest technology trend will be more time taken from reading a book on human behaviours and becoming better at handling them...
+
+==== Not doing the job. Twice.
+
+If, really, that manager is technically better than anyone in the team, well in my opinion, you then have far bigger organizational issues.
+
+I'll ask two questions:
+
+. What the heck does she/he do in a manager's position?
+. Why is he/she spending time working on technical things, when her/his first work should then be to start hiring people better than her/him? Not doing so is **putting the company in serious disarray**.
+
+==== HiPPO & the likes
+
+If that manager spent more time reading things on human behaviours, she/he'd be aware that there's many natural human _deviances_. One is that many people, especially introverts, will not dare voice their own opinion after the _Highest Paid Person Opinion_ has been expressed. Even if the idea could have been better.
+
+Said differently, if those managers hope their sayings are going to be  judged not because of their _power_, but because of their technical  validity, well they are wrong and working around that is difficult.
+
+== My Context
+
+I've been willing to write that down for a while. It started as a guts feeling,
+then as time went by I think I found more arguments to articulate my thoughts.
+It's still ongoing, but I felt it is now somewhat clear enough to propose it here and possibly get some feedback.
+
+I am talking here about _human_ managers of many teams. I mean the type of position where your role is
+(should be?) to provide your team members with context so that they know where the company is going
+(i.e. alignment!).
+
+Even if that may apply to other areas, what I have in mind is IT. The domain I work in and hence
+know the best. I also have in mind a modern/Agile organization where the goal is more to make the
+company succeed than to respect any form of historical _hierarchical_ establishment.
+
+Roughly, in my mind, that kind of manager can exist for at least 20 people. Below that number is heading towards micro-management.
+
+== Wrap up
+
+Being and staying a good one is going to take time.
+
+That time being a finite resource, you cannot be good and up-to-date in all areas.
