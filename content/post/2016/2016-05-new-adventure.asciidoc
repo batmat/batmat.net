@@ -1,0 +1,33 @@
+---
+Title: "New Adventure"
+Date: 2016-05-15
+Author: "Baptiste Mathus"
+---
+
+I have always been a tooling guy. Early in my carrier, now more than 10 years ago, I realized how much I love writing things making my life easier.
+
+Automation for the win!
+
+== Open Source
+
+I have also always liked to be part of opensource communities. Sharing knowledge and helping others, learning a lot in the process. Participating in things like Hibernate documentation translation, Hibernate forum, Apache Maven mailing lists, Continuum, Archiva, M2E, Sonar[Qube], Hudson, and... Jenkins.
+
+After switching from Apache Continuum, I started using Jenkins around 2009 when it was named a bit differently. My first message on the users mailing list seems to link:https://java.net/projects/hudson/lists/users/archive/2010-02/message/623[date back to early 2010].
+
+My first code contribution to Jenkins seems to date back to link:https://github.com/jenkinsci/jenkins/commit/3c5c2c5cc335c1bb19c4e92bd4f75a715468dd33[2011], where I had to `git bisect` a weird issue we were probably only very few to have, as we were using IBM AIX at that time.
+
+In 2012, I link:https://wiki.jenkins-ci.org/display/JENKINS/Build+Trigger+Badge+Plugin[published my first public plugin] with link:http://github.com/mpailloncy[Michaël].
+
+Later, I took over the maintenance of some others, like the link:https://wiki.jenkins-ci.org/display/JENKINS/Radiator+View+Plugin[Radiator View Plugin], link:https://wiki.jenkins-ci.org/display/JENKINS/Parameterized+Scheduler+Plugin[Parameterized Scheduler Plugin] and most importantly the link:https://wiki.jenkins-ci.org/display/JENKINS/ChuckNorris+Plugin[Chuck Norris Plugin].
+
+About 2 years ago, I started participating in the link:https://wiki.jenkins-ci.org/display/JENKINS/Governance+Meeting+Agenda[Jenkins Governance Meetings on IRC].
+
+== Full Time Jenkins!
+
+All those years, I have been spending a fair amount of time on that project close to my heart. So, having the opportunity to work full-time in "a professional opensource company" on all-things-Jenkins is obviously something strongly motivating to me.
+
+I am thrilled to say I will be joining CloudBees next August.
+
+I am very proud to soon start working with so many great individuals, bringing my small contribution to smoothifying the software delivery process in our industry.
+
+Follow me on link:https://twitter.com/bmathus[@bmathus] to get more updates if you are interested :-).
