@@ -1,4 +1,4 @@
-baseurl: "http://batmat.net"
+baseurl: "https://batmat.net"
 title: "batmat.net"
 params:
   Description: "Blogounage"
