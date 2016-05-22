@@ -10,7 +10,7 @@ Automation for the win!
 
 == Open Source
 
-I have also always liked to be part of opensource communities. Sharing knowledge and helping others, learning a lot in the process. Participating in things like Hibernate documentation translation, Hibernate forum, Apache Maven mailing lists, Continuum, Archiva, M2E, Sonar[Qube], Hudson, and... Jenkins.
+I have also always liked to be part of opensource communities. Sharing knowledge and helping others, learning a lot in the process. Participating in things like Hibernate documentation translation, Hibernate forum, Apache Maven mailing lists, MOJO @ CodeHaus (now link:http://www.mojohaus.org:[MojoHaus]) Continuum, Archiva, M2E, Sonar[Qube], Hudson, and... Jenkins.
 
 After switching from Apache Continuum, I started using Jenkins around 2009 when it was named a bit differently. My first message on the users mailing list seems to link:https://java.net/projects/hudson/lists/users/archive/2010-02/message/623[date back to early 2010].
 
