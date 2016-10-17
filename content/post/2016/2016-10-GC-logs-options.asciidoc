@@ -1,0 +1,126 @@
+---
+Title: "Always enable GC logs, and how to enable logs rotation with HotSpot"
+Date: 2016-10-17
+Author: "Baptiste Mathus"
+Tags: ["java","hotspot","gc","rotation"]
+---
+
+Having had recently to refresh my memories and play with some new things about GC logging, I thought that ought to be a good opportunity to dig a bit on it, especially on log rotation.
+
+== Reminder: Always enable GC logging in production
+
+If you run a production server, and you don't have GC logs enabled, DO IT NOW.
+Really, it could save your ass.
+
+It is unnoticeable in terms of performance impact, and is invaluable if you need to diagnose some performance issue. It was a bit of a mess with _HotSpot_ many years ago, since log rotation was not available. But now it's been added for quite a long time, there is no excuse anymore.
+
+> OK, but I don't know how to do that.
+
+Then great, read below, this is the point of this article.
+
+== GC Logging: WAT?
+
+The Garbage Collector is that thing that is going to go after you, and try to find unreferenced objects to clean up your work.
+
+That cleanup can be done using a lot of different strategies.
+It's even pluggable in the JVM. So many are in use in the field.
+They are called _Serial_, _Parallel_, _Concurrent-Mark-Sweep_ aka _CMS_, _Garbage First_ aka _G1_, and so on.
+
+Explaining each one of those strategies is way out the scope of that article.
+There is already a bunch of articles about them out there, and each one can easily require a whole article.
+
+Still, knowing what the GC has been doing on a particular setup is essential for issue analysis and decision making.
+
+The GC logs are non-standard outputs, depending on each strategy implementation, telling for example what was the previous available memory, what was freed, how much, and so on.
+
+== GC Log File Rotation
+
+Now that you know you must always enable GC logging, the obvious way to do it is to use the options to output those logs into files.
+The historical way to do that was simply to use `-Xloggc:gc.log`. Fortunately, for a few years now, since:
+
+* Java 6 Update 34
+* Java 7 Update 2 (but there is no reference to it in these release notes)
+
+There is now a standard way to do it with _HotSpot_
+footnote:[And yes, it had been possible for 10+ years for IBM J9...
+That's probably the only thing I liked about that JDK.].
+
+=== TL;DR
+
+Here is the full set of options I recommend to set up GC logs and its rotation:
+
+[source,shell]
+java -Xloggc:gc.log \
+     -XX:+UseGCLogFileRotation
+     -XX:+PrintGCDateStamps \
+     -XX:GCLogFileSize=10m \
+     -XX:NumberOfGCLogFiles=10 \
+     -jar yourapplication.jar
+
+NOTE: I verified those switches using a _1.8.0_102-b14_ and a _1.7.0_79-b15_ JRE (though Java 7 has been EOLed for 18+ months already).
+
+==== Some comments
+
+-XX:GCLogFileSize=10m:: As always, it will depend on your environment, but this value should be safe for an average setup. For example, on an actual Jenkins production server with _Parallel GC_ I just had a look on, known to be overloaded and probably suffering from a memory leak, the file was ~23 MB and spanned over 4 days.
++
+So, _10 MB_ should let you have a file for something between a few hours a few days, which is what you need.
++
+What you want to avoid is to have a value too high, that a memory issue will quickly span over multiple files, or even rotate to the point you start overwriting valuable recent data.
+-XX:NumberOfGCLogFiles=10::
+Again, here you are free to keep more, but if you read above, you will have understood that, unless you wish to keep data for later analysis for weeks or months of running, 10 or so should be enough in general.
+-XX:+PrintGCDateStamps:: Though technically not needed, I prefer using that option to help humans analyze and correlate timestamps with events. It prefixes typical lines with a human readable timestamp (_ISO-8601_):
++
+[source,gclogs]
+.Example using Parallel GC, the default GC for servers setup footnote:[I would say unfortunately, since this GC is really unsuited for user-facing applications, and that is probably the most common scenario. That is likely the reason why Java 9 is planning on making G1 the new default GC strategy.]
+----
+OpenJDK 64-Bit Server VM (25.102-b14) for linux-amd64 JRE (1.8.0_102-b14), built on Aug 25 2016 15:02:59 by "mockbuild" with gcc 6.1.1 20160621 (Red Hat 6.1.1-3)
+Memory: 4k page, physical 16041916k(4476624k free), swap 8060924k(8060924k free)
+CommandLine flags: -XX:GCLogFileSize=2097152 -XX:InitialHeapSize=256670656 -XX:MaxHeapSize=4106730496 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC
+0,066: [GC (Allocation Failure)  63488K->360K(241664K), 0,0016249 secs]
+0,076: [GC (Allocation Failure)  63848K->392K(305152K), 0,0014354 secs]
+----
++
+Without it, the timestamp will only be a differential between the specified date at the beginning of the file and a gc event.
++
+[source,gclogs]
+.Same example, but with `-XX:+PrintGCDateStamps`
+2016-10-17T07:27:25.360+0200: 9,407: [GC (Allocation Failure)  1336596K->276K(1504768K), 0,0015237 secs
+
+[source,gclogs]
+.Example using Java 7 and the _Garbage First_ GC (aka _G1_)
+2016-10-17 07:39:33 GC log file created gc.log.4
+Java HotSpot(TM) 64-Bit Server VM (24.79-b02) for linux-amd64 JRE (1.7.0_79-b15), built on Apr 10 2015 11:34:48 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+Memory: 4k page, physical 16041916k(189872k free), swap 8060924k(8060800k free)
+CommandLine flags: -XX:ConcGCThreads=2 -XX:G1HeapRegionSize=1048576 -XX:GCLogFileSize=8192 -XX:InitialHeapSize=256670656 -XX:MaxHeapSize=4106730496 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation
+2016-10-17T07:39:33.985+0200: 37,868: [GC pause (young)-- 3917M->3917M(3918M), 0,0053580 secs]
+2016-10-17T07:39:33.991+0200: 37,873: [Full GC 3917M->3718M(3918M), 2,6648930 secs]
+2016-10-17T07:39:36.656+0200: 40,539: [GC concurrent-mark-abort]
+2016-10-17T07:39:36.691+0200: 40,574: [GC pause (young)-- 3913M->3823M(3918M), 0,0076050 secs]
+2016-10-17T07:39:36.712+0200: 40,595: [GC pause (young) (initial-mark)-- 3915M->3915M(3918M), 0,0104690 secs]
+2016-10-17T07:39:36.722+0200: 40,605: [GC concurrent-root-region-scan-start]
+2016-10-17T07:39:36.722+0200: 40,605: [GC concurrent-root-region-scan-end, 0,0000090 secs]
+2016-10-17T07:39:36.722+0200: 40,605: [GC concurrent-mark-start]
+
+== A little unrelated note on GC tuning
+
+To sum up: don't do it. Unless you perfectly know what you do.
+
+[quote,Kirk Pepperdine (from memories)]
+Fine-Tuning things up-front is like asking a virtuoso pianist to play with handcuffs.
+
+I have been very lucky to follow the famous "Java Performance Tuning" training with Kirk some years ago.
+He explained that nowadays the JVM has really become an impressive piece of engineering.
+Especially, it now contains many auto-adaptive algorithms.
+Fixing values like a pool size, the initial memory
+footnote:[Did you already hear someone telling you to just set `-Xms`==`-Xmx` upfront for example?]
+and so on is likely to do more harm than good.
+
+Unless it comes from actual testing, that is. Like GC logs analysis.
+
+As always, you have to know what you're doing and not blindly apply recipes, surprising isn't it? :-)
+
+== References
+
+* link:http://gceasy.io/[GCEasy] is a great online GC logs analyzer. I'm not affiliated with them, but really I've been impressed by what they do. Having used many tools like GCMV (each time a journey to find out ho to download and install it from IBM Website) in the past (what a mess to install each time), I've been dizzy with happiness finding such a cool online tool.
+** Unrelated, but very cool: they also do link:http://fastthread.io/[FastThread], an online Thread Dump Analyzer which I recommend too.
+* Sadly, I'm not referencing the (apparently) official HotSpot page about all that for now, since it link:https://twitter.com/bmathus/status/787753924103208960[contains at least TWO typos and it's just wrong currently]...
