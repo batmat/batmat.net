@@ -1,0 +1,59 @@
+---
+Title: "How to connect to a Windows AWS instance from Linux"
+Date: 2016-12-31
+Author: "Baptiste Mathus"
+Tags: ["aws","rdp","windows","linux"]
+---
+
+:imagesdir: /blog-resources/2016-12-connect-rdp-from-linux
+
+Working on validating the new Java 8 baseline of Jenkins, I needed some Windows environment to analyze some tests failure only happening there.
+So, I went ahead to create an instance in Amazon Web Services to connect it to a Jenkins test instance.
+
+It is actually pretty simple, but I thought I would explain it quickly here because it might help some people (like me next time) to save some minutes.
+
+== Launching your instance
+
+It is out of scope here as it has nothing specific to our current use case. Just create an instance.
+I am using the `Microsoft Windows Server 2016 Base - ami-45e3ec52` for that article.
+
+CAUTION: The only important thing is to make sure to keep the selected `.pem` file handy.
+It will be necessary to retrieve the `Administrator` password once the instance is created.
+
+Your instance is now running.
+
+== Connect to it
+
+* In the UI, right-click on the instance, then click Connect.
+
+image::connect-to-instance.png[]
+
+* Copy the `Public DNS` field value
+* Open a command-line and connect using the `rdesktop` command:
+[source,shell]
+----
+$ rdesktop ec2-54-152-45-128.compute-1.amazonaws.com
+Autoselected keyboard map fr
+Connection established using SSL.
+WARNING: Remote desktop does not support colour depth 24; falling back to 16
+----
+
+This should quite slowly finally show the following screen:
+
+image::windows-login.png[]
+
+* On the AWS _Connect To Your Instance_ dialog open previously, click on the _Get Password_ button.
+* Select the `.pem` file discussed above.
+image:pem-selected.png[]
+* and click _Decrypt Password_.
+  You should now see the plain-text value of the password to connect to the instance.
+  image:decrypted.png[]
+
+NOTE: I don't know if this is specific to my environment, but if you're lucky enough like me, copy-paste will not work.
+So I had to manually copy paste the value...
+Cumbersome with that password length.
+
+* Type `Administrator` and the password above on the logon screen.
+  image:connected.png[]
+
+Hope this helps!
