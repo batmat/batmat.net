@@ -28,3 +28,4 @@ RUN mkdir public/cv && \
 EXPOSE 80
 
 RUN mv public/* /usr/share/nginx/html/
+ADD nginx-default.conf /etc/nginx/conf.d/default.conf
