@@ -1,0 +1,93 @@
+---
+Title: "Do not run your tests in Continuous Integration with the root user"
+Date: 2017-01-30
+Author: "Baptiste Mathus"
+Tags: ["ci","jenkins","root","docker"]
+---
+
+I was working recently on diagnosing unexpected tests failures that were only happening on our brand new Jenkins environment, and weren't happening on the previous one.
+To provide some context, we now run a majority of things in one shot Docker containers, and that helped reveal an interested issue.
+
+== The offending code
+
+We have a test to check our code behaviour if a file we need to backup is readable or not.
+It was roughly like the following:
+
+[source,java]
+----
+// given
+final File demo = File.createTempFile("demo", "");
+FileOutputStream fos = new FileOutputStream(demo);
+fos.write("saaluuuut nounou".getBytes());
+fos.close();
+
+// when
+demo.setReadable(false);
+
+// then (try to back it up, it should fail)
+byte[] read = new byte[10];
+
+new FileInputStream(demo).read(read);
+System.out.println("Can I happily read that file? " + new String(read));
+----
+
+And weirdly enough, this test was failing.
+By that I mean, there was no failure for the code above...
+footnote:[If you don't read Java, in that code sample I put some text in a file, remove the read permission on it, then try to read it again.
+The expected behaviour is that it should fail (_Permission Denied_).
+In real life, we have that test to assert our error message is understandable by humans in that situation :-).]
+
+== The reason
+
+We were running those tests on a shiny new infrastructure, and using wrong Docker images using `root` user as the default.
+For instance, if you use a base image like _openjdk_ or basically any base image, you will hit this issue.
+
+The thing is, when you are root, a bunch of things is not true anymore...
+For instance, permissions...
+
+If you don't read Java, here's a shell _port_ of the Java code above:
+
+[source,shell]
+----
+$ echo hello > demo
+$ chmod a-r demo
+$ cat demo
+cat: demo: Permission denied
+----
+
+But then replace the `cat` above by `sudo cat`:
+
+[source,shell]
+----
+$ sudo cat demo
+hello
+----
+
+I for one was slightly surprised root does not honor permissions at all.
+Had I been given a quiz about this, I would probably have thought that being root would still prevent you from reading it (but being root would allow you to call again `chmod` at will to set what you need), but that's how it is.
+
+NOTE: Most of the Docker base images run the `root` user by default.
+This is often for good reason: you are likely to use _openjdk:8_ for instance and need to install additional things.
+But you must go the extra mile and switch to a normal user, using the `USER` instruction (either after having created one, or using a present one like `nobody` or something that suits your needs).
+
+=== But running as _root_ in a Docker container is OK right?
+
+There has been articles out there explaining better than me why it's not. Reducing attack surface, etc.
+
+In my opinion, I hope this article shows this is clearly not the case, even for things like Continuous Integration/testing where one may think this is a special situation, hence acceptable exception.
+
+Some people might argue that this is not the same situation anymore with the advent of the user namespace.
+I will answer that though this is definitely a huge improvement, this does not change anything to the statement above.
+
+Indeed, you will still be root in the container, and your code will NOT fail as it should for that kind of case (another example if need be: you would be allowed to use ports < 1024, when you should not).
+And in the case of CI, you take the risk to miss corner cases because your CI environment will not be as close as possible to the production one.
+And for pretty obvious reasons, well you want your tests to be run in something close to the production...
+
+== Conclusion
+
+I think we can say it is a very common and accepted practice that running a server using the `root` user is a bad idea.
+It is the same thing in Docker, for many reasons, and hopefully the examples given above will confirm it.
+At least it was a lesson for me, and I'll be very cautious about it from now on.
+
+So, if you care about your tests, and their ability to monitor and reveal issues and regressions,
+do NOT run your CI with the _root_ user.
