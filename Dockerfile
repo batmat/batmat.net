@@ -8,9 +8,9 @@ RUN apt-get update -y && \
                        mercurial \
                        asciidoctor
 
-RUN curl -L https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_linux_amd64.tar.gz | \
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | \
     tar xvzf - && \
-    mv hugo_0.15_linux_amd64/hugo* /usr/local/bin/hugo
+    mv hugo /usr/local/bin/hugo
 
 ADD . /blog
 
