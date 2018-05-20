@@ -5,19 +5,17 @@ Author: "Baptiste Mathus"
 url: "2005/03/30/130-toutes-mes-excuses-publiques"
 ---
 
-
-
 En réponse à
-[Olivier](http://www.risacher.com/blog/index.php?2005/03/30/249-comment-avoir-lair-con-en-public-en-une-lecon),
+link:http://www.risacher.com/blog/index.php?2005/03/30/249-comment-avoir-lair-con-en-public-en-une-lecon[Olivier],
 à mon tour de raconter une mésaventure liée à une mauvaise manipulation
 de commande GNU/Linux... Histoire de ne pas laisser la honte reposer que
-sur [lui](http://www.risacher.com) et pour m'excuser une fois de plus,
+sur link:http://www.risacher.com[lui] et pour m'excuser une fois de plus,
 parce qu'en plus, j'ai même pas fait l'erreur sur mon compte mais sur
 celui de quelqu'un d'autre...
 
 Bref, cette histoire a eu lieu il y a un peu plus de deux ans. Alors que
 j'étais en train de programmer en salle info à
-l'[école](http://www.ingenieurs2000.com/) pour rendre un projet de plus,
+l'link:http://www.ingenieurs2000.com/[école] pour rendre un projet de plus,
 j'ai entendu une question provenant de la part d'Anne-Claire et de Brice
 : elle cherchait à supprimer les fichiers .class générés dans
 l'arborescence de son projet pour en faire un package (oui, pas de
@@ -43,10 +41,10 @@ Après coup, je suis persuadé que ça a beaucoup joué dans le fait que je
 tape [Entrée] si vite sans relire une commande potentiellement aussi
 dangereuse qu'un `rm -rf` ...
 
-`find . -type f ` (je dis la commande en même temps que je la tape)
-`-exec ` (là, on commence la partie qui impressionne toujours les
+`find . -type f` (je dis la commande en même temps que je la tape)
+`-exec` (là, on commence la partie qui impressionne toujours les
 novices, mais bon, c'est pas ça qui permet de draguer, rappelons le)
-`rm {} \;` ... et PAF ! [Entrée]
+`rm {} \;` ... et PAF ! `[Entrée]`.
 
 Et là, je réfléchis (oui, je sais, normalement, c'est avant qu'on le
 fait). En une demie-seconde, je viens de comprendre ce que j'ai fait.
@@ -61,4 +59,3 @@ Anne-Claire se met à pleurer (elle avait passé la journée à bosser
 dessus), à bout de nerf.
 
 Voila... Chui open lapidation, maintenant.
-
