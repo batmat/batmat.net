@@ -22,8 +22,7 @@ making things you do visible. Providing context. Understanding people's
 needs.
 
 [[architect-failure]]
-Architect Failure
-~~~~~~~~~~~~~~~~~
+== Architect Failure
 
 Though I retrospectively think I should maybe have pushed sometimes some
 more evolved/involved solutions, I'm not actually talking about a
@@ -42,8 +41,7 @@ But for some people, developers and maybe even more managers, we were
 intruders. Not welcome.
 
 [[what-i-did]]
-What I did
-~~~~~~~~~~
+==  What I did
 
 Mainly, I think I stayed in my office way too much, and took that
 position for granted. Kind of the Ivory Tower issue (well, without the
@@ -58,8 +56,7 @@ computer :-). I was actually working for _some_ teams. But even those
 teams eventually didn't even ask us for help, and worked us around.
 
 [[what-i-should-have-done]]
-What I should have done
-~~~~~~~~~~~~~~~~~~~~~~~
+==  What I should have done
 
 I should have hanged out more with the teams (which is somehow
 ironic I didn't when you know me). Go see them, ask them if they
@@ -72,8 +69,7 @@ useful in 1 or 2 years, without any actual need. How many hours I lost
 on useless PoCs, studies, that will never get used.
 
 [[wrap-up]]
-Wrap up
-~~~~~~~
+== Wrap up
 
 That made me realize something. Something that may be obvious to more
 experienced people: the fact that the current management structure, the
