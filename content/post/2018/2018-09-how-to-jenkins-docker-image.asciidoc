@@ -1,0 +1,64 @@
+---
+Title: "How to run and upgrade Jenkins using the official Docker image"
+Date: 2018-09-07
+Author: "Baptiste Mathus"
+Tags: ["ci","jenkins","docker","upgrade"]
+---
+
+For some time now, I've been trying to follow and answer questions arising in the link:https://github.com/jenkinsci/docker[official Git repository for the Docker image of Jenkins].
+
+I have especially been trying to encourage people to move away from using bind mounts
+footnote:[a bind-mount is the term used when one mounts an existing directory inside a Docker container.
+To provide a simple way for you to know if you are using it, you **are** using a _bind-mount_ if the first parameter after `-v` starts with a `/`.
+Though _bind-mounts_ looks simple hence appealing at first sight, they are not simple at all.
+You want to get away from it if you wish to avoid getting all sorts of annoying permission issues when you were thinking everything is going fine]
+and prefer volumes instead.
+
+== Running Docker Containers
+
+Ideally, you never restart a container.
+You just start a new one from the same (or another) image.
+
+Anything you want to keep has to be in the declared volume(s), that is all you need.
+
+== How to run Jenkins official Docker image and keep data
+
+TIP: link:https://hub.docker.com/r/jenkins/jenkins[`jenkins/jenkins`] is the official repository on Docker Hub for the Jenkins Project.
+The `jenkins` and `jenkinsci/jenkins` images are deprecated.
+
+I suspect you've come here just to copy and paste commands and move on.
+We all do :).
+
+So, here you are.
+Let's imagine I want to run Jenkins `2.107.3`, here is how you would do it for simple production usage.
+
+[source,shell]
+docker volume create jenkins-data
+docker run --name jenkins-production \
+           --detach \
+           -p 50000:50000 \
+           -p 8080:8080 \
+           -v jenkins-data:/var/jenkins_home \
+           jenkins/jenkins:2.107.3
+# If run for the first time, just run the following to get the admin
+# password once it has finished starting
+docker exec jenkins-production bash -c 'cat $JENKINS_HOME/secrets/initialAdminPassword'
+
+== How to upgrade your instance to a more recent version
+
+Using Docker, upgrading should always just be a matter of using a more recent version of the image.
+
+Jenkins follows this pattern, so if I want to upgrade to latest Jenkins LTS to date, `2.121.3`, all I have to do is the following.
+You will notice that we do use the exact same command as above, but we've just updated the version to the one we want to upgrade to:
+
+[source,shell,title=Upgrading to latest Jenkins LTS]
+docker stop jenkins-production
+docker rm jenkins-production # just temporarily docker rename it instead if that makes you worried
+docker run --name jenkins-production \
+           --detach \
+           -p 50000:50000 \
+           -p 8080:8080 \
+           -v jenkins-data:/var/jenkins_home \
+           jenkins/jenkins:2.121.3
+
+Done.
