@@ -1,0 +1,147 @@
+---
+Title: "Throttle network bandwidth on Linux"
+Date: 2018-10-05
+Author: "Baptiste Mathus"
+Tags: ["throttling","bandwidth","network","limit"]
+---
+
+Recently, as some of our tests for link:https://jenkins.io/projects/evergreen/[Jenkins Evergreen] related to file downloading were a bit flaky and failing more often, and hence slowing down unrelated PRs, I decided to dig into it to see how/if I could improve the situation.
+
+Main issue seemed like one test downloading a 5 MB file could sometimes time out (i.e. take more than 120 seconds).
+It looked like the network, though everything is running in _The Cloud_ (TM), would sometimes temporarily and randomly get into very low downloading speeds.
+
+So I decided to check how these tests would behave on my own laptop with a low-speed Internet connection.
+Given my own Internet access is decently good, I needed to find a way to reduce my speed and artificially simulate a worse network.
+
+NOTE: For the record, I'm using a Linux Fedora 28.
+Kernel is `4.18.7-200.fc28.x86_64`.
+Trickle is version `1.07`, and `tc` is `iproute2-ss180813`.
+
+== The Tools That Work
+
+After a bit of research, I found two candidates to achieve this: _trickle_ and _tc_.
+
+=== Trickle
+
+==== Download metrics
+
+We are going to use `curl` here, and its neat embedded measurements feature.
+(See link:https://stackoverflow.com/a/22625150[this article] for more context.)
+
+[source,shell]
+export CURL_METRICS="-w '\nLookup time:\t%{time_namelookup}\n\
+Connect time:\t%{time_connect}\n\
+PreXfer time:\t%{time_pretransfer}\n\
+StartXfer time:\t%{time_starttransfer}\n\n\
+Total time:\t%{time_total}\n'"
+
+==== In practice
+
+link:https://github.com/mariusae/trickle[Trickle] is very nice because it is a simple and effective tool for the userspace.
+
+Without speed limitation:
+
+[source,shell]
+----
+$ curl -sL $CURL_METRICS https://updates.jenkins-ci.org/download/plugins/artifact-manager-s3/1.1/artifact-manager-s3.hpi --output plugin.hpi
+ '
+Lookup time: 5.828146
+Connect time:   6.355080
+PreXfer time:   6.765247
+StartXfer time: 7.402426
+
+Total time: 11.861929
+'%
+$ echo "c3c3467272febe6f7c6954cc76a36f96df6c73f0aa49a4ce5e478baac1d5bf25  plugin.hpi" | sha256sum --check
+plugin.hpi: OK
+----
+
+With speed limitation using `trickle:`
+
+[source,shell]
+----
+$ trickle -s -d 100 curl -sL $CURL_METRICS https://updates.jenkins-ci.org/download/plugins/artifact-manager-s3/1.1/artifact-manager-s3.hpi --output plugin.hpi
+ '
+Lookup time:    7.536724
+Connect time:   9.017958
+PreXfer time:   9.428549
+StartXfer time: 10.065741
+
+Total time:     37.035747
+'%                                                                                                                                                                                                                                           $ echo "c3c3467272febe6f7c6954cc76a36f96df6c73f0aa49a4ce5e478baac1d5bf25  plugin.hpi" | sha256sum --check
+plugin.hpi: OK
+----
+
+That works great.
+If this does not, see below :-).
+
+=== Traffic Control
+
+I'm a lazy bastard.
+So you should wonder: why the hell would I look for another tool if `trickle` does the trick (pun intended)?
+
+Well, `trickle`, somehow like `nice` or `strace` for instance, acts like a wrapper.
+It rewrites calls to the _libc_ so that it can throttle what the process can achieve in terms of network performance.
+
+That means that if the process does not go through these calls, the process will *not* be throttled.
+This will for instance be the case for processes that are statically linked, or those who fork themselves.
+Or the ones like _Docker_, where the _heavy_ network calls are actually done somewhere else (the daemon), not by the `docker` CLI calls.
+Or more generally any process that use alternate ways to download things than going through the standard _libc_ functions.
+
+In that case, another solution is to set the rate limiting on the network interface itself.
+Here comes link:http://tldp.org/HOWTO/Traffic-Control-HOWTO/intro.html[_tc_] in the game.
+
+`tc` is a very powerful tool.
+It has pluggable bandwidth shaping strategies: you can for instance simulate a flaky network, with say 10% of loss, define the maximum download rate, etc.
+I do not claim at all to be an expert in this field, quite the contrary.
+The command I'm showing below are the ones that worked for me, so use them wisely, and please do not hesitate to reach out if you have comments or improvements to propose.
+
+To apply the constraint on this interface, `tc` can be used this way
+footnote:[The example is using the `htb` _discipline_. ]:
+
+[source,shell,title=commands to run as root to limit the download rate]
+----
+export IF=eth0 # the interface you want to throttle
+export U32="tc filter add dev $IF protocol ip parent 1:0 prio 1 u32"
+export MAX_RATE=30
+tc qdisc add dev $IF root handle 1: htb default $MAX_RATE
+tc class add dev $IF parent 1: classid 1:1 htb rate $MAX_RATE
+tc class add dev $IF parent 1: classid 1:2 htb rate $MAX_RATE
+$U32 match ip dst 0.0.0.0/0 flowid 1:1
+$U32 match ip src 0.0.0.0/0 flowid 1:2
+----
+
+To remove the whole configuration:
+
+[source,shell]
+----
+tc qdisc del dev $IF root
+----
+
+NOTE: For easier usage, especially to easily run all commands usinig `sudo`, I recommend you shove these in a dedicated shell script.
+link:https://github.com/batmat/devbox/blob/9399fb95616eb6fb5ea784eaf35d63aa01f53f6e/roles/_personal/files/limit-bandwidth[See mine for example].
+
+=== Gotchas
+
+==== Exact maximum with `tc`
+
+For some reason, I was unable to get `tc` to *actually* be under the limit I specified.
+However, I was able to drastically reduce my bandwidth, even if not very precisely, to test how my code would behave with a low speed network.
+And it was enough for my needs, so I didn't dig further.
+
+But if someone can explain and knows if this possible, and how, to define a strict maximum, I'm all ears :-).
+
+==== Quick note about _Wondershaper_
+
+Wondershaper is a tool name that you might stumble upon while crawling the Internet.
+I did.
+I tried it before writing this article.
+I even started writing the article talking about `wondershaper` instead of `tc` before ditching it all.
+
+_TL;DR: do not install or try to use it._
+
+Wondershaper is actually an outdated 169-lines shell script, somewhat a bit like the one we wrote above.
+In my tests, `wondershaper` rate limiting always resulted in a *much* lower actual maximum than the one expressed.
+Hence, if you need a crappy script, I guess you'd rather have written the four associated lines yourself to get it sorted if need be, than having to debug a longer one from someone else (who left the boat long ago :-)).
+
+Do not just believe me, go read this detailed article about it: link:https://www.bufferbloat.net/projects/bloat/wiki/Wondershaper_Must_Die/[_Wondershaper Must Die_].
