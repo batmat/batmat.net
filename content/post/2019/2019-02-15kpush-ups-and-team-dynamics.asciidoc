@@ -1,0 +1,80 @@
+---
+Title: "15000 push-ups, OKRs, and a reflection on goal setting and team dynamics"
+Date: 2019-02-27
+Author: "Baptiste Mathus"
+Tags: ["motivation","goals","okr"]
+---
+
+Around last September, I registered to a link:https://www.javaspecialists.eu/challenges/15000push-ups.jsp[15k push-ups challenge organized by Heinz Kabutz].
+The challenge was simple:
+
+* Bronze: 1000 push-ups during October 2018
+* Silver: Bronze, plus 2000 push-ups during November 2018
+* Gold: Silver, plus 3000 push-ups during December 2018
+* Platinum: Gold, plus 4000 push-ups during January 2019
+* Diamond: Platinum, plus 5000 push-ups during February 2019
+
+As I was finishing my last ones of the _Diamond_ level a few days ago, and I was finishing _Radical Focus_ footnote:[Thanks Isa!], I started thinking about motivation.
+
+== Hard, but not impossible
+
+Since a bit more than a year, advised in part by link:https://brokenco.de[Tyler], I started reading more around leadership and management.
+
+In link:https://www.amazon.com/Smarter-Faster-Better-Transformative-Productivity-ebook/dp/B00Z3FRYB0[_Smarter Faster Better_] footnote:[Writing this without the book handy, so I hope I didn't mix books. Will check when back home.], there's an awesome story about a study where a group of people would be asked to run 100 meters in 10 seconds.
+Then, they would be be asked to run 200 meters, still in 10 seconds.
+
+Both are obviously hard, or impossible for mere mortals, but still we all know 200 meters is just impossible for humans, period.
+
+Guess what they found: when trying to run 100m, people would cover significantly more distance in 10 seconds than when aiming for 200m.
+In other words, it demonstrated than if you give a *clearly unreachable objective to people, this will result in reduced performance*.
+
+== Back to push-ups
+
+When I started this challenge, I thought I would definitely do the first month (30 push-ups a day in average), and likely the second one in November.
+Unsure for December and January, and then quite certain I wouldn't be able to keep going until the end in February, where it would average 179 a day!
+
+But as I finally did it, I think there are two learnings here.
+
+Progressivity is key::
+I am pretty sure I would have failed if I had to start directly at 5000 a month.
+Going with 1000 more each month had me trained, both physically and mentally, for the next stage.
+
+Linking back more to my usual job, I feel this can relate  for instance be related to the common adage _Start small_.
+I also cannot help thinking about some convolution around link:https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law[John Gall's law]: if you start too high, you are likely to get burned and have to start over.
+
+_Team_ work::
+That one might be less obvious, but definitely played a role in my case.
+The fact I knew I was not the only one going through all this certainly made me make more efforts especially on days where I felt less motivated.
+This seems crystal clear to me: had I started this challenge on my own, alone, and it would have been orders of magnitude harder to stay committed to it.
+I want to see a link here between this and the work people usually do in a team, from which they derive more energy and fun to succeed together.
+
+== Objective and Key Results
+
+In link:https://www.amazon.com/Radical-Focus-Achieving-Important-Objectives-ebook/dp/B01BFKJA0Y[_Radical Focus_]
+footnote:[By the way, another great book where the first part is written like a novel.
+Similar to _The Phoenix Project_, or _The Goal_ in this regard.],
+Hanna, Jim and Jack discuss link:https://en.wikipedia.org/wiki/OKR[__OKR__s], and defining a quantitative _Key Result_ for the Objective they've just settled on.
+
+[quote, Radical Focus, page 33]
+_____
+[...] Hanna continued, "Like reorders at 30%?"
+
+Jim jumped in. "OKRs need to be hard goals, The kind you only have a 50/50 shot of achieving [...]"
+
+Jack jumped in. "100% reorders!"
+
+Jim smiled."Is that possible? It can be **upsetting to set a goal the team knows they cannot achieve.**"
+_____
+
+== Conclusion
+
+I am happy I finally put this out.
+
+As often in sociology I feel, this kind of things looks obvious after the fact, but it is not.
+
+Also very happy to have experimented this in real life.
+It's like common mistakes in Software Development: you get taught to avoid some well known ones.
+But still being able to afford making some yourself is going to prove soo much more useful for the long term.
+
+Define hard goals, but not _too_ hard.
+Iterate and raise the bar as you go, in the long run you will go *much* further and higher.
