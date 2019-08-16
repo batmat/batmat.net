@@ -8,9 +8,15 @@ RUN apt-get update -y && \
                        mercurial \
                        asciidoctor
 
-RUN curl -L https://github.com/gohugoio/hugo/releases/download/v0.40.3/hugo_0.40.3_Linux-64bit.tar.gz | \
-    tar xvzf - && \
-    mv hugo /usr/local/bin/hugo
+ENV HUGO_VERSION=0.40.3
+ENV HUGO_ARCHIVE_SHA_256=a3913a5aca407b8badaba30dec764c2615fc59dd0e73129ddaf5cca0e75a475f
+
+RUN curl -sL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
+         --output hugo.tar.gz && \
+    echo "$HUGO_ARCHIVE_SHA_256  hugo.tar.gz" | sha256sum --check && \
+    tar xvzf hugo*.tar.gz && \
+    mv hugo /usr/local/bin/hugo && \
+    rm hugo.tar.gz README.md LICENSE
 
 ADD . /blog
 
