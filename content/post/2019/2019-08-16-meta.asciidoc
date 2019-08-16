@@ -1,0 +1,25 @@
+---
+Title: "Meta"
+Date: 2019-08-16
+Author: "Baptiste Mathus"
+Tags: ["motivation","blogging"]
+---
+
+I want to go back to writing.
+I am convinced that writing helps taking things out and is a good exercise by itself.
+
+The frequency of postings here has gone way too low for my taste.
+
+*With this entry, I am publicly committing to publish at least one entry per week during September 2019*.
+footnote:[Yeah, not implying there are people out there actually caring about my commitment, but using this way to somehow force myself to not forget.]
+
+Many things are ongoing on a personal and professional level that make blogging harder, but clearly that is also mostly a bad excuse.
+I definitely spend enough time on things that are unimportant to me (Twitter and YouTube, looking at you) that I can recycle some of this time to blog instead.
+
+Given my career change, and that I have also been reading more lately, I expect overall this should provide good matter for reflection, and hence blogging.
+
+This will somehow by definition be less technical, but I will also keep talking about my various technical findings.
+For instance, after the closing of CrashPlan for personal use, I have spent a fair amount of time experimenting various backup solutions a few months ago.
+This is now running incrementally in the background every 15 minutes, using link:https://restic.net[Restic].
+
+Stay tuned and see you soon! :-)
