@@ -8,8 +8,8 @@ RUN apt-get update -y && \
                        mercurial \
                        asciidoctor
 
-ENV HUGO_VERSION=0.40.3
-ENV HUGO_ARCHIVE_SHA_256=a3913a5aca407b8badaba30dec764c2615fc59dd0e73129ddaf5cca0e75a475f
+ENV HUGO_VERSION=0.42
+ENV HUGO_ARCHIVE_SHA_256=788d733a98c6a59ac1584e4ea66ee8329fd66973b7bbfd4835e150175022a2d0
 
 RUN curl -sL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
          --output hugo.tar.gz && \
@@ -24,7 +24,7 @@ WORKDIR /blog
 
 RUN rm -rf public && \
     rm -rf .git && rm -f .gitignore && \
-    hugo --theme=batmat
+    HUGO_THEME=batmat hugo
 
 RUN mkdir public/cv && \
     cd _cv && \
