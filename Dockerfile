@@ -8,8 +8,8 @@ RUN apt-get update -y && \
                        mercurial \
                        asciidoctor
 
-ENV HUGO_VERSION=0.42
-ENV HUGO_ARCHIVE_SHA_256=788d733a98c6a59ac1584e4ea66ee8329fd66973b7bbfd4835e150175022a2d0
+ENV HUGO_VERSION=0.55.6
+ENV HUGO_ARCHIVE_SHA_256=39d3119cdb9ba5d6f1f1b43693e707937ce851791a2ea8d28003f49927c428f4
 
 RUN curl -sL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
          --output hugo.tar.gz && \
