@@ -1,0 +1,79 @@
+---
+Title: "Bodybuilding For A Software Developer"
+Date: 2019-09-07
+Author: "Baptiste Mathus"
+Tags: ["sport","bodybuilding","health"]
+---
+
+:imagesdir: /blog-resources/2019-09-bodybuilding
+
+Around the beginning of 2017, as I had started working for link:https://www.cloudbees.com[CloudBees] the previous August, I realized I hadn't found a way yet to really get back to Sport.
+At some point, neither was I feeling very well, nor was I happy with how I looked, and decided to do something.
+I think I was also starting to _realize_ I was not that young anymore, and that nobody else than me could work on this.
+Probably some form of the mid-life crisis, I suppose.
+With 2 kids back then, soon-to-be 40 years old, and realizing that one day, yes, I am going to die...
+
+After a few weeks of procrastination, around March 2017, after I was coming from a week skiing and the associated link:https://fr.wikipedia.org/wiki/Tartiflette[tartiflettes] and the likes, I decided to start going to a gym nearby my link:https://www.coworking-toulouse.com[coworking space]
+
+I was working in a fully flexible company, and hence had the opportunity to go at _unusual times_, for usual French companies.
+So I started thinking: "oh well, going to sport after dropping kids and before starting my day, or in the middle of the afternoon, would be nice, isn't it?".
+
+== My first year
+
+So I started going, and in parallel, I started watching fitness youtube channels about how to do things right. (Lucas Gouiffes, Nassim Sahili, Jean of _All Musculation_, Enzo Foukra, Jeff's Athlean-X, etc. footnote:[I only nowadays still follow Nassim, and watch some of Athlean-X videos, though I try to stay away from YouTube])
+I started to learn about nutrition, the _right_ number of reps & sets depending on your goals, the so-called mind-muscle connection, full-body, half-body, split, the name and functions of various muscles, etc. (spoiler: I'm still bad at this).
+It was great.
+I was litterally starting to realize what some muscles were designed for.
+
+And because I was a beginner, liked it, and I was committed to it, I got great results.
+I got better than my previous self in just a few months.
+Between mid March 2017, and June 2017, I trained 42 times.
+In that same period, I lost close to 7kg.
+footnote:[As you sometimes can read, losing so much weight and gaining muscle at the same time is a one-time priviledge reserved exclusively to beginners.
+TL;DR: you normally cannot lose weight so fast if you also want to grow muscle.]
+When I went to Devops World - Jenkins World 2017 in August, I was so addicted that I trained at the Hotel Gym every mornings.
+I even ended up creating a `ContinuousSport` Instagram account, where I didn't post that much.
+
+== Hard stop
+
+image::scapula-fracture.jpg[float=left]
+After one year of practice, I went to ski again.
+After a stupidly missed turn, I got in the air, and landed hard on my left shoulder.
+I had broken my scapula, and had to stop using my left arm for a few weeks.
+However, the upside was that I had that awesome 3D reconstruction of a scan of my scapula to brag about.
+
+After a few weeks of no training at all, this was finally time to start my path to normal.
+
+=== Re-education
+
+I had been practicing bodybuilding and overall weight lifting for one year already, with a special focus on execution quality after the advice gathered from various experts and coaches on YouTube.
+If you know what re-education generally looks like, you know that repeating what the physiotherapist told you is going to be critical for getting back to normal life.
+
+Given how I was craving to get back to training, I leveraged my training to get the full mobility of my shoulder in a few weeks.
+
+== Some __back__story, and fast-forward to September 2019
+
+Years before this, around 2012, during a badminton match, I hurt my back badly and got a terrible lumbago.
+I think it was just the consequence of me progressively but drastically reducing the amount of sport I was practicing, between 20 and 30 years old, while doing a lot of renovation work during 2+ years for my home.
+So I went to a specialist, and he explained how the spine worked, and specifically vertebras.
+I _almost_ had reached the point of a hernia, but not yet.
+I spent a number of month being keeping my back **very** straight.
+But I ended up with a mixed result of no pain anymore, but a definite feeling of a weak back and not being able to trustfully fetch things on the ground, or simply bathe my kids.
+
+After practicing all sorts of pushes and pulls, especially deadlifts and associated movements for the area, I feel much better nowadays.
+I do feel strong, or at least way stronger and balanced than I was before.
+I can fetch my getting-heavier kids without efforts, without feeling pain or stress about doing so.
+Which is awesome for day to day life.
+
+== Conclusion and what's next
+
+So here it is.
+I am doing bodybuilding, and I like it.
+
+I am now convinced that this is a very nice sport to stay healthy in the long run (meaning, more than running for instance), especially for a knowledge worker who stays most of her or his time seated down, in front of a computer.
+
+My current plan is to keep practicing as long as I enjoy it.
+I am also going to add a bit more cardio-training for a better global health.
+This is something I've not done enough in the past months, and is also encouraged to be very important too to perform in your day job in link:https://hbr.org/product/hbrs-10-must-reads-on-managing-yourself-with-bonus-article-how-will-you-measure-your-life-by-clayton-m-christensen/12572E-KND-ENG[_HBR's 10 Must Reads on Managing Yourself_].
+That might be an interesting followup for this article :-).
+
