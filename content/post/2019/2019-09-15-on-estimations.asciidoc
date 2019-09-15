@@ -1,0 +1,91 @@
+---
+Title: "On Story Points"
+Date: 2019-09-15
+Author: "Baptiste Mathus"
+Tags: ["Agile","estimations","points"]
+---
+
+:imagesdir: /blog-resources/2019-09-story-points
+
+I see many people complaining about the crappy tool that story points are.
+I agree, this tool is very imperfect.
+We still however consciously make the choice to use them in our team, so why?
+
+== Clarifying scope as a *team*
+
+Basically, using story points estimation is the _less worst_ tool that we have handy as a way to **trigger discussions as a team**.
+
+We require Acceptance Criteria, and try to refine them until we have estimations that are closer with each other during the planning poker.
+
+If someone in the team says 2 and another one 8, we will never average the value and move on.
+We will use this difference as showing that we need to discuss more and refine the scope together.
+
+Often it will mean rephrasing or adding an acceptance criterion, or even in some cases adding some "anti" acceptance criterion clarifying that something is NOT in the scope of a given chunk of work.
+(E.g. we could decide to exclude testing a specific deployment target among many as a first step, because we know it will jeopardize the probability to achieve the work in the Sprint)
+
+Smaller chunks of work is always a target.
+
+=== Are points important then?
+
+No.
+
+We often reaffirm this during our planning meeting sessions: our goal is to **agree** of the scope of work as a team.
+Estimating is an imperfect way we have to achieve this goal, but points are not and will never be the goal by itself.
+
+If we find a better way to trigger discussions and reach together to an agreement, we will throw story points away without ever looking back.
+
+== Either small, or too big
+
+I have experimented in my past that we would agree on having either small stories, or too big.
+Removing the blurry zone in the middle had helped us avoiding accepting more dangerously uncertain tasks in our Sprint.
+
+This came up again recently to only accept 3-pointers maximum.
+This was because 5 or more in *our* footnote:[I.e. there is no company-wide agreement of what 5 points means, and there won't ever be obviously.
+This is an undesirable and dangerous idea.] scale ended up being generally dangerous.
+
+I think this is probably where teams should look first, if the goal is to try and be more predictable.
+In other words: either you would have a Sprint with only small, or very small stories, or you work on splitting the bigger ones so they can enter a Sprint and start being delivered.
+
+=== But I have big stories that can't be split!
+
+[.float-group]
+--
+image::kniberg-testable-usable-lovable.jpg[float=left]
+Yeah, we are all special.
+I believe we all have, starting with me, this tendency to think "oh well, this thing is what we need, cannot be really split".
+
+But I think this is generally laziness (again myself first) on spending more time figuring out how to split work in an link:https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp[earliest testable/usable/lovable] manner for the customer.
+--
+
+[.clear]
+== So, counting points?
+
+I think this is where the crux actually lies nowadays.
+We see various people complaining about Story Points being bad, but I have yet to find proposals from these same people what to do instead.
+
+I like the idea in this link:https://www.thoughtworks.com/insights/blog/how-estimating-story-counts-worked-us[ThoughtWorks article] to use story counts for planning, but keep having estimation sessions as a vehicle for team conversation:
+
+[quote]
+1. We still maintain our estimation sessions. We highly value the team conversation catalyzed by gauging the size of the work.
+2. Leave the estimate points as a reference on the card, which could help inform prioritization. But we do not translate those numbers into scope or capability.
+3. We started using story count in our burn-up charts.
+
+We need to dive into more of our Sprint data, but my gut feeling on the amount of stories we generally deliver tells me there's some interesting truth or at least insights in this reflection.
+
+== Conclusion
+
+As it stands now, I think the estimation sessions are still the best imperfect tool we have to refine and agree together as a team on the scope of a work item.
+
+I am however eager to hear any counter-opinions or alternative practices to Story _estimations_ for this purpose.
+
+On using these points to do the planning, I will most probably reflect more on switching to story counts.
+At least I definitely like this idea, because then it would reaffirm even more that _story points_ are neither important outside of the team, nor once the planning meeting is done.
+footnote:[Writing this article actually helped me get my thinking further.
+So this does confirm to me that writing is important, and that link:/2019/08/16/meta/[Meta blog] was important to commit to.]
+
+
+== Links
+
+* link:https://www.cloudbees.com/blog/story-points-vs-story-count[Stephen's reflection on Story Points vs Story Counts on the CloudBees blog]
+* link:https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp[Henrik Kniberg on Making sense of MVP]
+* link:https://www.thoughtworks.com/insights/blog/how-estimating-story-counts-worked-us[How estimating with "story counts" worked for us]
