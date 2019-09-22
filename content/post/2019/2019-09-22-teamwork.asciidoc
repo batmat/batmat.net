@@ -1,0 +1,105 @@
+---
+Title: "Challenge Your Team, With Deep Care"
+Date: 2019-09-22
+Author: "Baptiste Mathus"
+Tags: ["Agile","care","psychological","safety"]
+---
+
+:imagesdir: /blog-resources/2019-09-teamwork
+
+Over the last years, I have come to read and reflect more and more on some aspects of great teamwork.
+There is now quite a corpus of litterature discussing what makes high performing teams.
+
+## Feeling safe
+
+---
+
+When I link:https://twitter.com/bmathus/status/1173907698871611399[tweeted a few days ago]:
+
+> took me literally years to discover and understand why sane conflict in a team is not only good, but even required.
+>
+> Care and Challenge.
+>
+> Getting to know a bit more what you don't know is progress right?
+>
+> I must say I love this.
+
+
+I got off-the-band feedback talking about a case at a well-known company where a person on a leadership role would challenge a lot teams to do bolder moves, think more strategically etc.
+People felt attacked, and even threatened.
+
+To be clear, I am **not** arguing that this behavior is desired.
+I am actually saying this behavior is the exact opposite.
+
+Challenge is needed, for sure.
+But it cannot come before trust is established, or worse things will happen.
+
+---
+
+One critical finding was discussed in Duhigg's _Smarter, Better, Faster_ footnote:[https://charlesduhigg.com/books/smarter-faster-better/ chapter 2. Thanks Tyler for this one ;-)]: the People team at Google was trying to find out what were the criteria for high performing teams.
+After shaking data, they found that the one criterion that was shared among all these teams were the so-called link:https://en.wikipedia.org/wiki/Psychological_safety[_psychological safety_].
+
+> being able to show and employ one's self without fear of negative consequences of self-image, status or career
+
+Or, as written in _Smarter, Better, Faster_:
+
+> is a shared belief, held my members of a team, that the group is a safe place for taking risks. +
+> [...] sense of confidence that that team will not embarass, reject, or punish someone for speaking up
+
+In other words, you know you can make mistakes, and that it will generally not threaten your job.
+
+And while so many crappy companies or crappy managers still stupidly punish mistakes, we all know very well what happens: people **will not stop making mistakes, they will hide them**.
+And everybody ends up suffering: people **and** the business.
+What for then, FFS?
+
+## Safe, and sane emulation
+
+Mistakes.
+Mistakes, and taking risks.
+Together.
+
+image::radical-candor.png[float=left]
+Another famous book discusses the importance of challenging your teammates: link:https://www.radicalcandor.com/the-book/[Radical Candor].
+The framework is impressively simple and powerful to understand why caring **and** challenging are so critical.
+The book is literally stuffed with insightful, and often funny, anecdotes illustrating many points.
+
+Kim Scott spends in particular a good amount of pages discussing the case of link:https://www.radicalcandor.com/blog/stop-ruinous-empathy/[_ruinous empathy_], deemed as the most common mistake when working together.
+Basically you are nice with someone, very nice.
+You want to be nice, and to not hurt people, so you do not tell them what is going wrong.
+And if or when things go bad, people get mad at each other because of unvoiced problems, or worse people end up fired.
+footnote:[Which she finally had to do, and was deeply ashamed of. "But why didn't you tell me?"]
+
+## Develop relationships
+
+This is where the crux actually lies.
+To be able to challenge, there **must** be a strong relationship.
+Challenging someone is hard.
+
+Imagine a long-time friend comes and tells you:
+
+> Hey, I think you made a big mistake there on XYZ
+
+Likely, you'd be genuinely interested to hear what you did bad.
+
+Now, picture yourself in a similar situation, but with someone you've only been working remotely with for one month, and never met in real life.
+That person you only saw roughly once per working day during daily standup calls and various team rituals with the full team.
+
+Which one is more likely to trigger a immediate bad reaction?
+Which one is at least going to shift your mindset to a defensive mode instead of a learning one?
+
+This all comes down to trust.
+This all comes down to knowing that showing your weaknesses won't be held against you.
+And to build trust, one has to work on relationships.
+
+And if you want data to back this discussion, building trust inside and across team is also recommended in link:https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339[Accelerate]
+footnote:[Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations, by Nicole Forsgren, Jez Humble and Gene Kim].
+
+## Conclusion
+
+Care deeply about your coworkers, **and** challenge them.
+
+I would even say: really caring about your teammates implies you *will* make the effort to challenge them.
+They will trust you because they know it is not to hurt them, but quite the contrary.
+People will know you expect them to do the same.
+footnote:[and make sure to praise people who do]
+And overall, the team will grow together.
