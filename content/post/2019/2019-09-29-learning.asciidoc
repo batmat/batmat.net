@@ -1,0 +1,68 @@
+---
+Title: "Amplify (Individual) Learning"
+Date: 2019-09-22
+Author: "Baptiste Mathus"
+Tags: ["learning","lean"]
+---
+
+:imagesdir: /blog-resources/2019-09-learning
+
+As I (finally) started reading _Lean Software Development_ from Mary and Tom Poppendieck footnote:[https://en.wikipedia.org/wiki/Lean_software_development], yesterday I was reflecting on the literal meaning of the second principle: _Amplify Learning_.
+
+Totally unrelatedly, some days ago a discussion at work had started around making sure we keep learning and encourage everyone in the company to do so.
+As _knowledge workers_, learning is indeed a critical part of the career management of all of us.
+
+So reading this "amplify learning" clicked to me, and this got me thinking that in current team, I believe we are not really good at making sure that when people learn things (an useful API, a nice way of solving a recurring problem, or something new that could prove interesting to the bigger team) when working on a Story, this is then systematically shared to the rest of the team.
+
+For instance during a Friday lightning talks session, or something similar.
+
+== Is Unshared Learning Waste?
+
+image::swarf.jpg[Title="Swarf, thanks https://www.deviantart.com/quaddles/art/METAL-Swarf-21-quaddles-109248013"]
+The first _Lean Software Development_ principle is _Eliminate Waste_.
+Oh wait, I thought, that's interesting.
+
+I started scribbling a schema with my 5-year-old capabilities to represent the indirect "result" that individual learnings are lost if unshared.
+Basically, if we are looking for an analogy, these "lost/unoptimized learnings" could be seen as a by-product, or _worse_ as swarf.
+footnote:[Thanks a lot link:https://twitter.com/literatesavant/status/1178200927926284288[Owen] and link:https://twitter.com/JamesTeilo/status/1178226895688736769[James] :-)]
+
+image::optimize-learnings.png[]
+
+=== Condensing boiler
+
+I thought about the link:https://en.wikipedia.org/wiki/Condensing_boiler:[condensing boiler] I have in my house.
+Roughly, this type of boiler collects back the heat of the burnt gas by condensing it to water and reinject it in the circuit.
+footnote:[Note however that IANAP: I Am Not A Plumber ;-)]
+
+This allows that type of boiler to have a better efficiency.
+In other words, for the same amount of gas, that kind of boiler will produce more heat.
+
+You see where I'm going right?
+
+== Share learnings in the Definition of Done
+
+So I guess it is now clear I posit that not sharing learnings with the full team in a systematic manner is a lost opportunity :-).
+
+Obviously, the analogy could be seen as falling short on the aspect that the learnings are _not_ lost for the developer who went through it?
+
+Well, I am inclined to think that this still would be very suboptimal.
+I believe we all have realized too often how trying to explain something to someone else was revealing how shallow our understanding actually was.
+
+Hence agreeing as a team that for each Story, a lightning talk footnote:[or a blog entry, or both!] will for example be delivered sounds like a good way to make sure the knowledge will be forced to be structured, understood deeply and magnified for the benefit of the whole team.
+footnote:[On top on helping teammates grow their public speaking skills.]
+
+== Recap
+
+In my experience, doing this kind of sharing on a voluntary basis, during brown bag lunches for example, has always stopped more or less quickly.
+The pressure and the day-to-day life we all go through generally tends to come back naturally after some time and make this habit fade out progressively.
+
+By making it part of the team's _definition of done_, it sounds like we could _amplify individual learnings_ to the full team (and more! footnote:[recording could even have an impact company-wide, though it might add an unnecessary pressure to people]).
+
+For instance, I would imagine something like a 30-minutes session on Friday mornings after the team standup.
+Each presentation would be maximum 5 minutes, presented by people who completed Stories since the previous Friday.
+
+What do you think?
+
+NOTE: If you tried something like this, or this is a practice still even in place in your team, I am very interested to hear your thoughts!
+Do you like it, what did or did not work? Etc.
+
