@@ -4,7 +4,7 @@ Date: 2016-05-15
 Author: "Baptiste Mathus"
 ---
 
-I have always been a tooling guy. Early in my carrier, now more than 10 years ago, I realized how much I love writing things making my life easier.
+I have always been a tooling fan. Early in my career, now more than 10 years ago, I realized how much I love writing things making my life easier.
 
 Automation for the win!
 
