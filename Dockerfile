@@ -1,4 +1,4 @@
-from nginx:1.9
+from nginx:1.19.6
 
 RUN apt-get update -y && \
     apt-get install -y \
