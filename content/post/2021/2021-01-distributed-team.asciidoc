@@ -1,0 +1,8 @@
+---
+Title: "My challenges working with a distributed team"
+Date: 2020-01-17
+Author: "Baptiste Mathus"
+Tags: ["distributed","team", "management"]
+Draft: true
+---
+
