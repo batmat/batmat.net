@@ -7,7 +7,7 @@ Tags: ["learning","lean"]
 
 :imagesdir: /blog-resources/2019-09-learning
 
-As I (finally) started reading _Lean Software Development_ from Mary and Tom Poppendieck footnote:[https://en.wikipedia.org/wiki/Lean_software_development], yesterday I was reflecting on the literal meaning of the second principle: _Amplify Learning_.
+As I (finally) started reading _Lean Software Development_ from link:https://twitter.com/mpoppendieck?lang=fr[Mary] and Tom Poppendieck footnote:[https://en.wikipedia.org/wiki/Lean_software_development], yesterday I was reflecting on the literal meaning of the second principle: _Amplify Learning_.
 
 Totally unrelatedly, some days ago a discussion at work had started around making sure we keep learning and encourage everyone in the company to do so.
 As _knowledge workers_, learning is indeed a critical part of the career management of all of us.
