@@ -1,8 +1,117 @@
 ---
 Title: "My challenges working with a distributed team"
-Date: 2020-01-17
+Date: 2020-01-30
 Author: "Baptiste Mathus"
 Tags: ["distributed","team", "management"]
-Draft: true
 ---
 
+This article is part of a series coming from a tweet, posted in early January 2021, designed at nudging me to get back to blogging.
+
+This article is the implementation of Sacha's tweet :-)
+
+{{< tweet 1344976406581833730 >}}
+
+---
+
+== My distributed team working story
+
+NOTE: I believe it can be important to summarize my experience here, so you can better understand and decide whether what I'm writing below could be useful to you :).
+
+I joined CloudBees in August 2016 as a software developer.
+This position is 100% remote.
+CloudBees had already very few, and small, offices in 2016.
+It is even truer in 2021 with covid-19.
+
+2016:: While all our Engineering teams are never working in the same physical location, this first one was initially mostly on the same timezone, spread between the U.K., Spain, Belgium and, so, France.
+
+Early 2018:: I switched to work on link:https://github.com/jenkins-infra/evergree[Jenkins Evergreen].
+I worked with Tyler and later Mandie, both in the USA, respectively on the West and East coasts.
+
+In late 2018:: I progressively changed again to work with a mostly timezone-colocated team again.
+
+In May 2019:: I decided to change career path and become an Engineering manager.
+Along with a reorg, I became the manager of the development team I was part of.
+
+While unrelated to the distributed aspect, I think this is important to mention I'm not a native-speaker in English.
+My English reading and writing skills were decent, but I had no habit of speaking English, this made for some awkward moments I still remember :).
+
+Another thing: I'm more of an extrovert I think.
+You'll see below how this can be another interesting data point.
+
+== My distributed team gotchas
+
+=== Manage your relationships explicitly -- Have one-to-ones
+
+In October 2016, we had a team meeting.
+That was _awesome_.
+I still have fond memories of this moment.
+There was a _before_, and an _after_.
+
+During this meeting, I remember a particular moment when Antonio told me something like "hey, I thought you were a bit shy".
+This was, I think, because while I felt thoroughly welcome I was sometimes very stressed sometimes in our daily standups.
+
+I was terrified somebody was going to come to me at some point and inform me I was not living up to the expectations.
+Imposter syndrom FTW.
+
+Retrospectively, I think this comes from two things.
+I was not getting enough and personal direct positive feedback.
+People were nice during meetings, I got no reproaches, but my imposter syndrom probably was letting me think "no news, bad news" or something along this line.
+And I was too immature in such a distributed work environment to consciously manage it myself.
+
+In a distributed company, there's no physical watercooler.
+If you do not force it, the serendipitous encounter and chit-chat with random colleagues at the coffee-machine will *NOT* happen, ever.
+
+Nowadays, fixing this seems obvious to me.
+I needed to feel trust and trust others.
+I should have asked for feedback, I should have provided feedback.
+
+*Have one-to-ones*.
+With everybody in your team.
+With peers outside your teams.
+Regularly.
+
+If you are thinking "what? if I meet with my peers, I'm going to spend my week in meetings?".
+Not quite.
+If you have N people in your team, you can meet one of them per week.
+No need for a long session, you have start with 20 or 30 minutes if you're worried.
+No need for an agenda.
+Call it 'sync up on ongoing topics' if you are worried.
+If you're in a team of 5, that means you'll spend ~30 minutes per week to smoothen/maintain your relationship and build trust with your mates.
+If you want a rationale, see this as an investment.
+If your management questions this,  they're stupid, change company.
+
+One-to-one is a trust-building tool.
+Trust is the one thing critical in a high-performing team.
+This is the foundation for link:https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it[psychological safety].
+
+=== Big team designs are hard async
+
+Having people on various timezones is an awesome tool to just link:https://en.wikipedia.org/wiki/Follow-the-sun[follow the sun] and nobody has to be awaken in the middle of the night.
+
+Like everything in life, it also has cons.
+
+Even if you can use digital whiteboarding tools, it will always suck compared to a physical team whiteboarding session.
+
+While there is no simple way to fix this, there are solutions to mitigate it.
+
+Have focused remote "Summit"::
+
+Meet in person::
+Most (all?) distributed companies I know have a budget for team meeting.
+
+This is critical because it groups both the "trust-building" aspect I alluded to above, and a venue for a team to swarm around a tricky new design and/or the plans for the next weeks.
+This will be especially useful if your team has hardly reconcilable timezones.
+
+While this is obviously made much trickier with the pandemic, the importance for it still cannot be understated.
+But, these days, even in non-distributed companies everybody has to work from home... :-)
+So anyway the ones who've done it for years will still have a competitive advantage :-).
+
+== Conclusion
+
+As always, there's no silver bullet.
+
+Distributed working also has its challenges.
+Meet more, remotely and in-person when possible.
+
+In a distributed company, the job flexibility and working with so many many great people and cultures are an extraordinarily rewarding experience.
+Because of this, and despite these challenges, I would never consider going back to an office that requires full-time presence.
