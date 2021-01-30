@@ -23,6 +23,7 @@ CloudBees had already very few, and small, offices in 2016.
 It is even truer in 2021 with covid-19.
 
 2016:: While all our Engineering teams are never working in the same physical location, this first one was initially mostly on the same timezone, spread between the U.K., Spain, Belgium and, so, France.
+Another engineer from the US East Cost joined the team in late 2017.
 
 Early 2018:: I switched to work on link:https://github.com/jenkins-infra/evergree[Jenkins Evergreen].
 I worked with Tyler and later Mandie, both in the USA, respectively on the West and East coasts.
@@ -35,7 +36,7 @@ Along with a reorg, I became the manager of the development team I was part of.
 While unrelated to the distributed aspect, I think this is important to mention I'm not a native-speaker in English.
 My English reading and writing skills were decent, but I had no habit of speaking English, this made for some awkward moments I still remember :).
 
-Another thing: I'm more of an extrovert I think.
+Another thing: I think I'm more of an extrovert.
 You'll see below how this can be another interesting data point.
 
 == My distributed team gotchas
@@ -120,6 +121,7 @@ We like to use https://www.retrium.com/ and more usual tools like Confluence or 
 Two caveats I've seen with this:
 +
 * this feels much more draining to me than an in-person meeting.
+(despite the added travel)
 * It's harder than when IRL to break out in smaller sub-groups.
 
 NOTE: note to self for a future follow-up article: I want to experiment soon with the link:breakout rooms["breakout rooms" feature of Google Meet], since the company upgraded to this version of Gsuite recently.
