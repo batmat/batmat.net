@@ -94,17 +94,35 @@ Even if you can use digital whiteboarding tools, it will always suck compared to
 
 While there is no simple way to fix this, there are solutions to mitigate it.
 
-Have focused remote "Summit"::
-
 Meet in person::
 Most (all?) distributed companies I know have a budget for team meeting.
-
++
 This is critical because it groups both the "trust-building" aspect I alluded to above, and a venue for a team to swarm around a tricky new design and/or the plans for the next weeks.
 This will be especially useful if your team has hardly reconcilable timezones.
-
++
 While this is obviously made much trickier with the pandemic, the importance for it still cannot be understated.
 But, these days, even in non-distributed companies everybody has to work from home... :-)
 So anyway the ones who've done it for years will still have a competitive advantage :-).
+
+Have remote "Summit"::
+This is a necessary alternative to the "Meet in person" above, when you cannot travel.
+Be it because there's a pandemic, or because the timing is too short.
++
+I've used or seen it used a handful of times, a bit more since 2020...
++
+For a number of days, plan 2 to 4 hours of workshop everyday
+(I have personally done this max 4 hours mainly because of timezone overlap anyway).
++
+And try to proceed what you would have done if you were physically together.
+Use whichever tool you like.
+We like to use https://www.retrium.com/ and more usual tools like Confluence or GSuite.
++
+Two caveats I've seen with this:
++
+* this feels much more draining to me than an in-person meeting.
+* It's harder than when IRL to break out in smaller sub-groups.
+
+NOTE: note to self for a future follow-up article: I want to experiment soon with the link:breakout rooms["breakout rooms" feature of Google Meet], since the company upgraded to this version of Gsuite recently.
 
 == Conclusion
 
