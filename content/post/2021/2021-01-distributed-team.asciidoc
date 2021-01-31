@@ -5,7 +5,7 @@ Author: "Baptiste Mathus"
 Tags: ["distributed","team", "management"]
 ---
 
-This article is part of a series coming from a tweet, posted in early January 2021, designed at nudging me to get back to blogging.
+NOTE: This article is part of a series coming from a tweet, posted in early January 2021, designed at nudging me to get back to blogging.
 
 This article is the implementation of Sacha's tweet :-)
 
