@@ -8,3 +8,4 @@ permalinks:
   post: /:year/:month/:day/:slug/
 Author: "Baptiste Mathus"
 Id: "hop"
+enableEmoji: true
