@@ -2,7 +2,7 @@
 Title: "On Sustainable goals"
 Date: 2020-01-31
 Author: "Baptiste Mathus"
-Tags: ["distributed","team", "management"]
+Tags: ["sustainable","goals","health"]
 ---
 
 NOTE: This article is part of a series coming from a tweet, posted in early January 2021, designed at nudging me to get back to blogging.
