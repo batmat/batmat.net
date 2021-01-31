@@ -1,9 +1,84 @@
 ---
-Title: "Sustainable goals"
-Date: 2020-01-17
+Title: "On Sustainable goals"
+Date: 2020-01-31
 Author: "Baptiste Mathus"
 Tags: ["distributed","team", "management"]
-Draft: true
 ---
+
+NOTE: This article is part of a series coming from a tweet, posted in early January 2021, designed at nudging me to get back to blogging.
+
+This second article is the implementation of Romén's tweet :-)
+
+{{< tweet 1344953079440007169 >}}
+
+I think this article is on point. Thanks Romén :).
+
+Today is the last day of January.
+I need to accept it, I have failed :wink:.
+I will NOT be able to deliver an article on all answers to this tweet.
+
+The very goal of this tweet was however really to challenge myself and get back to writing _something_.
+So, for this core personal goal, I am still happy this did it.
+Thanks again to everyone who pushed me.
+
+Anyway, back to the subject.
+
+== Was it sustainable?
+
+Probably not.
+Or maybe.
+
+First, to be honest, I was unsure my tweet would even yield a single answer :smile:.
+
+Second, while I did start reflecting on the various subjects submitted to me when they were, I definitely did not dedicate enough of a continuous focus to it.
+
+So while I think the goal was sustainable by itself, I didn't manage myself well enough to make it.
+Hence, I do think I _could_ have made it.
+If I had been able to do less of a few unimportant things (like browsing Twitter :facepalm:).
+Or manage my time, and my health, better.
+
+=== Managing Yourself
+
+If I had slept or exercised more, I think I could have made it.
+
+I have come to realize that as I'm getting older, managing more consciously my sleep and health is increasingly important.
+While this is something we all somehow have heard about, I suppose this only actually hits home when you're the one with more birthdays and starting to feel it :smirk:.
+
+I recommend on this subject the link:https://store.hbr.org/product/hbr-s-10-must-reads-on-managing-yourself-with-bonus-article-how-will-you-measure-your-life-by-clayton-m-christensen/12572[_HBR's 10 Must Reads on Managing Yourself_] book.
+I liked in particular the article explaining that *doing cardio-training at least 3 times a week, and strength-training at least once a week has a positive impact on personal productivity*.
+
+I know of multiple evenings where I was in front of my laptop, but not doing anything productive.
+I _wanted_ to do it.
+But I was too tired.
+Vicious circle.
+These hours would have been better spent sleeping, or doing sport.
+Then this rest would have made it easier to reach my goals.
+
+I've come to think and say that for instance when you're on vacation, even your *job* is to disconnect.
+If you're staying connected to work and don't rest and recharge, then you'll be back sleep deprived and less energized.
+Failing on your duties.
+
+== How to set sustainable goals
+
+Still, Romén has a point on this "sustainable" aspect.
+I assume he meant the size of the task itself, rather than the "shape" of the one actually doing the task (which I've focused on above).
+
+This aspect is actually documented in link:https://www.goodreads.com/book/show/25733966-smarter-faster-better[Duhigg's _Smarter Better Faster_ book.]
+
+In short, the study shows setting unreasonable goals will yield worst results than _difficult_ ones.
+
+I had link:{{< relref "../2019/2019-02-15kpush-ups-and-team-dynamics.asciidoc" >}}[blogged already on this when I did (and succeeded on) the 15.000 push-ups challenge in late-2018-early-2019].
+
+
+== So what's next?
+
+First, I am committing to finish the blog entries for each answer of my original tweet (for tweets posted in January 2021 :smile:).
+
+Second, I am adjusting this to be one article per fortnight.
+Given I received 5 proposals, this means I am left with 3 to be done.
+
+*This means my new target is the Sunday 14th of March 2021.*
+
+
 
 // link to article on push-ups!
