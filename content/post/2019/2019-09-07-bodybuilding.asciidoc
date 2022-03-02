@@ -32,7 +32,7 @@ In that same period, I lost close to 7kg.
 footnote:[As you sometimes can read, losing so much weight and gaining muscle at the same time is a one-time priviledge reserved exclusively to beginners.
 TL;DR: you normally cannot lose weight so fast if you also want to grow muscle.]
 When I went to Devops World - Jenkins World 2017 in August, I was so addicted that I trained at the Hotel Gym every mornings.
-I even ended up creating a `ContinuousSport` Instagram account, where I didn't post that much.
+I even ended up creating a link:https://www.instagram.com/ContinuousSport/[ContinuousSport] Instagram account, where I didn't post that much.
 
 == Hard stop
 
