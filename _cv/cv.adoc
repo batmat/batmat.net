@@ -1,5 +1,4 @@
-= Baptiste Mathus -- Ingénieur DevOps<=====fr
-= Baptiste Mathus -- DevOps Engineer<=====en
+= Baptiste Mathus -- Engineering Leader
 :toc: right
 :toclevels: 4
 :stylesheet: asciidoctor-stylesheet-factory/stylesheets/maker.css
@@ -15,8 +14,8 @@ a|
 125 Rue Bonnat +
 31400 Toulouse
 
-34 ans, français, marié, 2 enfants + <=====fr
-34 yo, Froggy, married, 2 children + <=====en
+40 ans, français, marié, 3 enfants + <=====fr
+40 yo, Frog, married, 3 children + <=====en
 
 a|
 
@@ -32,7 +31,8 @@ link:http://twitter.com/bmathus"[bmathus]
 |===
 
 .A propos <=====fr
-**** <=====fr
+.About <=====en
+****
 Je suis un développeur passionné depuis plus de 10 ans. Mon intérêt naturel allant davantage vers les couches applicatives _backend_, je me suis souvent trouvé en situation de travailler sur des solutions techniques, ou de fournir des services destinés aux autres développeurs, et globalement aux profils plus techniques. <=====fr
 
 J'ai travaillé jusqu'en 2010 à la création d'un framework interne de développement _Java EE_ destiné à accélérer les développements (générateur de code MDD + socle technique Java). En parallèle, j'ai initié la mise en place d'une _forge logicielle_ (intégration continue, etc.). Partie de rien, cette infrastructure est aujourd'hui devenue centrale et critique, utilisée quotidiennement par près de 100 personnes, contenant notamment près de 1000 jobs et mettant en oeuvre plus de 20 esclaves (Jenkins). <=====fr
@@ -46,7 +46,22 @@ J'ai découvert par ailleurs l'agilité en 2010, et m'y suis fortement intéress
 J'ai pour finir une soif d'apprendre sans cesse, une passion pour le partage des connaissances et les échanges humains. Je contribue régulièrement à plusieurs projets OpenSource, et suis _committer_ sur certains comme link:http://www.mojohaus.org/[MojoHaus], link:https://wiki.jenkins-ci.org/display/JENKINS/Build+Trigger+Badge+Plugin[Jenkins], ou link:https://github.com/SonarCommunity/sonar-l10n-fr[SonarQube].<=====fr
 Je suis aussi présidentfootnote:[Même si notre organisation est collégiale dans les faits. En Juin 2015, nous avons d'ailleurs voté la transformation de nos statuts en statuts collégiaux] du link:http://www.toulousejug.org/trombinoscope/[Toulouse Java User Group depuis 2012].<=====fr
 
-**** <=====fr
+
+I view myself as a servant leader whose one of the important roles is to provide context and support to the people around me, so they are empowered to guide us in the right direction.<=====en
+I have a particular focus on enabling people so we can scale together. I will spend the necessary time to autonomize teams so they can operate _without_ me.<=====en
+I am continuously challenging my direct reports in a link:https://www.radicalcandor.com/[Radical Candor] manner my team so they can grow by leading wider and wider initiatives.<=====en
+
+To me, processes are here to help us operate clearly. But I have absolutely no qualm questionning or redesigning them when they become inadequate and are getting in the way.<=====en
+
+I have spent most of my career working in teams that write or provide software tooling for development teams. In part because of this love for technology and communities, I have been the link:https://www.toulousejug.org/[Toulouse Java User Group] leader for a number of years, during which we organized countless sessions of various subjects.<=====en
+
+This appetite for human communities is probably what led me to dig into open-source, and Agile. I have 10+ years of experience using various forms of Scrums or Agile methodologies to deliver software. Related to this, I discovered the DevOps culture early on, before the term became used more and more for software tools, and less and less for the culture of cooperation it is.<=====en
+
+I also have a very deep knowledge on how open-source _works_.
+I have actively contributed to projects like Hibernate, Apache Maven, and most importantly the _Jenkins Project_.
+I am a committer on the MojoHaus project, and on the Jenkins Project. And I am an administrator on both associated GitHub organizations.<=====en
+
+****
 
 <<<
 
@@ -54,10 +69,26 @@ Je suis aussi présidentfootnote:[Même si notre organisation est collégiale da
 == Expérience <=====fr
 == Experience <=====en
 
+02/2021 -> now::
+*CloudBees* : Engineering Manager for two teams:
+
+* Atlas team (7 developers,10 in August 2022): focused on maintaining *150+ OSS plugins* that are shipped inside CloudBees CI. The size of this team has fluctuated between 4 and 10. I have managed to find and hire 4 developers over the course of 4 months. <=====en
+* Seven-League team (3 developers, hiring a 4th one): providing tooling to developers and making releases happen for CloudBees CI in an uneventful manner. Strong focus on acting as a catalyser for teams, and never get in the way.<=====en
+
+05/2019 -> 02/2021::
+*CloudBees* : Engineering Manager for two teams:
+
+* Foundation team (5 developers): focused on maintaining 80+ OSS plugins <=====en
+* Productivity team (4 developers): focused on providing acceleration tooling and making releases happen for CloudBees CI.<=====en
+
+
+02/2018 -> 05/2019:: <=====en
+*CloudBees* : Jenkins developer in the Foundation team <=====en
+
 02/2018 -> now:: <=====en
 02/2018 -> maintenant:: <=====fr
 *CloudBees* : Jenkins Evergreen Tools Hacker -- link:https://github.com/jenkins-infra/evergreen[Evergreen] est une nouvelle distribution open source de Jenkins automatiquement mise à jour. <=====fr
-*CloudBees* : Jenkins Evergreen Tools Hacker -- link:https://github.com/jenkins-infra/evergreen[Evergreen] is a brand new Open Source distribution of Jenkins,  automatically self updating. <=====en
+*CloudBees* : Jenkins Evergreen Tools Hacker -- link:https://github.com/jenkins-infra/evergreen[Evergreen] is a brand new Open Source distribution of Jenkins,  automatically self updating. (Java, typescript, NodeJS, Docker...)<=====en
 
 08/2016 -> 02/2018::
 *CloudBees* : Jenkins Developer in the Astro team. We were responsible for developing _CloudBees Jenkins Operation Center_ and _CloudBees Jenkins Client Master_ products, known also as CJP: the _CloudBees Jenkins Platform_. <=====en
@@ -216,7 +247,7 @@ Both my work and my character got me used to speak in public, in french or in en
 == Loisirs <=====fr
 == Interests and activities <=====en
 
-* Course à pieds, sport en général <=====fr
-* Running/trail those days, sports in general <=====en
+* Volleyball, link:https://batmat.net/2019/09/07/bodybuilding-for-a-software-developer/[bodybuilding], Course à pieds, sport en général <=====fr
+* Volleyball, link:https://batmat.net/2019/09/07/bodybuilding-for-a-software-developer/[bodybuilding], Running/trail, sports in general <=====en
 * OpenSource, Informatique <=====fr
 * OpenSource, Programming <=====en
