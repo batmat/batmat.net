@@ -57,9 +57,9 @@ I have spent most of my career working in teams that write or provide software t
 
 This appetite for human communities is probably what led me to dig into open-source, and Agile. I have 10+ years of experience using various forms of Scrums or Agile methodologies to deliver software. Related to this, I discovered the DevOps culture early on, before the term became used more and more for software tools, and less and less for the culture of cooperation it is.<=====en
 
-I also have a very deep knowledge on how open-source _works_.
 I have actively contributed to projects like Hibernate, Apache Maven, and most importantly the _Jenkins Project_.
 I am a committer on the MojoHaus project, and on the Jenkins Project. And I am an administrator on both associated GitHub organizations.<=====en
+I have hence a very deep knowledge on how open-source _works_.
 
 ****
 
