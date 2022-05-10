@@ -90,6 +90,9 @@ I am a committer on the MojoHaus project, and on the Jenkins Project. And I am a
 *CloudBees* : Jenkins Evergreen Tools Hacker -- link:https://github.com/jenkins-infra/evergreen[Evergreen] est une nouvelle distribution open source de Jenkins automatiquement mise à jour. <=====fr
 *CloudBees* : Jenkins Evergreen Tools Hacker -- link:https://github.com/jenkins-infra/evergreen[Evergreen] is a brand new Open Source distribution of Jenkins,  automatically self updating. (Java, typescript, NodeJS, Docker...)<=====en
 
+link:https://www.youtube.com/watch?v=J-CM5bJhAtk[Safely Upgrading Jenkins Every Single Day -- conference talk].<=====en
+
+
 08/2016 -> 02/2018::
 *CloudBees* : Jenkins Developer in the Astro team. We were responsible for developing _CloudBees Jenkins Operation Center_ and _CloudBees Jenkins Client Master_ products, known also as CJP: the _CloudBees Jenkins Platform_. <=====en
 *CloudBees* : Développeur Jenkins dans l'équipe Astro. Nous étions responsable du développement des produits _CloudBees Jenkins Operation Center_ et _CloudBees Jenkins Client Master_ products, globalement aussi connus sous l'acronyme CJP: _CloudBees Jenkins Platform_. <=====fr
