@@ -12,7 +12,7 @@ link:fr.html[Voir version française] <=====en
 |===
 a|
 125 Rue Bonnat +
-31400 Toulouse
+31400 Toulouse, France
 
 40 ans, français, marié, 3 enfants + <=====fr
 40 yo, Frog, married, 3 children + <=====en
