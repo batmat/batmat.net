@@ -82,11 +82,11 @@ I am a committer on the MojoHaus project, and on the Jenkins Project. And I am a
 * Productivity team (4 developers): focused on providing acceleration tooling and making releases happen for CloudBees CI.<=====en
 
 
-02/2018 -> 05/2019:: <=====en
+10/2018 -> 05/2019:: <=====en
 *CloudBees* : Jenkins developer in the Foundation team <=====en
 
-02/2018 -> now:: <=====en
-02/2018 -> maintenant:: <=====fr
+02/2018 -> 10/2018:: <=====en
+02/2018 -> 10/2018:: <=====fr
 *CloudBees* : Jenkins Evergreen Tools Hacker -- link:https://github.com/jenkins-infra/evergreen[Evergreen] est une nouvelle distribution open source de Jenkins automatiquement mise à jour. <=====fr
 *CloudBees* : Jenkins Evergreen Tools Hacker -- link:https://github.com/jenkins-infra/evergreen[Evergreen] is a brand new Open Source distribution of Jenkins,  automatically self updating. (Java, typescript, NodeJS, Docker...)<=====en
 
@@ -106,8 +106,8 @@ link:https://www.youtube.com/watch?v=J-CM5bJhAtk[Safely Upgrading Jenkins Every 
 *MiPih* : Scrum Master : développement couche sécurité du projet PGIH (réécriture Java de l'offre MiPih). Jusqu'à 9 personnes dans l'équipe. <=====fr
 *MiPih* : Scrum Master. Development of the security subsystem (interception, API) of the PGIH project (Full rewrite of the MiPih softwares). Up to 9 developers in the team. <=====en
 
-2012 -> Actuellement::<=====fr
-2012 -> Currently::<=====en
+2012 -> 2019::<=====fr
+2012 -> 2019::<=====en
 *Toulouse Java User Group* : Président (organisations de conférences, ateliers...)<=====fr
 *Toulouse Java User Group* : Leader (organizing conferences, workshops...)<=====en
 
