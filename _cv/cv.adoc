@@ -153,20 +153,20 @@ I am fluent with managing the concepts of Security SLAs, CVSS Scoring, supply ch
 * Clean Code, Design, Algorithmics, Complexity, Refactoring... <=====en
 
 Langages:: Java (développement, tuning JVM), Groovy, Bash, NodeJS, Scala, HTML/CSS/JavaScript, C/C++ <=====fr
-Bibliothèques & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JNI... <=====fr
+Bibliothèques & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JMeter, JNI... <=====fr
 Serveurs:: JBoss, Tomcat, Apache HTTPd, Nginx <=====fr
 
-Languages:: Java (development, JVM tuning), Groovy, Bash, NodeJS, Scala, HTML/CSS/JavaScript, C/C++ <=====en
-Libraries & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JNI... <=====en
+Languages:: Java (development, Performance testing and optimization, JVM tuning...), Groovy, Bash, NodeJS, Scala, HTML/CSS/JavaScript, C/C++ <=====en
+Libraries & Framework:: Java EE, Lucene, ElasticSearch, Hibernate, GWT, JMeter, JNI... <=====en
 Servers:: JBoss, Tomcat, Apache HTTPd, Nginx <=====en
 
 === Build & Automatisation <=====fr
 === Build & Automation <=====en
 * Jenkins (**Membre Actif de la Communauté**) <=====fr
 * Jenkins (**Active Community Member**) <=====en
-** Maintainer of 4 OpenSource plugins <=====en
-** Operating a software factory (Docker Swarm provisioned agents, 1500 jobs, 50+ hours of builds per day) <=====en
-** Mainteneur de 4 plugins OpenSource <=====fr
+** OpenSource plugins maintainer <=====en
+** Operating a software factory (Docker Swarm provisioned agents, 1500 jobs, 50+ hours of builds per day...) <=====en
+** Mainteneur de plugins OpenSource <=====fr
 ** Exploitation d'une forge logicielle (provisionning agents via Docker Swarm, 1500 jobs, +50 heures de builds par jour) <=====fr
 * Maven (Committer sur le projet OpenSource link:http://www.mojohaus.org/[MojoHaus]), SonarQube, Nexus <=====fr
 * Maven (Committer on the link:http://www.mojohaus.org/[MojoHaus] OpenSource project), SonarQube (french localization maintainer), Nexus <=====en
