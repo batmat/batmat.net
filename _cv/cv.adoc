@@ -70,10 +70,13 @@ I have hence a very deep knowledge on how open-source _works_.
 == Experience <=====en
 
 02/2021 -> now::
-*CloudBees* : Engineering Manager for two teams:
 
-* Atlas team (7 developers,10 in August 2022): focused on maintaining *150+ OSS plugins* that are shipped inside CloudBees CI. The size of this team has fluctuated between 4 and 10. I have managed to find and hire 4 developers over the course of 4 months. <=====en
-* Seven-League team (3 developers, hiring a 4th one): providing tooling to developers and making releases happen for CloudBees CI in an uneventful manner. Strong focus on acting as a catalyser for teams, and never get in the way.<=====en
+
+*CloudBees* : Engineering Manager for two teams and detached people, with 10 to 15 direct reports:
+
+* Atlas team (8 developers): focused on maintaining *150+ OSS plugins* that are shipped inside CloudBees CI (including fixing security issues complying with the company's SLA). The size of this team has fluctuated between 4 and 10. I have managed to find and hire 4 developers over the course of 4 months. <=====en
+* Seven-League team (3 developers): providing tooling to developers and making releases happen for CloudBees CI in an uneventful manner. Strong focus on acting as a catalyzer for teams, and never get in the way. I transferred this team to another manager in late 2022.<=====en
+* Concordia team (4 developers). This team was created in late 2022 to offer an new UI for Jenkins Pipelines. It pushes me to work with more UI aspects than I have been used to.<=====en
 
 05/2019 -> 02/2021::
 *CloudBees* : Engineering Manager for two teams:
