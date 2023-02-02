@@ -130,30 +130,23 @@ Integration <=====en
 
 <<<
 
-== Formation <=====fr
-== Education <=====en
-
-2012::
-  Functional Programming Principles In Scala -- Coursera (_MOOC_)
-
-2002 -> 2005::
-    Diplôme d'ingénieur en alternance en Informatique Réseaux (IR)<=====fr
-    Master of Science footnote:[french "engineering diploma"] <=====en
-    (Ingénieurs 2000 - Université de Marne La Vallée) <=====fr
-    (Ingénieurs 2000 - _Marne La Vallée_ University) <=====en
-
-2000 -> 2002::
-    DUT Informatique option Informatique (Université PARIS XII de Sénart Fontainebleau) <=====fr
-    Two-year university degree in technology (French _DUT_, attended in Fontainebleau, France) <=====en
-
-1999::
-    Baccalauréat Scientifique spécialité Mathématiques (Lycée François Couperin à Fontainebleau)<=====fr
-    Baccalauréat (French secondary school diploma/high-school degree) <=====en
-
-
 [[Competences]]
 == Compétences <=====fr
 == Skills <=====en
+
+=== Management
+
+Whilst being a cheerleader is easy for me, I always keep in mind that everything I do is aimed at getting results.
+
+I apply Radical Candor as a core guiding principle in my day-to-day work. I do provide continuous constructive feedback in my weekly one-to-ones.
+I make sure to communicate clearly my expectations, and whether directs are fulfilling them.
+I work with them on a regular basis to assess their performance and design measurable goals that will help them improve.
+
+I have hands-on experience on finding, hiring and retaining engineers, with or without the help of a Talent Acquisition team. I have directly hired or actively helped hire 10+ engineers.
+
+=== Security
+
+I am fluent with managing the concepts of Security SLAs, CVSS Scoring, supply chain attack risks and most modern aspects of guaranteeing a high level of trust in your company's Software Development Lifecycle.
 
 === Programmation <=====fr
 === Programming <=====en
@@ -186,7 +179,7 @@ Servers:: JBoss, Tomcat, Apache HTTPd, Nginx <=====en
 ==== Source Control Management <=====en
 * Git : présentations et link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[ateliers publics], plusieurs migrations SVN -> Git (internes ou externes, comme link:https://github.com/mojohaus[MojoHaus]), GitHub, Gerrit <=====fr
 * Git: Presentations et link:https://www.eclipsecon.org/france2015/session/take-your-git-practice-next-level[public workshops], many SVN -> Git migrations (internal or public, like for link:https://github.com/mojohaus[MojoHaus]), GitHub, Gerrit <=====en
-* Subversion, CVS
+* Subversion, CVS...
 
 [[Systeme]]
 === Système <=====fr
@@ -200,7 +193,7 @@ Servers:: JBoss, Tomcat, Apache HTTPd, Nginx <=====en
 === Communication & Méthodes <=====fr
 === Communication & Methodologies <=====en
 Mon travail et mon tempérament m'ont habitué à m'exprimer publiquement, en français ou en anglais, devant un grand nombre de personnes si nécessaire. <=====fr
-Both my work and my character got me used to speak in public, in french or in english, before a large number of people if need be. <=====en
+Both my work and my character got me used to speak in public, in French or in English, before a very large number of people if need be. <=====en
 
 ==== Expression
 * Orateur lors de plusieurs conférences publiques <=====fr
@@ -224,15 +217,33 @@ Both my work and my character got me used to speak in public, in french or in en
 ==== Agilité <=====fr
 ==== Agile  <=====en
 * Animation d'ateliers, souvent via _Serious Games_ (rétrospectives, ateliers de priorisation, définition produit) <=====fr
-* Workshops animations, often via _Serious Games_ (retrospectives, prioritization, product definition...) <=====en
+* Workshops animations, often via _Serious Games_ (retrospectives, prioritization, product definition...). I have a hands-on track record of successfully organizing workshops with 20+ people. I have led dozens of retrospectives and various ceremonies, in a physical or remote setting. <=====en
 * Scrum Master (j'accorde une importance infinie à ne pas pas transformer ce *rôle* en version moderne d'un _chef de projet_) <=====fr
-* Scrum Master (giving a great importance to *not* change this _role_ into a modern version of a /project manager/) <=====en
+* Scrum Master (giving great importance to *not* change this _role_ into a modern version of a /project manager/) <=====en
 * Product Owner sur produit technique <=====fr
 * Product Ownership (on technical product) <=====en
 * Membre de l'association link:http://agiletoulouse.fr/[AgileToulouse] <=====fr
 * Member of link:http://agiletoulouse.fr/[AgileToulouse], the Toulouse Agile association <=====en
 
-<<<
+== Formation <=====fr
+== Education <=====en
+
+2012::
+  Functional Programming Principles In Scala -- Coursera (_MOOC_)
+
+2002 -> 2005::
+    Diplôme d'ingénieur en alternance en Informatique Réseaux (IR)<=====fr
+    Master of Science footnote:[french "engineering diploma"] <=====en
+    (Ingénieurs 2000 - Université de Marne La Vallée) <=====fr
+    (Ingénieurs 2000 - _Marne La Vallée_ University) <=====en
+
+2000 -> 2002::
+    DUT Informatique option Informatique (Université PARIS XII de Sénart Fontainebleau) <=====fr
+    Two-year university degree in technology (French _DUT_, attended in Fontainebleau, France) <=====en
+
+1999::
+    Baccalauréat Scientifique spécialité Mathématiques (Lycée François Couperin à Fontainebleau)<=====fr
+    Baccalauréat (French secondary school diploma/high-school degree) <=====en
 
 == Langues <=====fr
 == Languages <=====en
