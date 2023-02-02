@@ -63,8 +63,6 @@ I have hence a very deep knowledge on how open-source _works_.
 
 ****
 
-<<<
-
 [[Experiences]]
 == Expérience <=====fr
 == Experience <=====en
@@ -131,8 +129,6 @@ Java
 Integration <=====en
 -> Natstar (JNI), C, PL/SQL, Tomcat, JSP/Servlets, Struts
 
-<<<
-
 [[Competences]]
 == Compétences <=====fr
 == Skills <=====en
@@ -175,8 +171,6 @@ Servers:: JBoss, Tomcat, Apache HTTPd, Nginx <=====en
 * Maven (Committer sur le projet OpenSource link:http://www.mojohaus.org/[MojoHaus]), SonarQube, Nexus <=====fr
 * Maven (Committer on the link:http://www.mojohaus.org/[MojoHaus] OpenSource project), SonarQube (french localization maintainer), Nexus <=====en
 * Docker, Ansible, Vagrant...
-
-<<<
 
 ==== Gestion de sources <=====fr
 ==== Source Control Management <=====en
