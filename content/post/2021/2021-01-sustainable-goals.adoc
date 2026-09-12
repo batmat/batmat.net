@@ -9,9 +9,16 @@ NOTE: This article is part of a series coming from a tweet, posted in early Janu
 
 This second article is the implementation of Romén's tweet :-)
 
-[quote]
+[quote, 'Romén Rodríguez-Gil (@romenrg), https://twitter.com/i/status/1344953079440007169[January 1, 2021]']
 ____
-https://twitter.com/i/status/1344953079440007169[Romén's original tweet] (January 2021)
+Happy new year Baptiste!
+
+We share interests on company culture & other non-technical aspects key to software development. I'd love to read your thoughts on those as eng manager.
+
+On blogging, my 2 cents:
+Sustainable goals.
+
+Mine: 1 article/year. Low, but working since 2013 :)
 ____
 
 I think this article is on point. Thanks Romén :).

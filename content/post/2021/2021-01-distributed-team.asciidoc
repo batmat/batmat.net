@@ -9,9 +9,9 @@ NOTE: This article is part of a series coming from a tweet, posted in early Janu
 
 This article is the implementation of Sacha's tweet :-)
 
-[quote]
+[quote, 'Sacha Labourey (@SachaLabourey), https://twitter.com/i/status/1344976406581833730[January 1, 2021]']
 ____
-https://twitter.com/i/status/1344976406581833730[Sacha's original tweet] (January 2021)
+Your biggest challenges in working with a distributed team
 ____
 
 ---
