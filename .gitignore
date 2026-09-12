@@ -1,2 +1,3 @@
 public/
 !static/dotclear/public
+.hugo_build.lock

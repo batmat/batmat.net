@@ -3,9 +3,26 @@ title: "batmat.net"
 params:
   Description: "Blogounage"
   Id: "Bimbimbim"
-languageCode: "fr-FR, en-US"
+  Author: "Baptiste Mathus"
+locale: "fr-FR"
 permalinks:
   post: /:year/:month/:day/:slug/
-Author: "Baptiste Mathus"
-Id: "hop"
 enableEmoji: true
+
+# Hugo started title-casing list/taxonomy titles by default in 0.123.0. The tag
+# pages listed their terms lowercase before, so keep that.
+capitalizeListTitles: false
+
+# Hugo shells out to the external asciidoctor binary to render the 25
+# .adoc/.asciidoc files. It is not in Hugo's default exec allowlist, and
+# setting this key replaces the default rather than extending it, so the
+# built-in entries have to be restated here.
+security:
+  exec:
+    allow:
+      - ^(dart-)?sass$
+      - ^go$
+      - ^git$
+      - ^node$
+      - ^postcss$
+      - ^asciidoctor$

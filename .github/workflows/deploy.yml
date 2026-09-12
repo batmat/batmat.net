@@ -15,8 +15,8 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  HUGO_VERSION: 0.73.0
-  HUGO_ARCHIVE_SHA_256: 7238b1b39d50667190020c93370bb2727d9097226cb3147c982d4d40004da09f
+  HUGO_VERSION: 0.166.0
+  HUGO_ARCHIVE_SHA_256: 45228f5a52eb118b0ca168068f01d7df0447314a24056f1d29667ed9fc368308
   HUGO_THEME: batmat
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
 
       - name: Install pinned Hugo
         run: |
-          curl -sSfL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" -o hugo.tar.gz
+          curl -sSfL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz" -o hugo.tar.gz
           echo "${HUGO_ARCHIVE_SHA_256}  hugo.tar.gz" | sha256sum --check
           tar xzf hugo.tar.gz hugo
           sudo install -m 0755 hugo /usr/local/bin/hugo
