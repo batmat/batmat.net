@@ -12,9 +12,4 @@ image:/images/twitter.png[Twitter,width=24,link="http://twitter.com/bmathus",tit
 image:/images/email.png[E-Mail,width=24,link="mailto:baptiste at mathus dot fr",title="E-Mail"] 
 image:/images/blog.png[Weblog,width=24,link="http://batmat.net",title="Blog"]
 
-CV :
-
-image:/images/en-flag.png[title="English - Resume", link="/cv/en.html"]
-image:/images/fr-flag.png[title="Français - Curriculum vitæ", link="/cv/fr.html"]
-
 NOTE: this page is a work in progress.

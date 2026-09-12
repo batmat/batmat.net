@@ -2,7 +2,7 @@
 Title: "J'ai un différentiel de 500 ou 300mA et je vais mourir si je touche le jus"
 Date: 2007-12-09
 Author: "Baptiste Mathus"
-url: "2007/12/09/Jai-un-differentiel-de-500-ou-300mA-et-je-vais-mourir-si-je-touche-le-jus"
+url: "2007/12/09/jai-un-differentiel-de-500-ou-300ma-et-je-vais-mourir-si-je-touche-le-jus"
 ---
 
 

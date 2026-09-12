@@ -2,7 +2,7 @@
 Title: "How to load a XML Spring context lazily by default"
 Date: 2008-01-13
 Author: "Baptiste Mathus"
-url: "2008/01/13/How-to-load-a-XML-Spring-context-lazily-by-default"
+url: "2008/01/13/how-to-load-a-xml-spring-context-lazily-by-default"
 ---
 
 

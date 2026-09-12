@@ -2,7 +2,7 @@
 Title: "Paranoïa"
 Date: 2007-12-21
 Author: "Baptiste Mathus"
-url: "2007/12/21/Paranoia"
+url: "2007/12/21/paranoia"
 ---
 
 

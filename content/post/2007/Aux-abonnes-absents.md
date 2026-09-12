@@ -2,7 +2,7 @@
 Title: "Aux abonnés absents"
 Date: 2007-07-14
 Author: "Baptiste Mathus"
-url: "2007/07/14/Aux-abonnes-absents"
+url: "2007/07/14/aux-abonnes-absents"
 ---
 
 

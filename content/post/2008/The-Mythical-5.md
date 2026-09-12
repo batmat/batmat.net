@@ -2,7 +2,7 @@
 Title: "The Mythical 5%"
 Date: 2008-01-04
 Author: "Baptiste Mathus"
-url: "2008/01/04/The-Mythical-5"
+url: "2008/01/04/the-mythical-5"
 ---
 
 

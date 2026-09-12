@@ -2,7 +2,7 @@
 Title: "Eclipse Killer Feature (un de plus) : formatage automatique du code modifié"
 Date: 2009-02-25
 Author: "Baptiste Mathus"
-url: "2009/02/25/Eclipse-Killer-Feature-un-de-plus-:-formatage-automatique-du-code-modifie"
+url: "2009/02/25/eclipse-killer-feature-un-de-plus-formatage-automatique-du-code-modifie"
 ---
 
 

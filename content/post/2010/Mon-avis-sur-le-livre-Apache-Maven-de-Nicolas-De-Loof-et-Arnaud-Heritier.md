@@ -2,7 +2,7 @@
 Title: "Mon avis sur le livre \"Apache Maven\" de Nicolas De Loof et Arnaud Héritier"
 Date: 2010-03-09
 Author: "Baptiste Mathus"
-url: "2010/03/09/Mon-avis-sur-le-livre-Apache-Maven-de-Nicolas-De-Loof-et-Arnaud-Heritier"
+url: "2010/03/09/mon-avis-sur-le-livre-apache-maven-de-nicolas-de-loof-et-arnaud-heritier"
 ---
 
 

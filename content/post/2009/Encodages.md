@@ -2,7 +2,7 @@
 Title: "Encodages/jeux de caractères : Vincent et Hadrien, un grand merci !"
 Date: 2009-09-10
 Author: "Baptiste Mathus"
-url: "2009/09/10/Encodages/jeux-de-caracteres-:-Vincent-et-Hadrien-un-grand-merci"
+url: "2009/09/10/encodages/jeux-de-caracteres-vincent-et-hadrien-un-grand-merci"
 ---
 
 

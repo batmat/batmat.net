@@ -2,7 +2,7 @@
 Title: "Optimisation GWT 1.4"
 Date: 2008-02-02
 Author: "Baptiste Mathus"
-url: "2008/02/02/Optimisation-GWT-14"
+url: "2008/02/02/optimisation-gwt-14"
 ---
 
 

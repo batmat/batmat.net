@@ -2,7 +2,7 @@
 Title: "Grève à Toulouse : toujours aucun problème"
 Date: 2007-11-15
 Author: "Baptiste Mathus"
-url: "2007/11/15/Greve-a-Toulouse-:-toujours-aucun-probleme"
+url: "2007/11/15/greve-a-toulouse-toujours-aucun-probleme"
 ---
 
 

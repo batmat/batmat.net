@@ -2,7 +2,7 @@
 Title: "Je voterai pour la gauche"
 Date: 2007-04-30
 Author: "Baptiste Mathus"
-url: "2007/04/30/Je-voterai-pour-Segolene-Royal"
+url: "2007/04/30/je-voterai-pour-segolene-royal"
 ---
 
 

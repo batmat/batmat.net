@@ -2,7 +2,7 @@
 Title: "Du régis bien glauque"
 Date: 2007-04-15
 Author: "Baptiste Mathus"
-url: "2007/04/15/Du-regis-bien-glauque"
+url: "2007/04/15/du-regis-bien-glauque"
 ---
 
 

@@ -2,7 +2,7 @@
 Title: "Leçon de politique politicienne à l'américaine"
 Date: 2008-09-30
 Author: "Baptiste Mathus"
-url: "2008/09/30/Lecon-de-politique-politicienne-a-lamericaine"
+url: "2008/09/30/lecon-de-politique-politicienne-a-lamericaine"
 ---
 
 

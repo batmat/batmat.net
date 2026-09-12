@@ -2,7 +2,7 @@
 Title: "How to retrieve the Hibernate Session from the EntityManager interface"
 Date: 2008-07-13
 Author: "Baptiste Mathus"
-url: "2008/07/13/How-to-retrieve-the-Hibernate-Session-from-the-EntityManager-interface"
+url: "2008/07/13/how-to-retrieve-the-hibernate-session-from-the-entitymanager-interface"
 ---
 
 

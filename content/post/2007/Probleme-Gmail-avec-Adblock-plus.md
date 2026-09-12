@@ -2,7 +2,7 @@
 Title: "Problème Gmail avec Adblock plus"
 Date: 2007-11-24
 Author: "Baptiste Mathus"
-url: "2007/11/24/Probleme-Gmail-avec-Adblock-plus"
+url: "2007/11/24/probleme-gmail-avec-adblock-plus"
 ---
 
 

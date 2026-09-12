@@ -2,7 +2,7 @@
 Title: "Utiliser les objets du domaine directement dans la couche présentation"
 Date: 2007-06-02
 Author: "Baptiste Mathus"
-url: "2007/06/02/Utiliser-les-objets-du-domaine-directement-dans-la-couche-presentation"
+url: "2007/06/02/utiliser-les-objets-du-domaine-directement-dans-la-couche-presentation"
 ---
 
 

@@ -2,7 +2,7 @@
 Title: "Excuses reçues"
 Date: 2007-07-24
 Author: "Baptiste Mathus"
-url: "2007/07/24/Excuses-recues"
+url: "2007/07/24/excuses-recues"
 ---
 
 

@@ -2,7 +2,7 @@
 Title: "Configure Hudson CI Server to automatically disable itself when main SVN repositories become unreachable"
 Date: 2010-04-01
 Author: "Baptiste Mathus"
-url: "2010/04/01/Configure-Jenkins-CI-Server-to-automatically-disable-itself-when-main-SVN-repositories-become-unreachable"
+url: "2010/04/01/configure-jenkins-ci-server-to-automatically-disable-itself-when-main-svn-repositories-become-unreachable"
 ---
 
 

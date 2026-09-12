@@ -2,7 +2,7 @@
 Title: "[Hudson] How to set a private maven repository by job and easily be able to delete them"
 Date: 2009-10-09
 Author: "Baptiste Mathus"
-url: "2009/10/09/[Hudson]-How-to-set-a-private-maven-repository-by-job-and-easily-be-able-to-delete-them"
+url: "2009/10/09/hudson-how-to-set-a-private-maven-repository-by-job-and-easily-be-able-to-delete-them"
 ---
 
 

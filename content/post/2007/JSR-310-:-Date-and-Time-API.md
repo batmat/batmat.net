@@ -2,7 +2,7 @@
 Title: "JSR 310 : Date and Time API"
 Date: 2007-02-18
 Author: "Baptiste Mathus"
-url: "2007/02/18/JSR-310-:-Date-and-Time-API"
+url: "2007/02/18/jsr-310-date-and-time-api"
 ---
 
 

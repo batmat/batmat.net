@@ -2,7 +2,7 @@
 Title: "Pascal Nègre à propos des DRM : champion de la métaphore"
 Date: 2007-01-26
 Author: "Baptiste Mathus"
-url: "2007/01/26/Pascal-Negre-a-propos-des-DRM:champion-de-la-metaphore"
+url: "2007/01/26/pascal-negre-a-propos-des-drmchampion-de-la-metaphore"
 ---
 
 

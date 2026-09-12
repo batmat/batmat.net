@@ -2,7 +2,7 @@
 Title: "La blague du jour"
 Date: 2007-09-13
 Author: "Baptiste Mathus"
-url: "2007/09/13/La-blague-du-jour"
+url: "2007/09/13/la-blague-du-jour"
 ---
 
 

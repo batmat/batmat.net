@@ -2,7 +2,7 @@
 Title: "Migration Dotclear 2 #2 - RewriteRule et appel à contribution"
 Date: 2007-01-14
 Author: "Baptiste Mathus"
-url: "2007/01/14/Migration-Dotclear-2-2-RewriteRule-et-appel-a-contribution"
+url: "2007/01/14/migration-dotclear-2-2-rewriterule-et-appel-a-contribution"
 ---
 
 

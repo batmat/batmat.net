@@ -2,7 +2,7 @@
 Title: "Débat en direct : les handicapés"
 Date: 2007-05-02
 Author: "Baptiste Mathus"
-url: "2007/05/02/Debat-en-direct-:-les-handicapes"
+url: "2007/05/02/debat-en-direct-les-handicapes"
 ---
 
 

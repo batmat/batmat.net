@@ -2,7 +2,7 @@
 Title: "Le débat Royal/Sarkozy en ligne et en direct"
 Date: 2007-05-02
 Author: "Baptiste Mathus"
-url: "2007/05/02/Le-debat-Royal/Sarkozy-en-ligne"
+url: "2007/05/02/le-debat-royal/sarkozy-en-ligne"
 ---
 
 

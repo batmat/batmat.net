@@ -2,7 +2,7 @@
 Title: "Investir dans l'humain ?"
 Date: 2012-07-09
 Author: "Baptiste Mathus"
-url: "2012/07/09/Investir-dans-lhumain"
+url: "2012/07/09/investir-dans-lhumain"
 ---
 
 

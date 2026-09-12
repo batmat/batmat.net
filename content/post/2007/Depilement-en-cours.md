@@ -2,7 +2,7 @@
 Title: "Dépilement en cours"
 Date: 2007-04-08
 Author: "Baptiste Mathus"
-url: "2007/04/08/Depilement-en-cours"
+url: "2007/04/08/depilement-en-cours"
 ---
 
 

@@ -2,7 +2,7 @@
 Title: "Citation du jour"
 Date: 2007-09-17
 Author: "Baptiste Mathus"
-url: "2007/09/17/Citation-du-jour"
+url: "2007/09/17/citation-du-jour"
 ---
 
 

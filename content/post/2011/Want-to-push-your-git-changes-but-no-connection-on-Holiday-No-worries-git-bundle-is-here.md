@@ -2,7 +2,7 @@
 Title: "Want to push your git changes, but no connection on Holiday? No worries, git bundle is here !"
 Date: 2011-08-02
 Author: "Baptiste Mathus"
-url: "2011/08/02/Want-to-push-your-git-changes-but-no-connection-on-Holiday-No-worries-git-bundle-is-here"
+url: "2011/08/02/want-to-push-your-git-changes-but-no-connection-on-holiday-no-worries-git-bundle-is-here"
 ---
 
 

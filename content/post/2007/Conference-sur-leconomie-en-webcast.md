@@ -2,7 +2,7 @@
 Title: "Conférence sur l'économie en webcast"
 Date: 2007-07-05
 Author: "Baptiste Mathus"
-url: "2007/07/05/Conference-sur-leconomie-en-webcast"
+url: "2007/07/05/conference-sur-leconomie-en-webcast"
 ---
 
 

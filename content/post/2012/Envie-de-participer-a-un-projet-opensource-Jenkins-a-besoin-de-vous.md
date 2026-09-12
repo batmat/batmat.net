@@ -2,7 +2,7 @@
 Title: "Envie de participer à un projet opensource ? Jenkins a besoin de vous"
 Date: 2012-05-19
 Author: "Baptiste Mathus"
-url: "2012/05/19/Envie-de-participer-a-un-projet-opensource-Jenkins-a-besoin-de-vous"
+url: "2012/05/19/envie-de-participer-a-un-projet-opensource-jenkins-a-besoin-de-vous"
 ---
 
 

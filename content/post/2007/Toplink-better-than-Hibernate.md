@@ -2,7 +2,7 @@
 Title: "Toplink better than Hibernate?"
 Date: 2007-05-14
 Author: "Baptiste Mathus"
-url: "2007/05/14/Toplink-better-than-Hibernate"
+url: "2007/05/14/toplink-better-than-hibernate"
 ---
 
 

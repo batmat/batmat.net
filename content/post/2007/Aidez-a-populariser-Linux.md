@@ -2,7 +2,7 @@
 Title: "Aidez à populariser Linux"
 Date: 2007-03-14
 Author: "Baptiste Mathus"
-url: "2007/03/14/Aidez-a-populariser-Linux"
+url: "2007/03/14/aidez-a-populariser-linux"
 ---
 
 

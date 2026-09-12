@@ -2,7 +2,7 @@
 Title: "Migration à Dotclear 2 en cours"
 Date: 2007-01-13
 Author: "Baptiste Mathus"
-url: "2007/01/14/Migration-a-Dotclear-2-en-cours"
+url: "2007/01/14/migration-a-dotclear-2-en-cours"
 ---
 
 
