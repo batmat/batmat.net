@@ -3,6 +3,8 @@ Title: "Always enable GC logs, and how to enable logs rotation with HotSpot"
 Date: 2016-10-17
 Author: "Baptiste Mathus"
 Tags: ["java","hotspot","gc","rotation"]
+aliases:
+  - /2016/10/16/always-enable-gc-logs-and-how-to-enable-logs-rotation-with-hotspot/
 ---
 
 Having had recently to refresh my memories and play with some new things about GC logging, I thought that ought to be a good opportunity to dig a bit on it, especially on log rotation.

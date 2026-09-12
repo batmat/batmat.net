@@ -9,7 +9,10 @@ NOTE: This article is part of a series coming from a tweet, posted in early Janu
 
 This second article is the implementation of Romén's tweet :-)
 
-{{< tweet 1344953079440007169 >}}
+[quote]
+____
+https://twitter.com/i/status/1344953079440007169[Romén's original tweet] (January 2021)
+____
 
 I think this article is on point. Thanks Romén :).
 
