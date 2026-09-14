@@ -3,3 +3,40 @@ div.quote {
     margin-left: 2em;
     background-color: #eee;
 }
+
+/* About page contact row. poole.css sets img/svg-sized blocks with a bottom
+   margin, which is what made the old icon list stack vertically. */
+ul.social {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.75rem;
+}
+
+ul.social li {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    color: #555;
+}
+
+ul.social a {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+ul.social svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    flex: none;
+}
+
+ul.social i {
+    font-style: normal;
+    color: #999;
+}
